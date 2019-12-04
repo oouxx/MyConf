@@ -103,6 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
 alias ht="htop"
+alias ec="emacsclient"
 
 # go env
 export GOROOT=/usr/lib/go
