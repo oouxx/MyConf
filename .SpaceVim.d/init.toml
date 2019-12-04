@@ -1,0 +1,145 @@
+#=============================================================================
+# dark_powered.toml --- dark powered configuration example for SpaceVim
+# Copyright (c) 2016-2017 Wang Shidong & Contributors
+# Author: Wang Shidong < wsdjeg at 163.com >
+# URL: https://spacevim.org
+# License: GPLv3
+#=============================================================================
+
+# All SpaceVim option below [option] section
+[options]
+    # set spacevim theme. by default colorscheme layer is not loaded,
+    # if you want to use more colorscheme, please load the colorscheme
+    # layer
+    colorscheme = "one"
+    colorscheme_bg = "dark"
+    # background = "dark"
+    # Disable guicolors in basic mode, many terminal do not support 24bit
+    # true colors
+    enable_guicolors = true
+    # set intent to 4
+    default_indent = 4
+    # enable relative line number
+    relativenumber = true
+    # statusline setting
+    statusline_separator = "arrow"
+    statusline_inactive_separator = "arrow"
+    statusline_left_sections = [
+        'winnr',
+        'filename',
+        'version control info'
+    ]
+    statusline_right_sections = [
+        'major mode',
+        'minor mode lighters'
+        'fileformat',
+        'cursorpos',
+        'percentage'
+    ]
+    enable_statusline_display_mode = false
+    # buffer line, tab line
+    buffer_index_type = 1
+    enable_os_fileformat_icon = 1
+    enable_tabline_filetype_icon = true
+    # plugin manager
+    #plugin_manager = 'vim-plug'
+    # linter setting
+    enable_neomake = false
+    enable_ale = true
+    lint_on_the_fly = true
+    error_symbol = '?'
+    warning_symbol = '?'
+    info_symbol = '?'
+    # other SpaveVim setting
+    vim_help_language = "cn"
+    automatic_update = 0
+    max_column = 81
+    # autocomplete setting
+    autocomplete_method = "coc"
+    # git setting
+    enable_vimfiler_gitstatus = true
+    # custom setting
+    bootstrap_before = "myspacevim#before"
+
+# Enable autocomplete layer
+[[layers]]
+name = 'autocomplete'
+auto-completion-return-key-behavior = "complete"
+# auto-completion-tab-key-behavior = "cycle"
+
+[[layers]]
+name = 'shell'
+default_position = 'top'
+default_height = 30
+
+[[layers]]
+name = "VersionControl"
+
+[[layers]]
+name = "checkers"
+show_cursor_error = false
+
+[[layers]]
+name = "chinese"
+
+[[layers]]
+name = "colorscheme"
+
+[[layers]]
+name = "debug"
+
+[[layers]]
+name = "default"
+
+[[layers]]
+name = "lang#markdown"
+
+[[layers]]
+name = "lang#python"
+
+[[layers]]
+name = "lang#go"
+
+[[layers]]
+name = "lsp"
+filetypes = [
+    "python",
+    "go",
+]
+
+[[layer]]
+name = "format"
+
+[[layers]]
+name = "tools"
+
+[[layers]]
+name = "tool#dash"
+
+[[layers]]
+name = "tmux"
+
+[[layers]]
+name= "autocomplete"
+
+[[custom_plugins]]
+name = "sheerun/vim-polyglot"
+merged = 0
+
+
+[[custom_plugins]]
+name = 'vim-pandoc/vim-pandoc'
+merged = 0
+
+[[custom_plugins]]
+name = 'vim-pandoc/vim-pandoc-syntax'
+merged = 0
+
+[[custom_plugins]]
+name = 'jalvesaq/Nvim-R'
+merged = 0
+
+[[custom_plugins]]
+name = 'airblade/vim-gitgutter'
+merged = 0
+
