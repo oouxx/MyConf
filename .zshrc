@@ -111,6 +111,7 @@ export GOPATH=~/gopath/go
 export GOBIN=$GOPATH/gobin
 export PATH=$PATH:$GOROOT/bin:$GOBIN:/usr/local/bin
 export GOPROXY="https://goproxy.io"
+
 # TMUX
 if which tmux >/dev/null 2>&1; then
     # if no session is started, start a new session
@@ -121,7 +122,7 @@ if which tmux >/dev/null 2>&1; then
         tmux attach || break
     done
 fi
-
+# input
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus

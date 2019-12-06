@@ -13,7 +13,8 @@
    (ivy :variables
         ivy-extra-directories nil)
    (org :variables
-        org-want-todo-bindings t)
+        org-want-todo-bindings t
+        org-enable-hugo-support t)
    (shell :variables
           shell-default-shell 'eshell)
    syntax-checking
@@ -34,12 +35,14 @@
    yaml
 
    ;; Languages
-   lsp
+   (lsp :variables
+        lsp-java-format-settings-profile 'GoogleStyle
+        )
    ;;clojure
    emacs-lisp
-   ;;haskell
-   hy  ; I wrote this mode/layer
-   java
+   hy
+   (java :variables
+         )
    (javascript :variables
                javascript-import-tool 'import-js
                javascript-fmt-on-save t
@@ -48,21 +51,20 @@
                )
    go
    (c-c++ :variables
-          ;; c-c++-backend 'lsp-ccls
-          c-c++-backend 'lsp-cquery
+          c-c++-backend 'lsp-clangd
+          c-c++-default-mode-for-headers 'c++-mode
+          c++-enable-organize-includes-on-save t
+          c-c++-enable-clang-format-on-save t
           c-c++-enable-google-style t
           c-c++-enable-google-newline t)
 
    (python :variables
            python-backend 'lsp
            python-lsp-server 'pyls
-           ;; python-lsp-server 'mspyls
+           python-formatter 'yapf
            python-pipenv-activate t
-
            python-test-runner 'pytest
            python-spacemacs-indent-guess nil)
-
-
 
    ;; Experimental/in-flux
    ;;(mu4e :variables

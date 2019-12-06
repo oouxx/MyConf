@@ -101,6 +101,9 @@ name = "lang#python"
 name = "lang#go"
 
 [[layers]]
+name = "lang#javascript"
+
+[[layers]]
 name = "lsp"
 filetypes = [
     "python",

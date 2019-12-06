@@ -26,10 +26,10 @@
 
 ;;;; Configuration
 
-(defvar server? (if eric? t nil)
+(defvar server? t
   "Alias `dotspacemacs-enable-server'. Defaults to nil for non-eric users.")
 
-(defvar redo-bindings? (if eric? t nil)
+(defvar redo-bindings? nil
   "Redo spacemacs bindings? Defaults to, and I recommend, nil to non-eric users.
 
 See the commentary in the config layer's local pkg `redo-spacemacs'.")
@@ -85,7 +85,8 @@ Check `dotspacemacs/get-variable-string-list' for all vars you can configure."
    dotspacemacs-configuration-layers     '(rust
                                            (config   :location local)
                                            (display  :location local)
-                                           (personal :location local))
+                                           wxx
+                                           )
    dotspacemacs-configuration-layer-path '("~/.spacemacs.d/layers/")
    dotspacemacs-additional-packages      '(buttercup)
    dotspacemacs-frozen-packages          '()
@@ -124,7 +125,7 @@ Check `dotspacemacs/get-variable-string-list' for all vars you can configure."
   ;; While toggling with `toggle-frame-fullscreen' works, I could not get
   ;; it to work as a hook attached to the frame-make or window-setup.
   ;; Depending on your OS, you may need a different/not-at-all need this.
-  (when (and mac? server?)
+  (when (and linux? server?)
     (add-to-list 'default-frame-alist '(fullscreen . fullboth))))
 
 ;;;;; Core
