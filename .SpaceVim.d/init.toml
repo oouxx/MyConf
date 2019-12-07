@@ -132,7 +132,7 @@ filetypes = [
     "-configuration",
     "/home/wxx/.lsp/eclipse.jdt.ls/config_linux",
     "-data",
-    "$/home/wxx/.cache/javalsp"
+    "/home/wxx/.cache/javalsp"
     ]
 
 [[layer]]
