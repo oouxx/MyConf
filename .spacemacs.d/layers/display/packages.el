@@ -15,9 +15,9 @@
         which-key
 
         ;; Personal display-related packages
-        ;; (pretty-code     :location local)
+        (pretty-code     :location local)
         (pretty-eshell   :location local)
-        (pretty-fonts    :location local)
+        (pretty-fonts    :location local
         (pretty-magit    :location local)
         (pretty-outlines :location local)))
 

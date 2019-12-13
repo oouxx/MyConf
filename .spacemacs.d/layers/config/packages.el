@@ -19,7 +19,7 @@
         s
 
         ;; Local Packages
-        (redo-spacemacs :location local)))
+        ;;(redo-spacemacs :location local)))
 
 ;;; Unowned Packages
 ;;;; Aggressive indent

@@ -73,3 +73,10 @@ subheading level already exists within the buffer."
       (outshine-insert-heading)
       (set-mark (line-beginning-position)) (goto-char (line-end-position))
       (outline-demote 'region))))
+
+;;; lsp-java hook
+(add-hook 'java-mode-hook (lambda ()
+                            (setq c-basic-offset 4
+                                  tab-width 4
+                                  indent-tabs-mode nil)))
+

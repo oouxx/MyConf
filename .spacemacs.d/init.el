@@ -40,7 +40,7 @@ See the commentary in the config layer's local pkg `redo-spacemacs'.")
 (defun dotspacemacs/init ()
   "Instantiate Spacemacs core settings.
 
-All `dotspacemacs-' variables with values set different than their defaults.
+   All `dotspacemacs-' variables with values set different than their defaults.
 
 They are all defined in `~/.emacs.d/core/core-dotspacemacs.el'.
 Check `dotspacemacs/get-variable-string-list' for all vars you can configure."
@@ -51,6 +51,7 @@ Check `dotspacemacs/get-variable-string-list' for all vars you can configure."
                                   "Source Code Pro")
                                :size ,(if (= 1440 (display-pixel-height)) 20 18))
    dotspacemacs-themes       '(solarized-light
+                               solarized-dark
                                zenburn)
 
    ;; General
@@ -58,7 +59,7 @@ Check `dotspacemacs/get-variable-string-list' for all vars you can configure."
    dotspacemacs-editing-style              '(vim :variables
                                                  vim-style-visual-feedback t
                                                  vim-style-remap-Y-to-y$ t)
-   dotspacemacs-elpa-https                 nil
+   dotspacemacs-elpa-https                 t
    dotspacemacs-elpa-subdirectory          nil
    dotspacemacs-enable-server              server?
    dotspacemacs-fullscreen-at-startup      t
@@ -69,6 +70,7 @@ Check `dotspacemacs/get-variable-string-list' for all vars you can configure."
    dotspacemacs-scratch-mode               'org-mode
    dotspacemacs-startup-lists              nil
    dotspacemacs-whitespace-cleanup         'trailing
+
 
    ;; The following are unchanged but are still required for reloading via
    ;; 'SPC f e R' `dotspacemacs/sync-configuration-layers' to not throw warnings
@@ -82,13 +84,12 @@ Check `dotspacemacs/get-variable-string-list' for all vars you can configure."
 (defun dotspacemacs/layers ()
   "Instantiate Spacemacs layers declarations and package configurations."
   (setq-default
-   dotspacemacs-configuration-layers     '(rust
+   dotspacemacs-configuration-layers     '(
                                            (config   :location local)
-                                           (display  :location local)
-                                           wxx
+                                           ;;(display  :location local)
                                            )
    dotspacemacs-configuration-layer-path '("~/.spacemacs.d/layers/")
-   dotspacemacs-additional-packages      '(buttercup)
+   dotspacemacs-additional-packages      '(buttercup, themes-megapack)
    dotspacemacs-frozen-packages          '()
    dotspacemacs-excluded-packages
    '(;; Must Exclude (for styling, functionality, bug-fixing reasons)
@@ -126,7 +127,8 @@ Check `dotspacemacs/get-variable-string-list' for all vars you can configure."
   ;; it to work as a hook attached to the frame-make or window-setup.
   ;; Depending on your OS, you may need a different/not-at-all need this.
   (when (and linux? server?)
-    (add-to-list 'default-frame-alist '(fullscreen . fullboth))))
+    (add-to-list 'default-frame-alist '(fullscreen . fullboth)))
+  )
 
 ;;;;; Core
 
@@ -136,3 +138,6 @@ Check `dotspacemacs/get-variable-string-list' for all vars you can configure."
 
   ;; Drop-in whatever config here, experiment!
   )
+
+;; Do not write anything past this comment. This is where Emacs will
+;; auto-generate custom variable definitions.
