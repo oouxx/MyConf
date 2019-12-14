@@ -12,12 +12,12 @@
 
         ;; Elsehwere-owned packages
         spaceline-all-the-icons
-        which-key
+        ;;which-key
 
         ;; Personal display-related packages
-        (pretty-code     :location local)
+        ;; (pretty-code     :location local)
         (pretty-eshell   :location local)
-        (pretty-fonts    :location local
+        (pretty-fonts    :location local)
         (pretty-magit    :location local)
         (pretty-outlines :location local)))
 
@@ -92,10 +92,10 @@
 ;;; Unowned Packages
 ;;;; Which-key
 
-(defun display/post-init-which-key ()
-  (when (configuration-layer/package-used-p 'pretty-fonts)
-    (setq which-key-separator " ")
-    (setq which-key-prefix-prefix " ")))
+;;(defun display/post-init-which-key ()
+;;  (when (configuration-layer/package-used-p 'pretty-fonts)
+;;    (setq which-key-separator " ")
+;;    (setq which-key-prefix-prefix " ")))
 
 ;;;; Spaceline-all-the-icons
 

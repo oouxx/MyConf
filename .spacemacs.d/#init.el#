@@ -86,7 +86,7 @@ Check `dotspacemacs/get-variable-string-list' for all vars you can configure."
   (setq-default
    dotspacemacs-configuration-layers     '(
                                            (config   :location local)
-                                           (display  :location local)
+                                           ;;(display  :location local)
                                            )
    dotspacemacs-configuration-layer-path '("~/.spacemacs.d/layers/")
    dotspacemacs-additional-packages      '(buttercup)
