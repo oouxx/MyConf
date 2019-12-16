@@ -23,7 +23,7 @@ ibus-rime
 ### vim
 spacevim
 
-## emacs
+### emacs
 spacemacs  = emacs + vim
 
 ## terminal emulator
@@ -32,3 +32,4 @@ spacemacs  = emacs + vim
 A cross-platform, GPU-accelerated terminal emulator
 
 ### yakuake
+terminal with awesome dropdown feature
