@@ -11,7 +11,7 @@
    better-defaults
    git
    (dap :variables
-        dap-enable-mouse-support 't)
+        dap-enable-mouse-support t)
    (ivy :variables
         ivy-extra-directories nil)
    (org :variables

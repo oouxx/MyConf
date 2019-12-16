@@ -75,6 +75,13 @@ plugins=(
 	zsh-autosuggestions
     web-search
     archlinux
+    #zsh-completions 
+    sudo
+    extract
+    gitignore
+    z
+    #vi-mode
+    colored-man-pages
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -101,7 +108,6 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vim="nvim"
 alias ht="htop"
 alias ec="emacsclient"
 
@@ -113,15 +119,15 @@ export PATH=$PATH:$GOROOT/bin:$GOBIN:/usr/local/bin
 export GOPROXY="https://goproxy.io"
 
 # TMUX
-if which tmux >/dev/null 2>&1; then
-    # if no session is started, start a new session
-    test -z ${TMUX} && tmux
-        
-    # when quitting tmux, try to attach
-    while test -z ${TMUX}; do
-        tmux attach || break
-    done
+if [[ -z "$TMUX" ]] ;then
+    ID="`tmux ls | grep -vm1 attached | cut -d: -f1`" # get the id of a deattached session
+    if [[ -z "$ID" ]] ;then # if not available create a new one
+        tmux new-session
+    else
+        tmux attach-session -t "$ID" # if available attach to it
+    fi
 fi
+
 # input
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus

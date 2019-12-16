@@ -80,3 +80,5 @@ subheading level already exists within the buffer."
                                   tab-width 4
                                   indent-tabs-mode nil)))
 
+(defun java/pre-init-dap-mode ()
+  (add-to-list 'spacemacs--dap-supported-modes 'java-mode))
