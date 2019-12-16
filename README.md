@@ -1,20 +1,34 @@
 # WXX's dotfiles
-![](./images/Screenshot.png)
+![]('./images/Screenshot_20191216_110830.png')
+![]('./images/Screenshot_20191216_111145.png')
 
-## zsh
+# My work environment
+
+## OS
+manjaro+kde
+
+## shell
 zsh + oh-my-zsh
 
 ## tmux
 oh-my-tmux
 
-## spacemacs
-spacemacs  = emacs + vim
+### input method
 
-## rime
+### rime
 ibus-rime
 
-## vim
+## text editor
+
+### vim
 spacevim
 
-## alacritty
+## emacs
+spacemacs  = emacs + vim
+
+## terminal emulator
+
+### alacritty
 A cross-platform, GPU-accelerated terminal emulator
+
+### yakuake
