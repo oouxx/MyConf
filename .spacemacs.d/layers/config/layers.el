@@ -29,6 +29,8 @@
    ranger
    (ibuffer :variables
             ibuffer-group-buffers-by 'projects)
+   ;; web-service
+   search-engine
 
    ;; Markups
    csv

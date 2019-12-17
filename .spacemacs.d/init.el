@@ -128,7 +128,9 @@ Check `dotspacemacs/get-variable-string-list' for all vars you can configure."
   ;; Depending on your OS, you may need a different/not-at-all need this.
   (when (and linux? server?)
     (add-to-list 'default-frame-alist '(fullscreen . fullboth)))
+
   )
+
 
 ;;;;; Core
 
