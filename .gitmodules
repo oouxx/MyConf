@@ -1,6 +1,6 @@
 [submodule ".tmux"]
 	path = .tmux
 	url = https://github.com/gpakosz/.tmux
-[submodule "spacemacs-private"]
-	path = spacemacs-private
-	url = https://github.com/zilongshanren/spacemacs-private
+[submodule ".spacemacs.d"]
+	path = .spacemacs.d
+	url = https://github.com/oouxx/spacemacs-private

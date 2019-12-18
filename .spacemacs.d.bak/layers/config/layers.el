@@ -43,8 +43,7 @@
    ;;clojure
    emacs-lisp
    hy
-   (java :variables
-         )
+   java
    prettier
    (javascript :variables
                javascript-import-tool 'import-js
