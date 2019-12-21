@@ -9,7 +9,10 @@
 
 manjaro+kde
 
-## shell
+## terminal emulator and shell
+
+ - alacritty + oh-my-fish
+ - yakuake + oh-my-zsh (powerboot)
 
 zsh + oh-my-zsh
 
@@ -19,26 +22,10 @@ oh-my-tmux
 
 ### input method
 
-### rime
-
 ibus-rime
 
 ## text editor
 
-### vim
+ - spacevim
+ - spacemacs  = emacs + vim
 
-spacevim
-
-### emacs
-
-spacemacs  = emacs + vim
-
-## terminal emulator
-
-### alacritty
-
-A cross-platform, GPU-accelerated terminal emulator
-
-### yakuake
-
-terminal with awesome dropdown feature
