@@ -132,7 +132,5 @@ export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 ibus-daemon -d -x
 
-export EDITOR=vim
-
-export WORKON_HOME=~/.pyenv
+export EDITOR=nvim
 

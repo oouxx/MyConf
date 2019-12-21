@@ -326,10 +326,10 @@
 #   - (macOS) /bin/bash --login
 #   - (Linux) user login shell
 #   - (Windows) powershell
-#shell:
-#  program: /usr/bin/fish
-#  args:
-#    - --login
+shell:
+  program: /usr/bin/fish
+  args:
+    - --login
 
 # Startup directory
 #
