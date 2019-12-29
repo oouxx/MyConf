@@ -2,4 +2,5 @@ ibus/bus
 ibus/rime/build
 ibus/rime/easy_en.userdb
 ibus/rime/luna_pinyin.userdb
+ibus/rime/user.yaml
 .spacemacs.d.bak

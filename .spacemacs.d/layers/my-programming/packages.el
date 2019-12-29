@@ -39,7 +39,7 @@
         company-tabnine
         ))
 
-(defun my-programming-packages/post-init-cc-mode ()
+(defun my-programming/post-init-cc-mode ()
   (use-package cc-mode
     :config
     (setq c-basic-offset 4)
@@ -51,30 +51,20 @@
     (setq lazy-lock-defer-contextually t)
     (setq lazy-lock-defer-time 0)
     ;make DEL take all previous whitespace with it
-    (c-toggle-hungry-state 1)
+    (c-toggle-hungry-state 1)))
 
-    ;; indent
-    ;; google "C/C++/Java code indentation in Emacs" for more advanced skills
-    ;; C code:
-    ;;   if(1) // press ENTER here, zero means no indentation
-    (fix-c-indent-offset-according-to-syntax-context 'substatement 0)
-    ;;   void fn() // press ENTER here, zero means no indentation
-    (fix-c-indent-offset-according-to-syntax-context 'func-decl-cont 0)))
-
-(defun my-programming-packages/post-init-js2-mode ()
+(defun my-programming/post-init-js2-mode ()
   (use-package js2-mode)
   )
-
-(defun my-programming-packages/post-init-lsp-java ()
+(defun my-programming/post-init-lsp-java ()
   (use-package lsp-java
     :after lsp-mode
-    :if *mvn*
     :config
     (use-package request :defer t)
     :custom
     (lsp-java-server-install-dir (expand-file-name "~/.lsp/eclipse.jdt.ls/"))))
 
-(defun my-programming-packages/post-init-company ()
+(defun my-programming/post-init-company ()
   (use-package company
     :diminish company-mode
     :hook ((prog-mode LaTeX-mode latex-mode ess-r-mode) . company-mode)
@@ -114,19 +104,19 @@
     )
 
 
-(defun my-programming-packages/post-init-company-lsp ()
+(defun my-programming/post-init-company-lsp ()
   (use-package company-lsp
     :defer t
     :custom (company-lsp-cache-candidates 'auto)))
 
-(defun my-programming-packages/post-init-company-tabnine()
+(defun my-programming/post-init-company-tabnine()
   (use-package company-tabnine
     :defer 1
     :custom
     (company-tabnine-max-num-results 9)
     :bind
     (("M-q" . company-other-backend)
-    ("C-z t" . company-tabnine))
+     ("C-z t" . company-tabnine))
     :hook
     (lsp-after-open . (lambda ()
                         (setq company-tabnine-max-num-results 3)

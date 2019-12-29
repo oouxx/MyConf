@@ -18,6 +18,7 @@ set -xg QT_IM_MODULE ibus
 
 # alias
 alias ht="htop"
+alias vim="nvim"
 
 # command
 command ibus-daemon -d -x

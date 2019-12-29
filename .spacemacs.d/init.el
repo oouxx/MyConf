@@ -58,21 +58,18 @@
                       syntax-checking-enable-tooltips nil)
      (spell-checking :variables spell-checking-enable-by-default nil)
      tmux
-     lsp
      dap
      pdf
      yaml
-     markdown
      treemacs
      version-control
      (my-better-default :location local)
      (my-programming :location local)
+     (my-org :location local)
+     (my-display :location local)
      )
 
-   dotspacemacs-additional-packages '(
-                                      all-the-icons
-                                      all-the-icons-dired
-                                      all-the-icons-ivy)
+   dotspacemacs-additional-packages '()
    dotspacemacs-frozen-packages '()
    dotspacemacs-excluded-packages
      '(org-projectile org-brain magit-gh-pulls magit-gitflow  evil-mc realgud tern company-tern
@@ -85,7 +82,7 @@
                       leuven-theme gh-md evil-lisp-state spray lorem-ipsum symon
                       ac-ispell ace-jump-mode auto-complete auto-dictionary
                       define-word google-translate disaster epic
-                      fancy-battery org-present orgit orglue spaceline
+                      fancy-battery org-present orgit orglue
                       helm-flyspell flyspell-correct-helm clean-aindent-mode
                       helm-c-yasnippet ace-jump-helm-line helm-make magithub
                       helm-themes helm-swoop helm-spacemacs-help smeargle
@@ -185,7 +182,7 @@
   )
 
 (defun dotspacemacs/user-config ()
-  (add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
+  (golden-ratio-mode t)
   )
 
 (defun dotspacemacs/emacs-custom-settings ()
