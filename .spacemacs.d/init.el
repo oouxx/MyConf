@@ -65,8 +65,9 @@
      version-control
      (my-better-default :location local)
      (my-programming :location local)
-     (my-org :location local)
+     ;;(my-org :location local)
      (my-display :location local)
+     (my-misc :location local)
      )
 
    dotspacemacs-additional-packages '()
