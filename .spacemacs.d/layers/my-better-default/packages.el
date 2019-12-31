@@ -31,6 +31,9 @@
 
 (setq my-better-default-packages
   '(
+    crux
     ))
 
+(defun my-better-default/post-init-crux ()
+  (use-package crux))
 ;;; packages.el ends here

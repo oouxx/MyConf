@@ -57,7 +57,6 @@
                       syntax-checking-enable-by-default nil
                       syntax-checking-enable-tooltips nil)
      (spell-checking :variables spell-checking-enable-by-default nil)
-     tmux
      dap
      pdf
      yaml

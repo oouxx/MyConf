@@ -15,7 +15,18 @@
 ;;;; All-the-icons-dired
 (defun my-display/init-all-the-icons-dired ()
   (use-package all-the-icons-dired
-    :hook (dired-mode . all-the-icons-dired-mode)))
+    :after all-the-icons
+    :diminish
+    :custom-face
+    (all-the-icons-dired-dir-face ((t `(:foreground ,(face-background 'default)))))
+    :hook (dired-mode . all-the-icons-dired-mode)
+    :config
+    ;; Workaround for all-the-icons bug until PR merged https://github.com/domtronn/all-the-icons.el/pull/150
+    (when (require 'all-the-icons nil 'noerror)
+      (setq all-the-icons-mode-icon-alist
+            (delete '(erc-mode all-the-icons-faicon "commenting-o" :height 1.0 :v-adjust 0.0 :face all-the-icons-white) all-the-icons-mode-icon-alist))
+      (add-to-list 'all-the-icons-mode-icon-alist '(erc-mode all-the-icons-faicon "commenting-o" :height 1.0 :v-adjust 0.0)))
+    ))
 
 (defun my-display/post-init-doom-modeline ()
   (use-package doom-modeline

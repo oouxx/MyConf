@@ -1165,5 +1165,6 @@
     "vim.enableNeovim": true,
     "editor.minimap.enabled": true,
     "editor.renderWhitespace": "none",
-    "editor.renderControlCharacters": false
+    "editor.renderControlCharacters": false,
+    "python.formatting.provider": "yapf"
 }
