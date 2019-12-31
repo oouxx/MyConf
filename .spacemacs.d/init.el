@@ -82,7 +82,7 @@
                       leuven-theme gh-md evil-lisp-state spray lorem-ipsum symon
                       ac-ispell ace-jump-mode auto-complete auto-dictionary
                       define-word google-translate disaster epic
-                      fancy-battery org-present orgit orglue
+                      fancy-battery org-present orgit orglue spaceline
                       helm-flyspell flyspell-correct-helm clean-aindent-mode
                       helm-c-yasnippet ace-jump-helm-line helm-make magithub
                       helm-themes helm-swoop helm-spacemacs-help smeargle

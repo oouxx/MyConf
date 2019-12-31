@@ -30,8 +30,7 @@
 ;;; Code:
 
 (setq my-org-packages
-    '(
-      org :location built-in))
+    '())
 (defun my-org/post-init-org ()
   (with-eval-after-load 'org
     (progn
