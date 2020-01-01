@@ -13,7 +13,8 @@
      (auto-completion :variables
                       auto-completion-enable-sort-by-usage t
                       auto-completion-enable-snippets-in-popup t
-                      auto-completion-tab-key-behavior 'cycle)
+                      auto-completion-tab-key-behavior 'cycle
+                      auto-completion-use-company-box t)
      (python :variables
              python-backend 'lsp
              python-formatter 'yapf
@@ -33,7 +34,6 @@
      rust
      html
      latex
-     auto-completion
      better-defaults
      emacs-lisp
      ranger

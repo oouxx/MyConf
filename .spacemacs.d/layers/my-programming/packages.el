@@ -35,13 +35,13 @@
       (cc-mode :location built-in)
       lsp-java
       quickrun
-      lsp-mode
-      lsp-ui
+      ;;lsp-mode
+      ;;lsp-ui
       dap-mode
       company
       company-lsp
-      company-tabnine
-      company-box
+      ;;company-tabnine
+      ;;company-box
       ))
 
 (defun my-programming/post-init-dap-mode ()
@@ -148,7 +148,7 @@
     (compan-tabnine-max-num-results 9)
     :bind
     (("M-q" . company-other-backend)
-     ("C-z t" . company-tabnine))
+     ("" . company-tabnine))
     :hook
     (lsp-after-open . (lambda ()
                         (setq company-tabnine-max-num-results 3)
@@ -176,8 +176,7 @@
           (setq candidates-lsp (nreverse candidates-lsp))
           (setq candidates-tabnine (nreverse candidates-tabnine))
           (nconc (seq-take candidates-tabnine 3)
-                (seq-take candidates-lsp 6))))))
-)
+                (seq-take candidates-lsp 6)))))))
 (defun my-programming/post-init-company-box ()
   (use-package company-box
     :diminish
@@ -235,8 +234,6 @@
                 (t . nil)))))
     (advice-add #'company-box-icons--elisp :override #'my-company-box-icons--elisp)
 
-    (when (and display-graphic-p
-               (require 'all-the-icons nil t))
       (declare-function all-the-icons-faicon 'all-the-icons)
       (declare-function all-the-icons-material 'all-the-icons)
       (declare-function all-the-icons-octicon 'all-the-icons)
@@ -268,7 +265,7 @@
               (Operator . ,(all-the-icons-material "control_point" :height 0.85 :v-adjust -0.2))
               (TypeParameter . ,(all-the-icons-faicon "arrows" :height 0.8 :v-adjust -0.05))
               (Template . ,(all-the-icons-material "format_align_center" :height 0.85 :v-adjust -0.2)))
-            company-box-icons-alist 'company-box-icons-all-the-icons)))
+            company-box-icons-alist 'company-box-icons-all-the-icons))
   )
 
 ;;; packages.el ends here

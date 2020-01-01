@@ -29,7 +29,7 @@
 
 ;;; Code:
 
-(defconst my-misc-packages
+(setq my-misc-packages
   '(
     ;;(emacs-application-framework :location local)
     (eaf :location (recipe
