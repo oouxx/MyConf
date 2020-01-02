@@ -29,3 +29,5 @@ alias vim="nvim"
 command ibus-daemon -d -x
 command setxkbmap -option ctrl:swapcaps
 
+# disable greeting message
+set fish_greeting
