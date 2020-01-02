@@ -140,6 +140,7 @@ bindsym $mod+r mode "resize"
 
 # golbal window setting
 for_window [class=".*"] border pixel 0
+
 # exec
 #exec --no-startup-id nm-applet
 exec --no-startup-id blueman-applet
