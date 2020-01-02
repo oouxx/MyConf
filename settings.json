@@ -1156,15 +1156,16 @@
         "vs-kubernetes.kubectl-path": "/home/wxx/.vs-kubernetes/tools/kubectl/kubectl",
         "vs-kubernetes.draft-path": "/home/wxx/.vs-kubernetes/tools/draft/linux-amd64/draft"
     },
-    "terminal.integrated.shell.linux": "/usr/bin/zsh",
+    "terminal.integrated.shell.linux": "/usr/bin/fish",
     "java.configuration.maven.userSettings": "/opt/maven/conf/settings.xml",
     "vim.neovimPath": "/usr/bin/nvim",
     "editor.scrollBeyondLastLine": false,
     "vscode-neovim.neovimPath": "/usr/bin/nvim",
-    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorTheme": "Quiet Light",
     "vim.enableNeovim": true,
     "editor.minimap.enabled": true,
     "editor.renderWhitespace": "none",
     "editor.renderControlCharacters": false,
-    "python.formatting.provider": "yapf"
+    "python.formatting.provider": "yapf",
+    "editor.multiCursorModifier": "alt"
 }
