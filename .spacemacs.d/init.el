@@ -10,6 +10,7 @@
    dotspacemacs-configuration-layer-path '("~/.spacemacs.d/layers/")
    dotspacemacs-configuration-layers
    '(
+     shell-scripts
      (auto-completion :variables
                       auto-completion-enable-sort-by-usage t
                       auto-completion-enable-snippets-in-popup t
@@ -53,7 +54,7 @@
      ;; (shell :variables
      ;;       shell-default-height 30
      ;;       shell-default-position 'bottom)
-     (syntax-checking :variables 
+     (syntax-checking :variables
                       syntax-checking-enable-by-default nil
                       syntax-checking-enable-tooltips nil)
      (spell-checking :variables spell-checking-enable-by-default nil)
@@ -63,7 +64,7 @@
      treemacs
      version-control
      (my-better-default :location local)
-     (my-programming :location local)
+     ;;(my-programming :location local)
      ;;(my-org :location local)
      (my-display :location local)
      (my-misc :location local)
@@ -137,7 +138,7 @@
    dotspacemacs-which-key-position 'bottom
    dotspacemacs-switch-to-buffer-prefers-purpose nil
    dotspacemacs-loading-progress-bar t
-   dotspacemacs-fullscreen-at-startup t
+   dotspacemacs-fullscreen-at-startup nil
    dotspacemacs-fullscreen-use-non-native nil
    dotspacemacs-maximized-at-startup nil
    dotspacemacs-undecorated-at-startup nil

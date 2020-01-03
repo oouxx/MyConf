@@ -3,10 +3,10 @@ if status is-login
         exec startx -- -keeptty
     end
 end
-if status is-interactive
-and not set -q TMUX
-    exec tmux
-end
+#if status is-interactive
+#and not set -q TMUX
+#    exec tmux
+#end
 
 set -xg EDITOR nvim
 # go env
@@ -24,6 +24,7 @@ set -xg QT_IM_MODULE ibus
 # alias
 alias ht="htop"
 alias vim="nvim"
+alias g="git"
 
 # command
 command ibus-daemon -d -x
