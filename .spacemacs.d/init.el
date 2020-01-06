@@ -12,7 +12,7 @@
    '(
      shell-scripts
      (auto-completion :variables
-                      auto-completion-enable-sort-by-usage t
+                      auto-completion-enable-sort-by-usage nil
                       auto-completion-enable-snippets-in-popup t
                       auto-completion-tab-key-behavior 'cycle
                       auto-completion-use-company-box t)
@@ -28,7 +28,10 @@
          go-backend 'lsp)
      emacs-lisp
      (javascript :variables
-                 javascript-backend 'lsp)
+                 javascript-backend 'lsp
+                 javascript-fmt-tool 'prettier
+                 javascript-fmt-on-save t
+                 javascript-import-tool 'import-js)
      (c-c++ :variables
             c-c++-default-mode-for-headers 'c++-mode
             c-c++-backend 'lsp-clangd)
@@ -51,9 +54,9 @@
      multiple-cursors
      (org :variables org-want-todo-bindings t)
      (ibuffer :variables ibuffer-group-buffers-by 'projects)
-     ;; (shell :variables
-     ;;       shell-default-height 30
-     ;;       shell-default-position 'bottom)
+     (shell :variables
+            shell-default-height 30
+            shell-default-position 'bottom)
      (syntax-checking :variables
                       syntax-checking-enable-by-default nil
                       syntax-checking-enable-tooltips nil)
@@ -64,7 +67,7 @@
      treemacs
      version-control
      (my-better-default :location local)
-     ;;(my-programming :location local)
+     (my-programming :location local)
      ;;(my-org :location local)
      (my-display :location local)
      (my-misc :location local)
@@ -79,7 +82,7 @@
                       holy-mode skewer-mode rainbow-delimiters
                       highlight-indentation vi-tilde-fringe eyebrowse ws-butler
                       org-bullets smooth-scrolling org-repo-todo org-download org-timer
-                      livid-mode git-gutter git-gutter-fringe  evil-escape
+                      livid-mode git-gutter git-gutter-fringe
                       leuven-theme gh-md evil-lisp-state spray lorem-ipsum symon
                       ac-ispell ace-jump-mode auto-complete auto-dictionary
                       define-word google-translate disaster epic
@@ -176,19 +179,13 @@
         '(("melpa-cn" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
           ("org-cn"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")
           ("gnu-cn"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")))
-
   )
 
 (defun dotspacemacs/user-load ()
   )
 
 (defun dotspacemacs/user-config ()
-  (golden-ratio-mode t)
   )
 
 (defun dotspacemacs/emacs-custom-settings ()
-  "Emacs custom settings.
-This is an auto-generated function, do not modify its content directly, use
-Emacs customize menu instead.
-This function is called at the very end of Spacemacs initialization."
 )

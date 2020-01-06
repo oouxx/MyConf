@@ -15,5 +15,7 @@ rofi.padding: 30
 rofi.bw: 0
 rofi.auto-select: false
 
-rofi.font: SmallTypeWriting bold 14
+rofi.font: Source Code Pro 12
+rofi.show-icons:true
+rofi.icon-theme:"paper"
 

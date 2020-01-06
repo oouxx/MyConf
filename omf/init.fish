@@ -24,11 +24,10 @@ set -xg QT_IM_MODULE ibus
 # alias
 alias ht="htop"
 alias vim="nvim"
-alias g="git"
 
 # command
 command ibus-daemon -d -x
-command setxkbmap -option ctrl:swapcaps
+#command setxkbmap -option ctrl:swapcaps
 
 # disable greeting message
 set fish_greeting
