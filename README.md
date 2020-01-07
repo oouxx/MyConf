@@ -1,7 +1,11 @@
 # WXX's dotfiles
 
 - manjaro
-- i3-gaps + polybar + rofi + feh + ranger
+- i3-gaps
+- polybar
+- rofi
+- feh
+- ranger(filemanager)
 - fish + oh-my-fish
 - tmux + oh-my-tmux
 - termite(can dropdown)
