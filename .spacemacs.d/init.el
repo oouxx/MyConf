@@ -64,6 +64,8 @@
      dap
      pdf
      yaml
+     (chinese :variables
+              chinese-default-input-method 'pinyin)
      treemacs
      version-control
      (my-better-default :location local)
@@ -137,7 +139,7 @@
    dotspacemacs-auto-save-file-location 'cache
    dotspacemacs-max-rollback-slots 5
    dotspacemacs-enable-paste-transient-state nil
-   dotspacemacs-which-key-delay 0.4
+   dotspacemacs-which-key-delay 0.3
    dotspacemacs-which-key-position 'bottom
    dotspacemacs-switch-to-buffer-prefers-purpose nil
    dotspacemacs-loading-progress-bar t
@@ -179,7 +181,18 @@
         '(("melpa-cn" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
           ("org-cn"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")
           ("gnu-cn"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")))
-  )
+
+  ;; global hungry-delete-mode
+  ;;(global-hungry-delete-mode t)
+  (add-hook 'prog-mode-hook 'spacemacs/toggle-hungry-delete-on)
+  (spacemacs|diminish helm-gtags-mode)
+  (spacemacs|diminish ggtags-mode)
+  (spacemacs|diminish which-key-mode)
+  (spacemacs|diminish spacemacs-whitespace-cleanup-mode)
+  (spacemacs|diminish counsel-mode)
+
+  ;; fix for the lsp error
+  (defvar spacemacs-jump-handlers-fundamental-mode nil))
 
 (defun dotspacemacs/user-load ()
   )

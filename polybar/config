@@ -26,10 +26,10 @@ alert = #AD6734
 ;monitor = ${env:MONITOR:HDMI-1}
 ;monitor = LVDS1
 width = 100%
-height = 22
-;offset-x = 1%
-;offset-y = 1%
-radius = 0
+height = 18
+;offset-x = 20
+;offset-y = 10
+;radius = 5
 fixed-center = false
 
 background = ${colors.background}
@@ -54,10 +54,9 @@ font-1 = unifont:fontformat=truetype:size=8:heavy;0
 font-2 = siji:pixelsize=9;1
 font-3 = FontAwesome:pixelsize:12;1
 
-modules-left = i3 memory cpu
+modules-left = i3 xbacklight volume
 modules-center = xwindow
-#modules-right = cpu memory temperature xbacklight volume battery wireless-network
-modules-right = xbacklight volume battery wireless-network date
+modules-right = battery wireless-network date
 #tray-position = right
 #tray-padding = 2
 #tray-transparent = true
