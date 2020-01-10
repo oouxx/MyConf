@@ -5,3 +5,8 @@ ibus/rime/luna_pinyin.userdb
 ibus/rime/user.yaml
 .lsp
 .spacemacs.d.bak
+
+LICENSE.MIT
+LICENSE.WTFPLv2
+README.md
+.tmux
