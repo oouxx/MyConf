@@ -12,7 +12,7 @@
    '(
      shell-scripts
      (auto-completion :variables
-                      auto-completion-enable-sort-by-usage nil
+                      auto-completion-enable-sort-by-usage t
                       auto-completion-enable-snippets-in-popup t
                       auto-completion-tab-key-behavior 'cycle
                       auto-completion-use-company-box t)
@@ -39,7 +39,6 @@
      html
      latex
      better-defaults
-     emacs-lisp
      ranger
      (git :variables
           git-magit-status-fullscreen t
@@ -48,7 +47,7 @@
           magit-revert-buffers 'silent
           magit-refs-show-commit-count 'all
           magit-revision-show-gravatars nil)
-     (ivy :variable ivy-enable-advanced-buffer-information nil)
+     (ivy :variables ivy-enable-advanced-buffer-information nil)
      lsp
      markdown
      multiple-cursors
@@ -75,27 +74,27 @@
      (my-misc :location local)
      )
 
-   dotspacemacs-additional-packages '()
+   dotspacemacs-additional-packages '(yasnippet-snippets)
    dotspacemacs-frozen-packages '()
    dotspacemacs-excluded-packages
      '(org-projectile org-brain magit-gh-pulls magit-gitflow  evil-mc realgud tern company-tern
                       evil-args evil-ediff evil-exchange evil-unimpaired
-                      evil-indent-plus volatile-highlights
+                      evil-indent-plus volatile-highlights nlinum
                       holy-mode skewer-mode rainbow-delimiters
                       highlight-indentation vi-tilde-fringe eyebrowse ws-butler
                       org-bullets smooth-scrolling org-repo-todo org-download org-timer
                       livid-mode git-gutter git-gutter-fringe
                       leuven-theme gh-md evil-lisp-state spray lorem-ipsum symon
                       ac-ispell ace-jump-mode auto-complete auto-dictionary
-                      define-word google-translate disaster epic
+                      define-word google-translate disaster epic alchemist
                       fancy-battery org-present orgit orglue spaceline
                       helm-flyspell flyspell-correct-helm clean-aindent-mode
                       helm-c-yasnippet ace-jump-helm-line helm-make magithub
                       helm-themes helm-swoop helm-spacemacs-help smeargle
                       ido-vertical-mode flx-ido company-quickhelp ivy-rich helm-purpose
-                      )
+ )
    dotspacemacs-install-packages 'used-only))
-
+  
 (defun dotspacemacs/init ()
   (setq-default
    dotspacemacs-enable-emacs-pdumper nil
@@ -172,6 +171,7 @@
   (spacemacs/load-spacemacs-env))
 
 (defun dotspacemacs/user-init ()
+  (setq url-gateway-method 'socks)
   (setq socks-server '("Default server" "127.0.0.1" 1080 5))
   (setq evil-shift-round nil)
   (setq byte-compile-warnings '(not obsolete))
@@ -192,13 +192,64 @@
   (spacemacs|diminish counsel-mode)
 
   ;; fix for the lsp error
-  (defvar spacemacs-jump-handlers-fundamental-mode nil))
+  (defvar spacemacs-jump-handlers-fundamental-mode nil)
+
+  (setq term-char-mode-point-at-process-mark nil)
+
+  ;; https://github.com/syl20bnr/spacemacs/issues/2705
+  ;; (setq tramp-mode nil)
+  (setq tramp-ssh-controlmaster-options
+        "-o ControlMaster=auto -o ControlPath='tramp.%%C' -o ControlPersist=no")
+  )
 
 (defun dotspacemacs/user-load ()
   )
 
 (defun dotspacemacs/user-config ()
+  ;;(setq yas-snippet-dirs
+  ;;      '("~/.spacemacs.d/snippets"                 ;; personal snippets
+  ;;        ))
+  (fset 'evil-visual-update-x-selection 'ignore)
+  ;; force horizontal split window
+  (setq split-width-threshold 120)
+  ;; (linum-relative-on)
+  (spacemacs|add-company-backends :modes text-mode)
+
+  (add-hook 'doc-view-mode-hook 'auto-revert-mode)
+
+  (evilified-state-evilify-map special-mode-map :mode special-mode)
+
+  (add-to-list 'auto-mode-alist
+               '("Capstanfile\\'" . yaml-mode))
+
+  (global-set-key (kbd "<backtab>") 'un-indent-by-removing-4-spaces)
+  (defun un-indent-by-removing-4-spaces ()
+    "remove 4 spaces from beginning of of line"
+    (interactive)
+    (save-excursion
+      (save-match-data
+        (beginning-of-line)
+        ;; get rid of tabs at beginning of line
+        (when (looking-at "^\\s-+")
+          (untabify (match-beginning 0) (match-end 0)))
+        (when (looking-at (concat "^" (make-string tab-width ?\ )))
+          (replace-match "")))))
+  (setq inhibit-compacting-font-caches t)
+  (global-display-line-numbers-mode -1)
+
+  (defun moon-override-yank-pop (&optional arg)
+    "Delete the region before inserting poped string."
+    (when (and evil-mode (eq 'visual evil-state))
+      (kill-region (region-beginning) (region-end))))
+
+  (advice-add 'counsel-yank-pop :before #'moon-override-yank-pop)
+  (setq ivy-more-chars-alist '((counsel-ag . 2)
+                               (counsel-grep .2)
+                               (t . 3)))
+
+  (add-hook 'org-mode-hook 'auto-fill-mode)
   )
+
 
 (defun dotspacemacs/emacs-custom-settings ()
 )
