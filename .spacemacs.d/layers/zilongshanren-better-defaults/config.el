@@ -1,35 +1,25 @@
-;; Vertical Scroll
-(setq scroll-step 1)
-(setq scroll-margin 1)
-(setq scroll-conservatively 101)
-(setq scroll-up-aggressively 0.01)
-(setq scroll-down-aggressively 0.01)
-(setq auto-window-vscroll nil)
-(setq fast-but-imprecise-scrolling nil)
-(setq mouse-wheel-scroll-amount '(1 ((shift) . 1)))
-(setq mouse-wheel-progressive-speed nil)
-;; Horizontal Scroll
-(setq hscroll-step 1)
-(setq hscroll-margin 1)
-;; display time and battery in modeline
-(display-time-mode 1)
-(display-battery-mode 1)
-
-;; cleanup recent files
-(defun my-func/cleanup-recentf ()
-  (progn
-    (and (fboundp 'recentf-cleanup)
-         (recentf-cleanup))))
-
-(add-hook 'kill-emacs-hook #'my-func/cleanup-recentf)
+;;; config.el --- zilongshanren Layer packages File for Spacemacs
+;;
+;; Copyright (c) 2014-2016 zilongshanren
+;;
+;; Author: zilongshanren <guanghui8827@gmail.com>
+;; URL: https://github.com/zilongshanren/spacemacs-private
+;;
+;; This file is not part of GNU Emacs.
+;;
+;;; License: GPLv3
 
 (defmacro th/define-context-key (keymap key dispatch)
   "Define KEY in KEYMAP to execute according to DISPATCH.
+
         DISPATCH is a form that is evaluated and should return the
         command to be executed.
+
         If DISPATCH returns nil, then the command normally bound to KEY
         will be executed.
+
         Example:
+
           (th/define-context-key hs-minor-mode-map
              (kbd \"<C-tab>\")
              (cond
@@ -37,6 +27,7 @@
                'hs-hide-block)
               ((hs-already-hidden-p)
                'hs-show-block)))
+
         This will make <C-tab> show a hidden block.  If the block is
         shown, then it'll be hidden."
   `(define-key ,keymap ,key
@@ -49,6 +40,15 @@
               (delete (rassoc 'utf-16le-with-signature auto-coding-regexp-alist)
                       (delete (rassoc 'utf-8-with-signature auto-coding-regexp-alist)
                               auto-coding-regexp-alist))))
+
+(defun ffap-hexl-mode ()
+  (interactive)
+  (let ((ffap-file-finder 'hexl-find-file))
+    (call-interactively 'ffap)))
+
+(when (spacemacs/window-system-is-mac)
+  (setq ns-pop-up-frames nil))
+
 (global-prettify-symbols-mode 1)
 (setq-default fill-column 80)
 
@@ -132,7 +132,7 @@
 (add-hook 'kill-emacs-hook #'zilongshanren/cleanup-recentf)
 
 ;; change evil initial mode state
-;(menu-bar-mode t)
+;; (menu-bar-mode t)
 
 (add-hook 'before-save-hook
           (lambda ()

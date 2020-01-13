@@ -50,7 +50,7 @@
      (ivy :variables ivy-enable-advanced-buffer-information nil)
      lsp
      markdown
-     multiple-cursors
+     ;;multiple-cursors
      (org :variables org-want-todo-bindings t)
      (ibuffer :variables ibuffer-group-buffers-by 'projects)
      (shell :variables
@@ -67,11 +67,11 @@
               chinese-default-input-method 'pinyin)
      treemacs
      version-control
-     (my-better-default :location local)
+     ;;(my-better-default :location local)
      (my-programming :location local)
      ;;(my-org :location local)
-     (my-display :location local)
-     (my-misc :location local)
+     ;;(my-misc :location local)
+     zilongshanren
      )
 
    dotspacemacs-additional-packages '(yasnippet-snippets)
@@ -172,7 +172,7 @@
 
 (defun dotspacemacs/user-init ()
   (setq url-gateway-method 'socks)
-  (setq socks-server '("Default server" "127.0.0.1" 1080 5))
+  (setq socks-server '("Default server" "127.0.0.1" 20170 5))
   (setq evil-shift-round nil)
   (setq byte-compile-warnings '(not obsolete))
   (setq warning-minimum-level :error)

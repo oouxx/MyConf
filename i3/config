@@ -146,7 +146,7 @@ for_window [class=".*"] border pixel 0
 # exec
 #exec --no-startup-id nm-applet
 exec --no-startup-id blueman-applet
-exec --no-startup-id feh --bg-scale ~/Pictures/wp.jpg
+exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper.jpg
 exec termite
 exec chromium
 

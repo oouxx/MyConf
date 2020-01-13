@@ -1,6 +1,6 @@
 func! myspacevim#before() abort
     "key mapping
-    inoremap jj <esc>
+    inoremap fd <esc>
     "set clipboard+=unnamedplus
     "逗号后空格
     "inoremap , ,<Space>

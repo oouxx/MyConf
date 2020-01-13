@@ -8,18 +8,10 @@
 
 # All SpaceVim option below [option] section
 [options]
-    # set spacevim theme. by default colorscheme layer is not loaded,
-    # if you want to use more colorscheme, please load the colorscheme
-    # layer
     colorscheme = "gruvbox"
     colorscheme_bg = "dark"
-    # background = "dark"
-    # Disable guicolors in basic mode, many terminal do not support 24bit
-    # true colors
     enable_guicolors = true
-    # set intent to 4
     default_indent = 4
-    # enable relative line number
     relativenumber = true
     # statusline setting
     statusline_separator = "arrow"
@@ -51,9 +43,7 @@
     warning_symbol = '?'
     info_symbol = '?'
     # other SpaveVim setting
-    vim_help_language = "cn"
     automatic_update = 0
-    max_column = 81
     # autocomplete setting
     autocomplete_method = "coc"
     # git setting
@@ -64,8 +54,8 @@
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
-auto-completion-return-key-behavior = "complete"
-# auto-completion-tab-key-behavior = "cycle"
+auto-completion-return-key-behavior = "smart"
+# auto-completion-tab-key-behavior = "smart"
 
 [[layers]]
 name = 'shell'
@@ -80,9 +70,6 @@ name = "checkers"
 show_cursor_error = false
 
 [[layers]]
-name = "chinese"
-
-[[layers]]
 name = "colorscheme"
 
 [[layers]]
@@ -90,9 +77,6 @@ name = "debug"
 
 [[layers]]
 name = "default"
-
-[[layers]]
-name = "fzf"
 
 [[layers]]
 name = "sudo"
@@ -143,7 +127,7 @@ filetypes = [
     "/home/wxx/.cache/javalsp"
     ]
 
-[[layer]]
+[[layers]]
 name = "format"
 
 [[layers]]
@@ -156,26 +140,7 @@ name = "tool#dash"
 name = "tmux"
 
 [[layers]]
-name= "autocomplete"
+name = "denite"
 
-[[custom_plugins]]
-name = "sheerun/vim-polyglot"
-merged = 0
-
-
-[[custom_plugins]]
-name = 'vim-pandoc/vim-pandoc'
-merged = 0
-
-[[custom_plugins]]
-name = 'vim-pandoc/vim-pandoc-syntax'
-merged = 0
-
-[[custom_plugins]]
-name = 'jalvesaq/Nvim-R'
-merged = 0
-
-[[custom_plugins]]
-name = 'airblade/vim-gitgutter'
-merged = 0
-
+[[layers]]
+name = "cscope"
