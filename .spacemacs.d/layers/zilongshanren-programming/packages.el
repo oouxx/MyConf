@@ -379,76 +379,82 @@
       "rep" 'js2r-expand-call-args)))
 
 (defun zilongshanren-programming/post-init-js2-mode ()
-  (progn
-    (add-hook 'js2-mode-hook 'my-setup-develop-environment)
-    (add-hook 'web-mode-hook 'my-setup-develop-environment)
+  (use-package js2-mode
+    :mode "\\.js\\'"
+    :interpreter "node")
+  )
 
-    (spacemacs|define-jump-handlers js2-mode)
-    (add-hook 'spacemacs-jump-handlers-js2-mode 'etags-select-find-tag-at-point)
-
-    (setq company-backends-js2-mode '((company-dabbrev-code :with company-keywords company-etags)
-                                      company-files company-dabbrev))
-
-    (setq company-backends-js-mode '((company-dabbrev-code :with company-keywords company-etags)
-                                     company-files company-dabbrev))
-
-    (add-hook 'js2-mode-hook 'my-js2-mode-hook)
-
-    ;; add your own keywords highlight here
-    (font-lock-add-keywords 'js2-mode
-                            '(("\\<\\(cc\\)\\>" 1 font-lock-type-face)))
-
-    (spacemacs/declare-prefix-for-mode 'js2-mode "ms" "repl")
-
-    (with-eval-after-load 'js2-mode
-      (progn
-        ;; these mode related variables must be in eval-after-load
-        ;; https://github.com/magnars/.emacs.d/blob/master/settings/setup-js2-mode.el
-        (setq-default js2-allow-rhino-new-expr-initializer nil)
-        (setq-default js2-auto-indent-p nil)
-        (setq-default js2-enter-indents-newline nil)
-        (setq-default js2-global-externs '("module" "ccui" "require" "buster" "sinon" "assert" "refute" "setTimeout" "clearTimeout" "setInterval" "clearInterval" "location" "__dirname" "console" "JSON"))
-        (setq-default js2-idle-timer-delay 0.2)
-        (setq-default js2-mirror-mode nil)
-        (setq-default js2-strict-inconsistent-return-warning nil)
-        (setq-default js2-include-rhino-externs nil)
-        (setq-default js2-include-gears-externs nil)
-        (setq-default js2-concat-multiline-strings 'eol)
-        (setq-default js2-rebind-eol-bol-keys nil)
-        (setq-default js2-auto-indent-p t)
-
-        (setq-default js2-bounce-indent nil)
-        (setq-default js-indent-level 4)
-        (setq-default js2-basic-offset 4)
-        (setq-default js-switch-indent-offset 4)
-        ;; Let flycheck handle parse errors
-        (setq-default js2-mode-show-parse-errors nil)
-        (setq-default js2-mode-show-strict-warnings nil)
-        (setq-default js2-highlight-external-variables t)
-        (setq-default js2-strict-trailing-comma-warning nil)
-
-        (add-hook 'web-mode-hook 'my-web-mode-indent-setup)
-
-        (spacemacs/set-leader-keys-for-major-mode 'js2-mode
-          "ti" 'my-toggle-web-indent)
-        (spacemacs/set-leader-keys-for-major-mode 'js-mode
-          "ti" 'my-toggle-web-indent)
-        (spacemacs/set-leader-keys-for-major-mode 'web-mode
-          "ti" 'my-toggle-web-indent)
-        (spacemacs/set-leader-keys-for-major-mode 'css-mode
-          "ti" 'my-toggle-web-indent)
-
-        (spacemacs/declare-prefix-for-mode 'js2-mode "mt" "toggle")
-        (spacemacs/declare-prefix-for-mode 'js-mode "mt" "toggle")
-        (spacemacs/declare-prefix-for-mode 'web-mode "mt" "toggle")
-        (spacemacs/declare-prefix-for-mode 'css-mode "mt" "toggle")
-
-
-        ))
-
-    (evilified-state-evilify js2-error-buffer-mode js2-error-buffer-mode-map)
-
-    ))
+;;(defun zilongshanren-programming/post-init-js2-mode ()
+;;  (progn
+;;    (add-hook 'js2-mode-hook 'my-setup-develop-environment)
+;;    (add-hook 'web-mode-hook 'my-setup-develop-environment)
+;;
+;;    (spacemacs|define-jump-handlers js2-mode)
+;;    (add-hook 'spacemacs-jump-handlers-js2-mode 'etags-select-find-tag-at-point)
+;;
+;;    (setq company-backends-js2-mode '((company-dabbrev-code :with company-keywords company-etags)
+;;                                      company-files company-dabbrev))
+;;
+;;    (setq company-backends-js-mode '((company-dabbrev-code :with company-keywords company-etags)
+;;                                     company-files company-dabbrev))
+;;
+;;    (add-hook 'js2-mode-hook 'my-js2-mode-hook)
+;;
+;;    ;; add your own keywords highlight here
+;;    (font-lock-add-keywords 'js2-mode
+;;                            '(("\\<\\(cc\\)\\>" 1 font-lock-type-face)))
+;;
+;;    (spacemacs/declare-prefix-for-mode 'js2-mode "ms" "repl")
+;;
+;;    (with-eval-after-load 'js2-mode
+;;      (progn
+;;        ;; these mode related variables must be in eval-after-load
+;;        ;; https://github.com/magnars/.emacs.d/blob/master/settings/setup-js2-mode.el
+;;        (setq-default js2-allow-rhino-new-expr-initializer nil)
+;;        (setq-default js2-auto-indent-p nil)
+;;        (setq-default js2-enter-indents-newline nil)
+;;        (setq-default js2-global-externs '("module" "ccui" "require" "buster" "sinon" "assert" "refute" "setTimeout" "clearTimeout" "setInterval" "clearInterval" "location" "__dirname" "console" "JSON"))
+;;        (setq-default js2-idle-timer-delay 0.2)
+;;        (setq-default js2-mirror-mode nil)
+;;        (setq-default js2-strict-inconsistent-return-warning nil)
+;;        (setq-default js2-include-rhino-externs nil)
+;;        (setq-default js2-include-gears-externs nil)
+;;        (setq-default js2-concat-multiline-strings 'eol)
+;;        (setq-default js2-rebind-eol-bol-keys nil)
+;;        (setq-default js2-auto-indent-p t)
+;;
+;;        (setq-default js2-bounce-indent nil)
+;;        (setq-default js-indent-level 4)
+;;        (setq-default js2-basic-offset 4)
+;;        (setq-default js-switch-indent-offset 4)
+;;        ;; Let flycheck handle parse errors
+;;        (setq-default js2-mode-show-parse-errors nil)
+;;        (setq-default js2-mode-show-strict-warnings nil)
+;;        (setq-default js2-highlight-external-variables t)
+;;        (setq-default js2-strict-trailing-comma-warning nil)
+;;
+;;        (add-hook 'web-mode-hook 'my-web-mode-indent-setup)
+;;
+;;        (spacemacs/set-leader-keys-for-major-mode 'js2-mode
+;;          "ti" 'my-toggle-web-indent)
+;;        (spacemacs/set-leader-keys-for-major-mode 'js-mode
+;;          "ti" 'my-toggle-web-indent)
+;;        (spacemacs/set-leader-keys-for-major-mode 'web-mode
+;;          "ti" 'my-toggle-web-indent)
+;;        (spacemacs/set-leader-keys-for-major-mode 'css-mode
+;;          "ti" 'my-toggle-web-indent)
+;;
+;;        (spacemacs/declare-prefix-for-mode 'js2-mode "mt" "toggle")
+;;        (spacemacs/declare-prefix-for-mode 'js-mode "mt" "toggle")
+;;        (spacemacs/declare-prefix-for-mode 'web-mode "mt" "toggle")
+;;        (spacemacs/declare-prefix-for-mode 'css-mode "mt" "toggle")
+;;
+;;
+;;        ))
+;;
+;;    (evilified-state-evilify js2-error-buffer-mode js2-error-buffer-mode-map)
+;;
+;;    ))
 
 (defun zilongshanren-programming/post-init-css-mode ()
   (progn
@@ -553,25 +559,25 @@
     :init
     (eval-after-load 'flycheck '(flycheck-clojure-setup))))
 
-(defun zilongshanren-programming/post-init-ycmd ()
-  (progn
-    (setq ycmd-tag-files 'auto)
-    (setq ycmd-request-message-level -1)
-    (set-variable 'ycmd-server-command `("python" ,(expand-file-name "~/Github/ycmd/ycmd/__main__.py")))
-    (setq company-backends-c-mode-common '((company-c-headers
-                                            company-dabbrev-code
-                                            company-keywords
-                                            company-gtags :with company-yasnippet)
-                                           company-files company-dabbrev ))
-
-    (zilongshanren|toggle-company-backends company-ycmd)
-    (eval-after-load 'ycmd
-      '(spacemacs|hide-lighter ycmd-mode))
-
-    (spacemacs/set-leader-keys-for-major-mode 'c-mode
-      "tb" 'zilong/company-toggle-company-ycmd)
-    (spacemacs/set-leader-keys-for-major-mode 'c++-mode
-      "tb" 'zilong/company-toggle-company-ycmd)))
+;;(defun zilongshanren-programming/post-init-ycmd ()
+;;  (progn
+;;    (setq ycmd-tag-files 'auto)
+;;    (setq ycmd-request-message-level -1)
+;;    (set-variable 'ycmd-server-command `("python" ,(expand-file-name "~/Github/ycmd/ycmd/__main__.py")))
+;;    (setq company-backends-c-mode-common '((company-c-headers
+;;                                            company-dabbrev-code
+;;                                            company-keywords
+;;                                            company-gtags :with company-yasnippet)
+;;                                           company-files company-dabbrev ))
+;;
+;;    (zilongshanren|toggle-company-backends company-ycmd)
+;;    (eval-after-load 'ycmd
+;;      '(spacemacs|hide-lighter ycmd-mode))
+;;
+;;    (spacemacs/set-leader-keys-for-major-mode 'c-mode
+;;      "tb" 'zilong/company-toggle-company-ycmd)
+;;    (spacemacs/set-leader-keys-for-major-mode 'c++-mode
+;;      "tb" 'zilong/company-toggle-company-ycmd)))
 
 ;; when many project has the need to use tags, I will give etags-table and etags-update a try
 (defun zilongshanren-programming/init-etags-select ()
@@ -590,17 +596,17 @@
       (spacemacs/set-leader-keys-for-major-mode 'js2-mode
         "gd" 'etags-select-find-tag-at-point))))
 
-(defun zilongshanren-programming/init-gulpjs ()
-  (use-package gulpjs
-    :init
-    (progn
-      (defun zilong/build-engine ()
-        (interactive)
-        (gulpjs-start-task-with-file-name "~/Github/fireball/app.js"))
-
-      (spacemacs/set-leader-keys "ags" 'gulpjs-start-task)
-      (spacemacs/set-leader-keys "agS" 'zilong/build-engine)
-      (spacemacs/set-leader-keys "agr" 'gulpjs-restart-task))))
+;;(defun zilongshanren-programming/init-gulpjs ()
+;;  (use-package gulpjs
+;;    :init
+;;    (progn
+;;      (defun zilong/build-engine ()
+;;        (interactive)
+;;        (gulpjs-start-task-with-file-name "~/Github/fireball/app.js"))
+;;
+;;      (spacemacs/set-leader-keys "ags" 'gulpjs-start-task)
+;;      (spacemacs/set-leader-keys "agS" 'zilong/build-engine)
+;;      (spacemacs/set-leader-keys "agr" 'gulpjs-restart-task))))
 
 
 (defun zilongshanren-programming/init-paredit ()
@@ -630,11 +636,11 @@
     (when (configuration-layer/package-usedp 'company)
       (spacemacs|add-company-backends :modes shell-script-mode makefile-bsdmake-mode sh-mode lua-mode nxml-mode conf-unix-mode json-mode graphviz-dot-mode js2-mode js-mode))
     ))
-(defun zilongshanren-programming/post-init-company-c-headers ()
-  (progn
-    (setq company-c-headers-path-system
-          (quote
-           ("/usr/include/" "/usr/local/include/" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1")))
-    (setq company-c-headers-path-user
-          (quote
-           ("/Users/guanghui/cocos2d-x/cocos/platform" "/Users/guanghui/cocos2d-x/cocos" "." "/Users/guanghui/cocos2d-x/cocos/audio/include/")))))
+;;(defun zilongshanren-programming/post-init-company-c-headers ()
+;;  (progn
+;;    (setq company-c-headers-path-system
+;;          (quote
+;;           ("/usr/include/" "/usr/local/include/" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1")))
+;;    (setq company-c-headers-path-user
+;;          (quote
+;;           ("/Users/guanghui/cocos2d-x/cocos/platform" "/Users/guanghui/cocos2d-x/cocos" "." "/Users/guanghui/cocos2d-x/cocos/audio/include/")))))

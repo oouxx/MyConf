@@ -48,7 +48,7 @@
           magit-refs-show-commit-count 'all
           magit-revision-show-gravatars nil)
      (ivy :variables ivy-enable-advanced-buffer-information nil)
-     lsp
+     ;; lsp
      markdown
      ;;multiple-cursors
      (org :variables org-want-todo-bindings t)
@@ -60,41 +60,46 @@
                       syntax-checking-enable-by-default nil
                       syntax-checking-enable-tooltips nil)
      (spell-checking :variables spell-checking-enable-by-default nil)
-     dap
-     pdf
+     ;; dap
+     ;; pdf
      yaml
+     latex
+     deft
+     (spacemacs-layouts :variables layouts-enable-autosave nil
+                        layouts-autosave-delay 300)
      (chinese :variables
               chinese-default-input-method 'pinyin)
      treemacs
      version-control
      ;;(my-better-default :location local)
-     (my-programming :location local)
+     ;;(my-programming :location local)
      ;;(my-org :location local)
      ;;(my-misc :location local)
      zilongshanren
      )
 
-   dotspacemacs-additional-packages '(yasnippet-snippets)
+   dotspacemacs-additional-packages '(sicp ssh-agency anki-editor)
    dotspacemacs-frozen-packages '()
    dotspacemacs-excluded-packages
-     '(org-projectile org-brain magit-gh-pulls magit-gitflow  evil-mc realgud tern company-tern
-                      evil-args evil-ediff evil-exchange evil-unimpaired
-                      evil-indent-plus volatile-highlights nlinum
-                      holy-mode skewer-mode rainbow-delimiters
-                      highlight-indentation vi-tilde-fringe eyebrowse ws-butler
-                      org-bullets smooth-scrolling org-repo-todo org-download org-timer
-                      livid-mode git-gutter git-gutter-fringe
-                      leuven-theme gh-md evil-lisp-state spray lorem-ipsum symon
-                      ac-ispell ace-jump-mode auto-complete auto-dictionary
-                      define-word google-translate disaster epic alchemist
-                      fancy-battery org-present orgit orglue spaceline
-                      helm-flyspell flyspell-correct-helm clean-aindent-mode
-                      helm-c-yasnippet ace-jump-helm-line helm-make magithub
-                      helm-themes helm-swoop helm-spacemacs-help smeargle
-                      ido-vertical-mode flx-ido company-quickhelp ivy-rich helm-purpose
- )
-   dotspacemacs-install-packages 'used-only))
-  
+   '(org-projectile org-brain magit-gh-pulls magit-gitflow  evil-mc realgud tern company-tern
+                    evil-args evil-ediff evil-exchange evil-unimpaired
+                    evil-indent-plus volatile-highlights smartparens
+                    spaceline holy-mode skewer-mode rainbow-delimiters
+                    highlight-indentation vi-tilde-fringe eyebrowse ws-butler
+                    org-bullets smooth-scrolling org-repo-todo org-download org-timer
+                    livid-mode git-gutter git-gutter-fringe
+                    leuven-theme gh-md evil-lisp-state spray lorem-ipsum symon
+                    ac-ispell ace-jump-mode auto-complete auto-dictionary
+                    clang-format define-word google-translate disaster epic
+                    fancy-battery org-present orgit orglue spacemacs-theme
+                    helm-flyspell flyspell-correct-helm clean-aindent-mode
+                    helm-c-yasnippet ace-jump-helm-line helm-make magithub
+                    helm-themes helm-swoop helm-spacemacs-help smeargle
+                    ido-vertical-mode flx-ido company-quickhelp ivy-rich helm-purpose)
+   dotspacemacs-install-packages 'used-only
+   dotspacemacs-delete-orphan-package t
+   ))
+
 (defun dotspacemacs/init ()
   (setq-default
    dotspacemacs-enable-emacs-pdumper nil
