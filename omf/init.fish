@@ -9,6 +9,7 @@ end
 #end
 
 set -xg EDITOR nvim
+set -xg TERMINAL termite
 # go env
 set -xg GOROOT /usr/lib/go
 set -xg GOPATH ~/gopath/go

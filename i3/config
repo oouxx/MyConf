@@ -20,7 +20,7 @@ bindsym $mod+Return exec termite
 bindsym $mod+q kill
 
 # start rofi (a program launcher)
-bindsym $mod+d exec rofi -show drun
+bindsym $mod+d exec rofi -show drun -theme my-theme
 
 # change focus
 bindsym $mod+j focus left

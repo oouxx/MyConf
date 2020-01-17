@@ -1,20 +1,20 @@
 configuration {
-	modi: "window,run,ssh,drun";
-	width: 50;
-	lines: 15;
-	columns: 1;
-	font: "Hack 12";
-	bw: 1;
-	location: 0;
-	padding: 5;
-	yoffset: 0;
-	xoffset: 0;
-    fixed-num-lines: true;
+	modi: "window,run,ssh";
+/*	width: 50;*/
+/*	lines: 15;*/
+/*	columns: 1;*/
+/*	font: "mono 12";*/
+/*	bw: 1;*/
+/*	location: 0;*/
+/*	padding: 5;*/
+/*	yoffset: 0;*/
+/*	xoffset: 0;*/
+/*	fixed-num-lines: true;*/
 	show-icons: true;
 	terminal: "termite";
 	ssh-client: "ssh";
-/*	ssh-command: "{terminal} -e {ssh-client} {host} [-p {port}]";*/
-/*	run-command: "{cmd}";*/
+	ssh-command: "{terminal} -e {ssh-client} {host} [-p {port}]";
+    /*	run-command: "{cmd}";*/
 /*	run-list-command: "";*/
 /*	run-shell-command: "{terminal} -e {cmd}";*/
 /*	window-command: "wmctrl -i -R {window}";*/
@@ -23,7 +23,6 @@ configuration {
 /*	drun-match-fields: "name,generic,exec,categories";*/
 /*	drun-show-actions: false;*/
 /*	drun-display-format: "{name} [<span weight='light' size='small'><i>({generic})</i></span>]";*/
-    drun-icon-theme: "papirus";
 /*	disable-history: false;*/
 /*	ignored-prefixes: "";*/
 /*	sort: false;*/
@@ -35,7 +34,7 @@ configuration {
 /*	auto-select: false;*/
 /*	parse-hosts: false;*/
 /*	parse-known-hosts: true;*/
-/*	combi-modi: "window,run";*/
+	combi-modi: "window,run";
 /*	matching: "normal";*/
 /*	tokenize: true;*/
 /*	m: "-5";*/
