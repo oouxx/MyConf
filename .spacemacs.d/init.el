@@ -78,7 +78,7 @@
      zilongshanren
      )
 
-   dotspacemacs-additional-packages '(sicp ssh-agency anki-editor)
+   dotspacemacs-additional-packages '(leetcode sicp ssh-agency anki-editor)
    dotspacemacs-frozen-packages '()
    dotspacemacs-excluded-packages
    '(org-projectile org-brain magit-gh-pulls magit-gitflow  evil-mc realgud tern company-tern
@@ -253,6 +253,8 @@
                                (t . 3)))
 
   (add-hook 'org-mode-hook 'auto-fill-mode)
+  (setq leetcode-prefer-language "python3")
+  (setq leetcode-prefer-sql "mysql")
   )
 
 

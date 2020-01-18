@@ -32,3 +32,12 @@ command setxkbmap -option ctrl:nocaps
 
 # disable greeting message
 set fish_greeting
+
+# highlight
+set hilite (which highlight)
+set -xg LESSOPEN "| $hilite %s --out-format xterm256 --quiet --force "
+set -xg LESS " -R"
+
+function less
+    command less -m -N -g -i -J --underline-special --SILENT $argv
+end
