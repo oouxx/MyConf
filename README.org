@@ -1,0 +1,23 @@
+* WXX's dotfiles
+** config
+
+- manjaro
+- i3-gaps
+- polybar
+- rofi
+- feh
+- ranger(filemanager)
+- fish + oh-my-fish
+- tmux + oh-my-tmux
+- termite(can dropdown)
+- zathura(pdf viewer)
+- text editor
+    - spacevim
+    - spacemacs
+
+** install
+   
+```shell
+chmod u+x install.sh
+./install.sh
+```

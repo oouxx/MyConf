@@ -32,6 +32,7 @@
                  javascript-fmt-tool 'prettier
                  javascript-fmt-on-save t
                  javascript-import-tool 'import-js)
+     typescript
      (c-c++ :variables
             c-c++-default-mode-for-headers 'c++-mode
             c-c++-backend 'lsp-clangd)
@@ -84,9 +85,9 @@
    '(org-projectile org-brain magit-gh-pulls magit-gitflow  evil-mc realgud tern company-tern
                     evil-args evil-ediff evil-exchange evil-unimpaired
                     evil-indent-plus volatile-highlights smartparens
-                    spaceline holy-mode skewer-mode rainbow-delimiters
+                    holy-mode skewer-mode rainbow-delimiters
                     highlight-indentation vi-tilde-fringe eyebrowse ws-butler
-                    org-bullets smooth-scrolling org-repo-todo org-download org-timer
+                    smooth-scrolling org-repo-todo org-download org-timer
                     livid-mode git-gutter git-gutter-fringe
                     leuven-theme gh-md evil-lisp-state spray lorem-ipsum symon
                     ac-ispell ace-jump-mode auto-complete auto-dictionary
