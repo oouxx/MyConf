@@ -177,8 +177,8 @@
   (spacemacs/load-spacemacs-env))
 
 (defun dotspacemacs/user-init ()
-  (setq url-gateway-method 'socks)
-  (setq socks-server '("Default server" "127.0.0.1" 20170 5))
+  ;;(setq url-gateway-method 'socks)
+  ;;(setq socks-server '("Default server" "127.0.0.1" 20170 5))
   (setq evil-shift-round nil)
   (setq byte-compile-warnings '(not obsolete))
   (setq warning-minimum-level :error)
