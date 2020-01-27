@@ -5,8 +5,8 @@ set $mod Mod1
 font pango:Hack 9
 
 # i3-gaps settings
-gaps inner 4
-gaps outer 2
+gaps inner 14
+gaps outer -4
 smart_gaps on
 smart_borders on
 
@@ -150,7 +150,7 @@ for_window [class=".*"] border pixel 0
 
 # exec
 #exec --no-startup-id nm-applet
-exec --no-startup-id blueman-applet
+#exec --no-startup-id blueman-applet
 exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper.jpg
 exec termite
 exec chromium
