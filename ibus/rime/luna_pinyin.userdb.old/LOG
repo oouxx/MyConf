@@ -1,0 +1,5 @@
+2020/02/01-11:31:13.700878 140298221610752 Log #639: 0 ops saved to Table #640 OK
+2020/02/01-11:31:13.700948 140298221610752 Archiving /home/wxx/.config/ibus/rime/luna_pinyin.userdb/000639.log: OK
+2020/02/01-11:31:13.701006 140298221610752 Table #598: 64 entries OK
+2020/02/01-11:31:13.701075 140298221610752 Archiving /home/wxx/.config/ibus/rime/luna_pinyin.userdb/MANIFEST-000637: OK
+2020/02/01-11:31:13.711433 140298221610752 **** Repaired leveldb /home/wxx/.config/ibus/rime/luna_pinyin.userdb; recovered 1 files; 1715 bytes. Some data may have been lost. ****

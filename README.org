@@ -1,23 +1,23 @@
 * WXX's dotfiles
 ** config
 
-- manjaro
+- archlinux
 - i3-gaps
 - polybar
-- rofi
+- rofi(application launcher)
 - feh
 - ranger(filemanager)
 - fish + oh-my-fish
 - tmux + oh-my-tmux
-- termite(can dropdown)
+- termite(dropdown)
 - zathura(pdf viewer)
 - text editor
-    - spacevim
-    - spacemacs
+    - neovim + spacevim
+    - emacs + spacemacs
+- libinput-gestures(many useful touchpad gestures)
 
 ** install
    
 ```shell
-chmod u+x install.sh
 ./install.sh
 ```

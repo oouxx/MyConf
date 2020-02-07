@@ -1,4 +1,4 @@
-set $mod Mod1
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -6,12 +6,43 @@ font pango:Hack 9
 
 # i3-gaps settings
 gaps inner 14
-gaps outer -4
+gaps outer -2
 smart_gaps on
 smart_borders on
 
+# Configure border style <normal|1pixel|pixel xx|none|pixel>
+new_window pixel 1
+new_float normal
+
+# Hide borders
+hide_edge_borders none
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
+
+# Screen brightness controls
+bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
+bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
+
+# Volume
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -c 0 -q set Master 2dB+ unmute
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer -c 0 -q set Master 2dB- unmute
+bindsym XF86AudioMute exec --no-startup-id amixer -q set Master toggle
+
+# Start Applications
+bindsym $mod+F2 exec chromium
+bindsym $mod+F3 exec termite -e ranger
+bindsym $mod+F4 exec termite -e ncmpcpp
+bindsym $mod+F5 exec termite -e htop
+bindsym $mod+F6 exec termite -e alsamixer
+bindsym Print exec --no-startup-id i3-scrot
+bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
+bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
+bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
+bindsym $mod+p exec --no-startup-id mpc toggle
+bindsym $mod+Left exec --no-startup-id mpc prev
+bindsym $mod+Right exec --no-startup-id mpc next
+
 
 # start a terminal
 bindsym $mod+Return exec termite
@@ -23,10 +54,10 @@ bindsym $mod+q kill
 bindsym $mod+d exec rofi -show drun -theme my-theme
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
 #bindsym $mod+Left focus left
@@ -35,10 +66,10 @@ bindsym $mod+semicolon focus right
 #bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -46,12 +77,9 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
-# split in horizontal orientation
-#bindsym $mod+h split h
-
 # split in vertical orientation
 #bindsym $mod+v split v
-bindsym $mod+h split toggle
+bindsym $mod+b split toggle
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -63,9 +91,14 @@ bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
+bindsym $mod+space focus mode_toggle 
 
-# change focus between tiling / floating windows
-bindsym $mod+Tab focus mode_toggle
+# move the currently focused window to the scratchpad
+bindsym $mod+Shift+minus move scratchpad
+
+# Show the next scratchpad window or hide the focused scratchpad window.
+# If there are multiple scratchpad windows, this command cycles through them.
+bindsym $mod+minus scratchpad show
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -98,24 +131,42 @@ bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
-# colors
+# switch to workspace with urgent window automatically
+for_window [urgent=latest] focus
 
-set $fg  #363837
-set $bg  #363837
-set $focused_bg #363837
-set $ind #407055
-# class                 border  backgr. text indicator child_border
-client.focused          $focused_bg  $focused_bg  $focused_bg  $ind  $focused_bg     
-client.focused_inactive $bg     $bg     $fg  $bg       $bg
-client.unfocused        $bg     $bg     $fg  $bg      $bg
-client.urgent           $bg     $bg     $fg  $ind      $bg
-client.placeholder      $bg     $bg     $fg  $ind       $bg 
-client.background       $bg
+set_from_resource $term_background background
+set_from_resource $term_foreground foreground
+set_from_resource $term_color0     color0
+set_from_resource $term_color1     color1
+set_from_resource $term_color2     color2
+set_from_resource $term_color3     color3
+set_from_resource $term_color4     color4
+set_from_resource $term_color5     color5
+set_from_resource $term_color6     color6
+set_from_resource $term_color7     color7
+set_from_resource $term_color8     color8
+set_from_resource $term_color9     color9
+set_from_resource $term_color10    color10
+set_from_resource $term_color11    color11
+set_from_resource $term_color12    color12
+set_from_resource $term_color13    color13
+set_from_resource $term_color14    color14
+set_from_resource $term_color15    color15
+
+# Theme colors
+# class                   border  backgr. text    indic.   child_border
+  client.focused          #556064 #556064 #80FFF9 #FDF6E3
+  client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
+  client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
+  client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
+  client.placeholder      #000000 #0c0c0c #ffffff #000000 
+
+  client.background       #2B2C2B
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
+# bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
@@ -127,10 +178,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
@@ -145,23 +196,13 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# golbal window setting
-for_window [class=".*"] border pixel 0
-
-# exec
+# autostart
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 #exec --no-startup-id nm-applet
 #exec --no-startup-id blueman-applet
-exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper.jpg
-exec termite
-exec chromium
-
-## quick terminal
-exec --no-startup-id termite --name metask
-for_window [instance="metask"] floating enable;
-for_window [instance="metask"] move scratchpad; [instance="metask"] scratchpad show; move position 50px 0px; resize set 1268px 200px;move scratchpad
-bindsym $mod+i [instance="metask"] scratchpad show
-bindsym $mod+t exec --no-startup-id termite --name metask
-
-# autostart
+exec --no-startup-id feh --bg-scale ~/Pictures/wp1.jpg
+exec --no-startup-id termite
+exec --no-startup-id chromium
 exec_always --no-startup-id ~/.config/polybar/launch.sh
+exec_always --no-startup-id picom -b
 

@@ -14,7 +14,7 @@ set -xg TERMINAL termite
 set -xg GOROOT /usr/lib/go
 set -xg GOPATH ~/gopath/go
 set -xg GOBIN $GOPATH/gobin
-set -xg PATH $GOROOT/bin $GOBIN:/usr/local/bin $PATH
+set -xg PATH $HOME/.cargo/bin $GOROOT/bin $GOBIN $HOME/.local/bin $PATH
 set -xg GOPROXY "https://goproxy.io"
 
 # input
@@ -27,8 +27,9 @@ alias ht="htop"
 alias vim="nvim"
 
 # command
-command ibus-daemon -d -x -r
-command setxkbmap -option ctrl:nocaps
+# command ibus-daemon -d -x -r
+# command setxkbmap -option ctrl:nocaps
+# command setxkbmap -option altwin:swap_lalt_lwin
 
 # disable greeting message
 set fish_greeting

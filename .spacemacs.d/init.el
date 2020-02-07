@@ -10,6 +10,7 @@
    dotspacemacs-configuration-layer-path '("~/.spacemacs.d/layers/")
    dotspacemacs-configuration-layers
    '(
+     sql
      shell-scripts
      (auto-completion :variables
                       auto-completion-enable-sort-by-usage t
@@ -54,49 +55,30 @@
      ;;multiple-cursors
      (org :variables org-want-todo-bindings t)
      (ibuffer :variables ibuffer-group-buffers-by 'projects)
-     (shell :variables
-            shell-default-height 30
-            shell-default-position 'bottom)
      (syntax-checking :variables
                       syntax-checking-enable-by-default nil
                       syntax-checking-enable-tooltips nil)
      (spell-checking :variables spell-checking-enable-by-default nil)
      ;; dap
-     ;; pdf
      yaml
      latex
-     deft
      (spacemacs-layouts :variables layouts-enable-autosave nil
                         layouts-autosave-delay 300)
      (chinese :variables
               chinese-default-input-method 'pinyin)
      treemacs
      version-control
+     emacs-lisp
      ;;(my-better-default :location local)
      ;;(my-programming :location local)
-     ;;(my-org :location local)
-     ;;(my-misc :location local)
-     zilongshanren
+     my-misc
+     my-org
+     my-ui
      )
 
-   dotspacemacs-additional-packages '(leetcode sicp ssh-agency anki-editor)
+   dotspacemacs-additional-packages '(posframe leetcode sicp ssh-agency anki-editor)
    dotspacemacs-frozen-packages '()
-   dotspacemacs-excluded-packages
-   '(org-projectile org-brain magit-gh-pulls magit-gitflow  evil-mc realgud tern company-tern
-                    evil-args evil-ediff evil-exchange evil-unimpaired
-                    evil-indent-plus volatile-highlights smartparens
-                    holy-mode skewer-mode rainbow-delimiters
-                    highlight-indentation vi-tilde-fringe eyebrowse ws-butler
-                    smooth-scrolling org-repo-todo org-download org-timer
-                    livid-mode git-gutter git-gutter-fringe
-                    leuven-theme gh-md evil-lisp-state spray lorem-ipsum symon
-                    ac-ispell ace-jump-mode auto-complete auto-dictionary
-                    clang-format define-word google-translate disaster epic
-                    fancy-battery org-present orgit orglue spacemacs-theme
-                    helm-flyspell flyspell-correct-helm clean-aindent-mode
-                    helm-c-yasnippet ace-jump-helm-line helm-make magithub
-                    helm-themes helm-swoop helm-spacemacs-help smeargle
-                    ido-vertical-mode flx-ido company-quickhelp ivy-rich helm-purpose)
+   dotspacemacs-excluded-packages'()
    dotspacemacs-install-packages 'used-only
    dotspacemacs-delete-orphan-package t
    ))
@@ -124,7 +106,7 @@
                          spacemacs-dark
                          spacemacs-light)
 
-   dotspacemacs-mode-line-theme 'all-the-icons
+   dotspacemacs-mode-line-theme 'spacemacs
    dotspacemacs-colorize-cursor-according-to-state t
    dotspacemacs-default-font '("Source Code Pro"
                                :size 10.0
@@ -177,20 +159,20 @@
   (spacemacs/load-spacemacs-env))
 
 (defun dotspacemacs/user-init ()
-  ;;(setq url-gateway-method 'socks)
-  ;;(setq socks-server '("Default server" "127.0.0.1" 20170 5))
+  (setq url-gateway-method 'socks)
+  (setq socks-server '("Default server" "127.0.0.1" 20170 5))
   (setq evil-shift-round nil)
   (setq byte-compile-warnings '(not obsolete))
   (setq warning-minimum-level :error)
   (setq custom-file (expand-file-name "custom.el" dotspacemacs-directory))
   (setq configuration-layer-elpa-archives
-        '(("melpa-cn" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
-          ("org-cn"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")
-          ("gnu-cn"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")))
+        '(("melpa-cn" . "http://mirrors.cloud.tencent.com/elpa/melpa/")
+          ("org-cn"   . "http://mirrors.cloud.tencent.com/elpa/org/")
+          ("gnu-cn"   . "http://mirrors.cloud.tencent.com/elpa/gnu/")))
 
   ;; global hungry-delete-mode
   ;;(global-hungry-delete-mode t)
-  (add-hook 'prog-mode-hook 'spacemacs/toggle-hungry-delete-on)
+  (spacemacs|diminish projectile-mode)
   (spacemacs|diminish helm-gtags-mode)
   (spacemacs|diminish ggtags-mode)
   (spacemacs|diminish which-key-mode)
@@ -200,62 +182,25 @@
   ;; fix for the lsp error
   (defvar spacemacs-jump-handlers-fundamental-mode nil)
 
-  (setq term-char-mode-point-at-process-mark nil)
-
   ;; https://github.com/syl20bnr/spacemacs/issues/2705
   ;; (setq tramp-mode nil)
   (setq tramp-ssh-controlmaster-options
         "-o ControlMaster=auto -o ControlPath='tramp.%%C' -o ControlPersist=no")
+
+  (set-default 'lsp-java-server-install-dir "~/.lsp")
+
+
   )
 
 (defun dotspacemacs/user-load ()
   )
 
 (defun dotspacemacs/user-config ()
-  ;;(setq yas-snippet-dirs
-  ;;      '("~/.spacemacs.d/snippets"                 ;; personal snippets
-  ;;        ))
-  (fset 'evil-visual-update-x-selection 'ignore)
-  ;; force horizontal split window
   (setq split-width-threshold 120)
-  ;; (linum-relative-on)
   (spacemacs|add-company-backends :modes text-mode)
 
-  (add-hook 'doc-view-mode-hook 'auto-revert-mode)
-
-  (evilified-state-evilify-map special-mode-map :mode special-mode)
-
-  (add-to-list 'auto-mode-alist
-               '("Capstanfile\\'" . yaml-mode))
-
-  (global-set-key (kbd "<backtab>") 'un-indent-by-removing-4-spaces)
-  (defun un-indent-by-removing-4-spaces ()
-    "remove 4 spaces from beginning of of line"
-    (interactive)
-    (save-excursion
-      (save-match-data
-        (beginning-of-line)
-        ;; get rid of tabs at beginning of line
-        (when (looking-at "^\\s-+")
-          (untabify (match-beginning 0) (match-end 0)))
-        (when (looking-at (concat "^" (make-string tab-width ?\ )))
-          (replace-match "")))))
-  (setq inhibit-compacting-font-caches t)
-  (global-display-line-numbers-mode -1)
-
-  (defun moon-override-yank-pop (&optional arg)
-    "Delete the region before inserting poped string."
-    (when (and evil-mode (eq 'visual evil-state))
-      (kill-region (region-beginning) (region-end))))
-
-  (advice-add 'counsel-yank-pop :before #'moon-override-yank-pop)
-  (setq ivy-more-chars-alist '((counsel-ag . 2)
-                               (counsel-grep .2)
-                               (t . 3)))
-
-  (add-hook 'org-mode-hook 'auto-fill-mode)
-  (setq leetcode-prefer-language "python3")
-  (setq leetcode-prefer-sql "mysql")
+  ;; markdown-preview problem
+  ;; fixed by installing discount(C implementation of John Gruber's Markdown markup language)
   )
 
 
