@@ -30,15 +30,13 @@
 ;;; Code:
 
 (defconst my-ui-packages
-  '(
-    spaceline
-    ))
+  '(spaceline)
+  )
 
 (defun my-ui/post-init-spaceline ()
   (use-package spaceline
     :init
     (spaceline-toggle-minor-modes-off)
-    )
-  )
+    ))
 
 ;;; packages.el ends here

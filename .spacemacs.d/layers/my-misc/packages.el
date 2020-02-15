@@ -32,6 +32,8 @@
 (defconst my-misc-packages
   '(
     pyim
+    find-file-in-project
+    magit
     ))
 
 (defun my-misc/post-init-pyim ()
@@ -45,7 +47,7 @@
     :config (pyim-basedict-enable))
 
   (setq default-input-method "pyim")
-  ;; 我使用ziranman
+  ;; 我使用 ziranman
   (setq pyim-default-scheme 'ziranma-shuangpin)
 
   ;; 设置 pyim 探针设置，这是 pyim 高级功能设置，可以实现 *无痛* 中英文切换 :-)
@@ -65,15 +67,68 @@
                   pyim-probe-punctuation-after-punctuation))
 
   ;; 开启拼音搜索功能
-  (pyim-isearch-mode 1)
+  ;; (pyim-isearch-mode 1)
 
   ;; 使用 popup-el 来绘制选词框, 如果用 emacs26, 建议设置
   ;; 为 'posframe, 速度很快并且菜单不会变形，不过需要用户
   ;; 手动安装 posframe 包。
   (setq pyim-page-tooltip 'posframe)
-  ;; 选词框显示5个候选词
+  ;; 选词框显示 5 个候选词
   (setq pyim-page-length 7)
   :bind
   (("M-j" . pyim-convert-string-at-point) ;与 pyim-probe-dynamic-english 配合
    ("C-;" . pyim-delete-word-from-personal-buffer))))
+
+(defun my-misc/init-find-file-in-project ()
+  (use-package find-file-in-project
+    :defer t
+    :config
+    (progn
+      ;; If you use other VCS (subversion, for example), enable the following option
+      ;;(setq ffip-project-file ".svn")
+      ;; in MacOS X, the search file command is CMD+p
+      ;; for this project, I'm only interested certain types of files
+      (setq-default ffip-patterns '("*.html" "*.js" "*.css" "*.java" "*.xml" "*.cpp" "*.h" "*.c" "*.mm" "*.m" "*.el" "*.py" "*.go" "*.rs"))
+      )
+  )
+
+(defun my-misc/post-init-magit ()
+  (progn
+      (with-eval-after-load 'magit
+        (progn
+          (add-to-list 'magit-no-confirm 'stage-all-changes)
+          (define-key magit-log-mode-map (kbd "W") 'magit-copy-section-value)
+          (setq magit-completing-read-function 'magit-builtin-completing-read)
+
+          (magit-define-popup-switch 'magit-push-popup ?u
+                                     "Set upstream" "--set-upstream")
+
+
+          (magit-add-section-hook 'magit-status-sections-hook
+                                  'magit-insert-assume-unchanged-files nil t)
+
+          ;; insert the hidden files section in the magit status buffer.
+          (magit-add-section-hook 'magit-status-sections-hook
+                                  'magit-insert-skip-worktree-files nil t)
+
+          (define-key magit-status-mode-map "ga" 'magit-jump-to-assume-unchanged)
+
+          (define-key magit-status-mode-map "gw" 'magit-jump-to-skip-worktree)
+          ))
+
+      ;; prefer two way ediff
+      (setq magit-ediff-dwim-show-on-hunks t)
+
+      ;; (setq magit-repository-directories '("~/cocos2d-x/"))
+      (setq magit-push-always-verify nil)
+
+      ;; (eval-after-load 'magit
+      ;;   '(define-key magit-mode-map (kbd "C-c g")
+      ;;      #'zilongshanren/magit-visit-pull-request))
+
+      (setq magit-process-popup-time 10))
+
+  )
+
 ;;; packages.el ends here
+

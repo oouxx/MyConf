@@ -8,46 +8,66 @@
 
 # All SpaceVim option below [option] section
 [options]
+
+
     colorscheme = "gruvbox"
     colorscheme_bg = "dark"
     enable_guicolors = true
+
+
     default_indent = 4
     relativenumber = true
-    # statusline setting
-    statusline_separator = "arrow"
-    statusline_inactive_separator = "arrow"
-    statusline_left_sections = [
-        'winnr',
-        'filename',
-        'version control info'
-    ]
-    statusline_right_sections = [
-        'major mode',
-        'minor mode lighters'
-        'fileformat',
-        'cursorpos',
-        'percentage'
-    ]
-    enable_statusline_display_mode = false
-    # buffer line, tab line
-    buffer_index_type = 1
-    enable_os_fileformat_icon = 1
-    enable_tabline_filetype_icon = true
-    # plugin manager
-    #plugin_manager = 'vim-plug'
-    # linter setting
+
+
+    # lint
     enable_neomake = false
     enable_ale = true
     lint_on_the_fly = true
-    error_symbol = '?'
-    warning_symbol = '?'
-    info_symbol = '?'
-    # other SpaveVim setting
+
+
     automatic_update = 0
-    # autocomplete setting
+
+
     autocomplete_method = "coc"
-    # git setting
+
+
+    # file manager
     enable_vimfiler_gitstatus = true
+
+
+    # statusline
+    # Set the statusline separators of statusline, default is "arrow"
+    statusline_separator = "arrow"
+    # Set the statusline separators of inactive statusline
+    statusline_inactive_separator = "bar"
+    # Set SpaceVim buffer index type
+    buffer_index_type = 4
+    # 0: 1 ➛ ➊
+    # 1: 1 ➛ ➀
+    # 2: 1 ➛ ⓵
+    # 3: 1 ➛ ¹
+    # 4: 1 ➛ 1
+# Enable/Disable show mode on statusline
+    enable_statusline_mode = true
+
+    # left sections of statusline
+    statusline_left_sections = [
+       'winnr',
+       # 'major mode',
+       'filename',
+       # 'fileformat',
+       # 'minor mode lighters',
+       'version control info',
+       'search status'
+    ]
+    # right sections of statusline
+    statusline_right_sections = [
+       'cursorpos',
+       'percentage',
+       # 'input method',
+       # 'date',
+       # 'time'
+    ]
     # custom setting
     bootstrap_before = "myspacevim#before"
     bootstrap_after = "myspacevim#after"
@@ -63,8 +83,12 @@ name = 'shell'
 default_position = 'top'
 default_height = 30
 
+# version-control
 [[layers]]
 name = "VersionControl"
+
+[[layers]]
+name = "git"
 
 [[layers]]
 name = "checkers"
@@ -72,6 +96,11 @@ show_cursor_error = false
 
 [[layers]]
 name = "colorscheme"
+
+# appearance
+[[layers]]
+name = "ui"
+enable_sidebar = true
 
 [[layers]]
 name = "debug"
@@ -121,9 +150,9 @@ filetypes = [
     "-noverify",
     "-Xmx1G",
     "-jar",
-    "/home/wxx/.lsp/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.5.600.v20191014-2022.jar",
+    "/home/wxx/.lsp/plugins",
     "-configuration",
-    "/home/wxx/.lsp/eclipse.jdt.ls/config_linux",
+    "/home/wxx/.lsp/config_linux",
     "-data",
     "/home/wxx/.cache/javalsp"
     ]
@@ -135,13 +164,15 @@ name = "format"
 name = "tools"
 
 [[layers]]
-name = "tool#dash"
-
-[[layers]]
 name = "tmux"
 
 [[layers]]
 name = "denite"
 
-# [[layers]]
-# name = "cscope"
+[[custom_plugins]]
+name = "lilydjwg/colorizer"
+merged = 0
+
+[[custom_plugins]]
+name = "ryanoasis/vim-devicons"
+merged = 0

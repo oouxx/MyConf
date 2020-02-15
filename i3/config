@@ -31,7 +31,8 @@ bindsym XF86AudioMute exec --no-startup-id amixer -q set Master toggle
 
 # Start Applications
 bindsym $mod+F2 exec chromium
-bindsym $mod+F3 exec termite -e ranger
+# bindsym $mod+F3 exec termite -e ranger
+bindsym $mod+F3 exec pcmanfm
 bindsym $mod+F4 exec termite -e ncmpcpp
 bindsym $mod+F5 exec termite -e htop
 bindsym $mod+F6 exec termite -e alsamixer
@@ -52,6 +53,7 @@ bindsym $mod+q kill
 
 # start rofi (a program launcher)
 bindsym $mod+d exec rofi -show drun -theme my-theme
+bindsym $mod+w exec rofi -show window -theme my-theme
 
 # change focus
 bindsym $mod+h focus left
@@ -86,20 +88,20 @@ bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
+bindsym $mod+t layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
-bindsym $mod+space focus mode_toggle 
+bindsym $mod+space focus mode_toggle
 
 # move the currently focused window to the scratchpad
-bindsym $mod+Shift+minus move scratchpad
+# bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+Shift+i move scratchpad
 
 # Show the next scratchpad window or hide the focused scratchpad window.
 # If there are multiple scratchpad windows, this command cycles through them.
-bindsym $mod+minus scratchpad show
-
+bindsym $mod+i scratchpad show
 # focus the parent container
 bindsym $mod+a focus parent
 

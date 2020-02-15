@@ -29,8 +29,8 @@
 
 ;;; Code:
 
-(setq my-org-packages
-    '())
+(defconst my-org-packages
+    '(org))
 (defun my-org/post-init-org ()
   (with-eval-after-load 'org
     (progn
@@ -48,8 +48,22 @@
         (org-export-backends (quote (ascii html icalendar latex md odt)))
         (org-use-speed-commands t)
         (org-confirm-babel-evaluate 'nil)
+
         (org-todo-keywords
-         '((sequence "TODO" "IN-PROGRESS" "REVIEW" "|" "DONE")))
+         '((sequence "TODO(t)" "STARTED(s)" "CANCELED(c@/!)" "|" "DONE(d!)")
+           (sequence "REPORT(r)" "BUG(b)" "KNOWNCAUSE(k)" | "FIXED(f!)")
+           ))
+        (org-todo-keyword-faces
+              '(("TODO" . "SlateGray")
+                ("STARTED" . "DarkOrchid")
+                ("BUG" . "Firebrick")
+                ("CANCELLED" . "Teal")
+                ("DONE" . "ForestGreen")
+                ("FIXED" .  "SlateBlue")
+                ("REPORT" .  "SlateBlue")
+                ("KNOWNCAUSE" .  "SlateBlue")
+                ))
+
         (org-agenda-window-setup 'other-window)
         :config
         (unless (version< org-version "9.2")

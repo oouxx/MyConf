@@ -5,11 +5,9 @@
 (defun dotspacemacs/layers ()
   (setq-default
    dotspacemacs-distribution 'spacemacs
-   dotspacemacs-enable-lazy-installation 'unused
-   dotspacemacs-ask-for-lazy-installation t
-   dotspacemacs-configuration-layer-path '("~/.spacemacs.d/layers/")
-   dotspacemacs-configuration-layers
-   '(
+   dotcemacs-configuration-layers
+   '(vimscript
+     nginx
      sql
      shell-scripts
      (auto-completion :variables
@@ -21,10 +19,10 @@
              python-backend 'lsp
              python-formatter 'yapf
              python-format-on-save t
+             python-pipenv-activate t
              )
      (java :variables
-           java-backend 'lsp
-           )
+           java-backend 'lsp)
      (go :variables
          go-backend 'lsp)
      emacs-lisp
@@ -33,15 +31,19 @@
                  javascript-fmt-tool 'prettier
                  javascript-fmt-on-save t
                  javascript-import-tool 'import-js)
-     typescript
+     (typescript :variables
+                 typescript-fmt-on-save t
+                 )
      (c-c++ :variables
             c-c++-default-mode-for-headers 'c++-mode
             c-c++-backend 'lsp-clangd)
      rust
      html
      latex
+     dash
      better-defaults
      ranger
+     gtags
      (git :variables
           git-magit-status-fullscreen t
           magit-push-always-verify nil
@@ -50,18 +52,25 @@
           magit-refs-show-commit-count 'all
           magit-revision-show-gravatars nil)
      (ivy :variables ivy-enable-advanced-buffer-information nil)
-     ;; lsp
-     markdown
-     ;;multiple-cursors
-     (org :variables org-want-todo-bindings t)
+     lsp
+     shell
+     (markdown :variables
+               markdown-live-preview-engine 'vmd
+               markdown-command "vmd")
+     multiple-cursors
+     (org :variables
+          org-want-todo-bindings t
+          org-enable-hugo-support t)
+     spacemacs-org
      (ibuffer :variables ibuffer-group-buffers-by 'projects)
      (syntax-checking :variables
                       syntax-checking-enable-by-default nil
                       syntax-checking-enable-tooltips nil)
      (spell-checking :variables spell-checking-enable-by-default nil)
-     ;; dap
+     dap
      yaml
      latex
+     docker
      (spacemacs-layouts :variables layouts-enable-autosave nil
                         layouts-autosave-delay 300)
      (chinese :variables
@@ -69,16 +78,17 @@
      treemacs
      version-control
      emacs-lisp
-     ;;(my-better-default :location local)
-     ;;(my-programming :location local)
-     my-misc
+
+     my-better-defaults
+     ;; my-misc
      my-org
-     my-ui
+     ;; my-ui
      )
 
-   dotspacemacs-additional-packages '(posframe leetcode sicp ssh-agency anki-editor)
+   dotspacemacs-additional-packages '(posframe leetcode)
    dotspacemacs-frozen-packages '()
-   dotspacemacs-excluded-packages'()
+   dotspacemacs-excluded-packages'(
+                                   )
    dotspacemacs-install-packages 'used-only
    dotspacemacs-delete-orphan-package t
    ))
@@ -159,8 +169,8 @@
   (spacemacs/load-spacemacs-env))
 
 (defun dotspacemacs/user-init ()
-  (setq url-gateway-method 'socks)
-  (setq socks-server '("Default server" "127.0.0.1" 20170 5))
+  ;;(setq url-gateway-method 'socks)
+  ;;(setq socks-server '("Default server" "127.0.0.1" 20170 5))
   (setq evil-shift-round nil)
   (setq byte-compile-warnings '(not obsolete))
   (setq warning-minimum-level :error)
@@ -170,25 +180,16 @@
           ("org-cn"   . "http://mirrors.cloud.tencent.com/elpa/org/")
           ("gnu-cn"   . "http://mirrors.cloud.tencent.com/elpa/gnu/")))
 
-  ;; global hungry-delete-mode
-  ;;(global-hungry-delete-mode t)
-  (spacemacs|diminish projectile-mode)
-  (spacemacs|diminish helm-gtags-mode)
-  (spacemacs|diminish ggtags-mode)
-  (spacemacs|diminish which-key-mode)
-  (spacemacs|diminish spacemacs-whitespace-cleanup-mode)
-  (spacemacs|diminish counsel-mode)
-
   ;; fix for the lsp error
   (defvar spacemacs-jump-handlers-fundamental-mode nil)
 
   ;; https://github.com/syl20bnr/spacemacs/issues/2705
-  ;; (setq tramp-mode nil)
   (setq tramp-ssh-controlmaster-options
         "-o ControlMaster=auto -o ControlPath='tramp.%%C' -o ControlPersist=no")
 
   (set-default 'lsp-java-server-install-dir "~/.lsp")
 
+  (setq term-char-mode-point-at-process-mark nil)
 
   )
 
@@ -200,7 +201,32 @@
   (spacemacs|add-company-backends :modes text-mode)
 
   ;; markdown-preview problem
-  ;; fixed by installing discount(C implementation of John Gruber's Markdown markup language)
+  ;; method one: fixed by installing discount(C implementation of John Gruber's Markdown markup language)
+  ;; method two: install ruby package and use eww which is built-in in emacs.
+
+  ;; https://emacs-china.org/t/ox-hugo-auto-fill-mode-markdown/9547/4
+  (defadvice org-hugo-paragraph (before org-hugo-paragraph-advice
+                                        (paragraph contents info) activate)
+    "Join consecutive Chinese lines into a single long line without
+    unwanted space when exporting org-mode to hugo markdown."
+    (let* ((origin-contents (ad-get-arg 1))
+           (fix-regexp "[[:multibyte:]]")
+           (fixed-contents
+            (replace-regexp-in-string
+             (concat
+              "\\(" fix-regexp "\\) *\n *\\(" fix-regexp "\\)") "\\1\\2" origin-contents)))
+      (ad-set-arg 1 fixed-contents)))
+
+    ;; fix for the lsp error
+    (defvar spacemacs-jump-handlers-fundamental-mode nil)
+    ;; fix for the magit popup doesn't have a q keybindings
+    (with-eval-after-load 'transient
+      (transient-bind-q-to-quit))
+    (setq-default company-minimum-prefix-length 1)
+    (setq yas-snippet-dirs
+          '(
+            "~/.spacemacs.d/snippets"             ;; personal snippets
+            ))
   )
 
 
