@@ -72,18 +72,11 @@
     bootstrap_before = "myspacevim#before"
     bootstrap_after = "myspacevim#after"
 
-# Enable autocomplete layer
-[[layers]]
-name = 'autocomplete'
-auto-completion-return-key-behavior = "smart"
-auto-completion-tab-key-behavior = "smart"
-
 [[layers]]
 name = 'shell'
 default_position = 'top'
 default_height = 30
 
-# version-control
 [[layers]]
 name = "VersionControl"
 
@@ -97,10 +90,8 @@ show_cursor_error = false
 [[layers]]
 name = "colorscheme"
 
-# appearance
 [[layers]]
 name = "ui"
-enable_sidebar = true
 
 [[layers]]
 name = "debug"
@@ -110,9 +101,6 @@ name = "default"
 
 [[layers]]
 name = "sudo"
-
-[[layers]]
-name = "lang#markdown"
 
 [[layers]]
 name = "lang#java"
@@ -161,18 +149,8 @@ filetypes = [
 name = "format"
 
 [[layers]]
-name = "tools"
-
-[[layers]]
 name = "tmux"
-
-[[layers]]
-name = "denite"
 
 [[custom_plugins]]
 name = "lilydjwg/colorizer"
-merged = 0
-
-[[custom_plugins]]
-name = "ryanoasis/vim-devicons"
 merged = 0

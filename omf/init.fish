@@ -27,10 +27,9 @@ set -xg LC_CTYPE zh_CN.UTF-8
 
 # alias
 alias ht="htop"
-alias vim="nvim"
 alias dk="sudo docker"
 alias dkc="sudo docker-compose"
-alias ls="lsd"
+alias vim="nvim"
 
 # command
 command setxkbmap -option ctrl:nocaps
