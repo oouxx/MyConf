@@ -17,35 +17,36 @@
 ** Introducation
 *** libinput-gestures
     
-   | keybinding    | map                            | explanation         |   | ---------------+--------------------------------+--------------------- |   |
-   | swipe up 3    | xdotool key super+f            | fullscreen          |   |                                                                        |   |
-   | swipe down 3  | xdotool key super+e            | layout toggle split |   |                                                                        |   |
-   | swipe left 4  | xdotool key super+bracketleft  | workspace_prev      |   |                                                                        |   |
-   | swipe right 4 | xdotool key super+bracketright | workspace_next      |   |                                                                        |   |
-   | swipe left 3  | xdotool key Alt_L+Left         |                     |   |                                                                        |   |
-   | swipe right 3 | xdotool key Alt_L+Right        |                     |   |                                                                        |   |
-   | pinch out 2   | xdotool key ctrl+KP_Add        |                     |   |                                                                        |   |
-   | pinch in 2    | xdotool key ctrl+KP_Subtract   |                     |   |                                                                        |   |
+   | keybinding    | map                            | explanation         |
+   |---------------+--------------------------------+---------------------|
+   | swipe up 3    | xdotool key super+f            | fullscreen          |
+   | swipe down 3  | xdotool key super+e            | layout toggle split |
+   | swipe left 4  | xdotool key super+bracketleft  | workspace_prev      |
+   | swipe right 4 | xdotool key super+bracketright | workspace_next      |
+   | swipe left 3  | xdotool key Alt_L+Left         |                     |
+   | swipe right 3 | xdotool key Alt_L+Right        |                     |
+   | pinch out 2   | xdotool key ctrl+KP_Add        |                     |
+   | pinch in 2    | xdotool key ctrl+KP_Subtract   |                     |
 
 *** i3wm
     
-   | keybinding   | map                    | explanation         |   |
-   |--------------+------------------------+---------------------+---|
-   | $mod+Shift+h | move left              |                     |   |
-   | $mod+Shift+j | move down              |                     |   |
-   | $mod+Shift+k | move up                |                     |   |
-   | $mod+Shift+l | move right             |                     |   |
-   | $mod+s       | layout stacking        |                     |   |
-   | $mod+t       | layout tabbed          |                     |   |
-   | $mod+e       | layout toggle split    |                     |   |
-   | $mod+q       | kill                   | kill focused window |   |
-   | $mod+w       | exec rofi -show window | show windows        |   |
-   | $mod+rofi    | exec rofi -show drun   | show applications   |   |
-   | $mod+h       | focus left             |                     |   |
-   | $mod+j       | focus down             |                     |   |
-   | $mod+k       | focus up               |                     |   |
-   | $mod+l       | focus right            |                     |   |
-   | $mod+b       | split toggle           |                     |   |
+   | keybinding   | map                    | explanation         |
+   |--------------+------------------------+---------------------|
+   | $mod+Shift+h | move left              |                     |
+   | $mod+Shift+j | move down              |                     |
+   | $mod+Shift+k | move up                |                     |
+   | $mod+Shift+l | move right             |                     |
+   | $mod+s       | layout stacking        |                     |
+   | $mod+t       | layout tabbed          |                     |
+   | $mod+e       | layout toggle split    |                     |
+   | $mod+q       | kill                   | kill focused window |
+   | $mod+w       | exec rofi -show window | show windows        |
+   | $mod+rofi    | exec rofi -show drun   | show applications   |
+   | $mod+h       | focus left             |                     |
+   | $mod+j       | focus down             |                     |
+   | $mod+k       | focus up               |                     |
+   | $mod+l       | focus right            |                     |
+   | $mod+b       | split toggle           |                     |
 
 *** vimium
     
