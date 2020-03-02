@@ -1,868 +1,905 @@
-/* -------------------------------------------------------------- */
-/*   v3.0.8   ||   Firefox v73.0.1   ||   HighValueDayGame        */
-/* -------------------------------------------------------------- */
-
-/* -------------------------------------------------------------- */
-/* Changes:                                                       */
-/* - Dark Mode starting from Light Mode v1.0.8                    */
-/*         !!!      !!!      !!!      !!!      !!!      !!!       */
-/*   In MacOS there can be horizontal lines when hovering with    */
-/*   the mouse upwards in the bookmark pop up windows, hence if   */
-/*   you see those lines either comment the code marked with !!!  */
-/*   below or use the ESR version if you want full customisation  */
-/*         !!!      !!!      !!!      !!!      !!!      !!!       */
-/* -------------------------------------------------------------- */
-/* -------------------------------------------------------------- */
-
-@-moz-document url(chrome://browser/content/browser.xul)
-
-/* -------------------------------------------------------------- */
-/* Order URL bar, Bookmarks tab and Nav bar correctly             */
-/* -------------------------------------------------------------- */
-
-#nav-bar {
--moz-box-ordinal-group: 1 !important;
-}
-
-#PersonalToolbar {
--moz-box-ordinal-group: 2 !important;
-}
-
-#titlebar {
--moz-box-ordinal-group: 3 !important;
-}
-
-/* ------------------------------------------------------------ */
-/* Background colours structure                                 */
-/* ------------------------------------------------------------ */
-
-#navigator-toolbox > toolbar:not(#TabsToolbar):not(#toolbar-menubar):not(#PersonalToolbar), 
-.browserContainer > findbar, #browser-bottombox {
-background-color: rgb(60,60,60) !important;                    /* ==================================== DARK MODE */
-}
-
-/* ------------------------------------------------------------ */
-/* NAV bar                                                      */
-/* ------------------------------------------------------------ */
-
-/* For the height see "White boxes around all buttons" below */
-
-#nav-bar-customization-target {
--moz-box-pack: center !important;
-}
-
-#nav-bar {
--moz-box-ordinal-group: 1 !important;
-padding-left: 75px !important;                                  /* leave space for the RED AMBER GREEN buttons */
-}
-
-#nav-bar-customization-target {
-margin: 4.5px 0px !important;                                   /* vertical position of everything except hamburger menu */
-}
-
-#PanelUI-menu-button {
-margin: 4.5px 0px !important;                                   /* vertical position of hamburger menu */
-}
-
-#nav-bar {
-min-height: 37px !important;                                    /* height of the section */
-max-height: 37px !important;
-}
-
-#nav-bar .toolbarbutton-1:not(:-moz-any([type="menu-button"], #nav-bar-overflow-button)) {
-
-max-height: 29px !important;                                    /* height of the buttons */
-}
-
-/* ------------------------------------------------------------ */
-/* URL bar                                                      */
-/* ------------------------------------------------------------ */
-
-#urlbar {
-margin-bottom: -1px !important;
-margin-top: -1px !important;
-}
-
-#urlbar-container {
-* -moz-box-pack: center !important;                            /* centre URL bar in Nav bar */
-padding-left: 200px !important;                                /* set URL bar position manually */
-}
-
-#urlbar {                                                      /* status = DEFAULT */
-box-shadow: 0 0 3px transparent !important;
-border: 1px solid rgb(48,48,48) !important;                    /* ==================================== DARK MODE */
-background: rgb(144,144,144) !important;                       /* ==================================== DARK MODE */
-min-width: 300px !important;                                   /* side position */
-max-width: 500px !important;                                   /* side position */
-border-radius: 5px !important;                     
-}
-
-#urlbar {                                                      /* style of text within */
-font-size: 12px !important;
-color: rgb(0,0,0) !important;
-}
-
-#urlbar[focused] {                                             /* status = ACTIVE */
-box-shadow: 0 0 3px transparent !important;
-border: 2.5px solid rgb(32,32,32) !important;                  /* ==================================== DARK MODE */
-border-radius: 6px !important;                     
-}
-
-#identity-box {
-transform: scale(0.8, 0.8) !important;                         /* size of lock symbol on the left */
-filter: grayscale(100%) !important;
-}
-
-#tracking-protection-icon-container {
-transform: scale(0.9, 0.9) !important;
-filter: grayscale(100%) !important;
-}
-
-#urlbar-input{                                                 /* center URL bar text */
-text-align: center !important;
-}
-
-:not(.urlbar-icon-wrapper) >                                   /* history dropmaker */
-.urlbar-icon:not([disabled]):hover, 
-.urlbar-icon-wrapper:not([disabled]):hover {
-background-color: rgb(96,96,96) !important;
-color: rgb(0,0,0) !important;
-}
-
-/* ------------------------------------------------------------ */
-/* Bookmarks bar                                                */
-/* ------------------------------------------------------------ */
-
-#PlacesToolbar {
--moz-box-ordinal-group: 2 !important;
-* padding-left: 75px !important;                               /* align with URL bar */
-}
-
-#PersonalToolbar {
-height: 26px !important;
-background: rgb(60,60,60) !important;                          /* ==================================== DARK MODE */
-border-top: 1px solid rgb(96,96,96) !important;                /* border */
-border-bottom: 1px solid rgb(96,96,96) !important;             /* border */
-magin-left: -2px !important;
-magin-right: -2px !important;
-padding: 2.5px 0px 2.5px 0px !important;                       /* space ABOVE RIGHT BELOW LEFT */
-}
-
-.bookmark-item>.toolbarbutton-icon {
-display: none !important;                                      /* hide icons */
-}
-
-#PlacesToolbarItems {                                          /* status = DEFAULT */
--moz-box-pack: center;
-background: rgb(60,60,60) !important;                          /* ==================================== DARK MODE */
-color: rgb(168,168,168) !important;                            /* ==================================== DARK MODE */
-font-size: 11px !important;
-}
-
-toolbarbutton.bookmark-item {
-background-color: rgb(60,60,60) !important;                    /* ==================================== DARK MODE */
-border-radius: 4px !important;
-color: rgb(168,168,168) !important;
-border: 0.5px solid rgb(60,60,60) !important;                  /* ==================================== DARK MODE */
-}
-
-toolbarbutton.bookmark-item:hover {                            /* status = HOVER */
-background-color: rgb(136,136,136) !important;                 /* ==================================== DARK MODE */
-border-radius: 4px !important;                                 /* radius */
-color: rgb(0,0,0) !important;                                  /* ==================================== DARK MODE */
-border: 0.5px solid rgb(32,32,32) !important;                  /* ==================================== DARK MODE */
-}
-
-#personal-bookmarks toolbarbutton {                            /* space items within the bar*/
-margin-left: 1.5px !important;
-margin-right: 1.5px !important;
-}
-
-#PlacesToolbarItems > .bookmark-item[container]:after {        /* space right of the text */
-content:'>';
-font-weight: 550;
-margin-left: 6px;
-margin-right: -2px;
-display: block;
-transform: rotate(90deg) scale(0.7, 1.3);
-color: rgb(168,168,168);                                        /* ==================================== DARK MODE */
-}
-
-/* ------------------------------------------------------------ */
-/* Dragging bookmarks                                           */
-/* ------------------------------------------------------------ */
-
-toolbarbutton.bookmark-item[dragover][open] {                  /* ==================================== DARK MODE */
-background-color: rgb(136,136,136) !important;                 /* Toolbar, bg colour of bookmark folders */
-border: 0.5px solid rgb(32,32,32) !important;
-color: rgb(0,0,0) !important;                                  /* Toolbar, text colour of bookmark folders */
-}
-
-menupopup menu {
-background: 0 !important;                                      /* Pop-up menu, dragging folder into folder */
-}
+/*
 
-#PlacesToolbarDropIndicator {                                  /* Bookmarks bar, vertical line between items */
-filter: grayscale(100%) !important;
-}
-
-image[part="drop-indicator"] {
- filter: grayscale(100%) !important;                           /* Pop-up menu, horizontal line */
-}
-
-/* ------------------------------------------------------------ */
-/* Tabs - Height                                                */
-/* ------------------------------------------------------------ */
-
-#TabsToolbar {                                                 /* height */
-height: 25px !important;
-}
-
-#titlebar {
-height: 25px !important;
-}
-
-#new-tab-button {
-max-height: 25px !important;
-}
-
-#tabs-newtab-button {
-max-height: 25px !important;
-}
-
-#TabsToolbar, .tabbrowser-tab {
-max-height: 25px !important;
-}
-
-.scrollbutton-up, .scrollbutton-down {
-display: none !important;
-}
+Quietfox for Firefox 72
 
-.scrollbutton-up, .scrollbutton-down {
-max-height: 25px !important;
-}
-
-.scrollbutton-up[orient="horizontal"] ~ spacer {
-margin-bottom: 10px !important;
-}
-
-/* ------------------------------------------------------------ */
-/* Tabs - Other                                                 */
-/* ------------------------------------------------------------ */
-
-.titlebar-spacer[type="pre-tabs"],
-.titlebar-spacer[type="post-tabs"] {
-display: none !important;                                      /* hide lateral blank spaces top left and top right of all tabs*/
-}
-
-#TabsToolbar-customization-target {
-background-color: transparent !important;                      /* default background colour */
-}
-
-.tabbrowser-tab:not([pinned="true"]) {                         /* min width of tabs */
-min-width:160px !important;
-}
-
-.tab-background[selected="true"] {                             /* ACTIVE tabs, background colour */
-background-attachment: none !important;
-background-color: rgb(60,60,60) !important;
-background-image: none !important;                             /* ==================================== DARK MODE */
-}
-
-#TabsToolbar .tabbrowser-tab[selected] {                       /* ACTIVE tabs, text colour */
-color: rgb(168,168,168) !important;                            /* ==================================== DARK MODE */
-}
-
-#tabbrowser-tabs {
---tab-line-color: transparent !important;                      /* ACTIVE tab, make top border transparent*/
-}
+https://github.com/coekuss/quietfox
 
-.tab-background[selected="true"] {
-border-radius: 0px 0px 0px 0px !important;                     /* ACTIVE TAB, radius TOP TOP BOTTOM BOTTOM */
-}
+Thanks for using my file
 
-.tabbrowser-tab:not([selected]) .tab-background {
-background-color: rgb(32,32,32) !important;                    /* ==================================== DARK MODE */
-}
+ */
 
-#TabsToolbar {                                                 /* INACTIVE tabs, text colour */
-color: rgb(220,220,220) !important;                            /* ==================================== DARK MODE */  
+* { 
+/* -------------------- 🎨 Customization 🎨 -------------------- */
+    --tab-corner-rounding: 5px;
+    --button-corner-rounding: 4px;
+    --menu-corner-rounding: 10px;
+    --menu-item-height: 30px;
+    --animation-speed: 0.15s;
 }
 
-.tabbrowser-tab:not([selected])::after {                       /* INACTIVE tabs, lateral border */
-color: rgb(60,60,60) !important;                               /* ==================================== DARK MODE */
-}
 
-.tabbrowser-tab:hover>.tab-stack>.tab-background:not([selected="true"]):not([multiselected]) {
-background-color: rgb(0,0,0) !important;                       /* ==================================== DARK MODE */
-margin-top: -5px !important;                                   /* INACTIVE tabs, hover, do not show upper margin */
-}
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-.tab-throbber {
-display: none !important; 
+/* Bottom corner rounding for tabs, Remove this section if your tab bottom corners look bad */
+tab[visuallyselected] .tab-background::before,
+tab[visuallyselected] .tab-background::after {
+    content: "" !important;
+    display: inline !important;
+    position: absolute !important;
+    width: var(--tab-corner-rounding) !important;
+    height: var(--tab-corner-rounding) !important;
+    bottom: -1px !important;
+    pointer-events: none !important;
+    background-color: transparent !important;
+    transition: var(--animation-speed) !important;
 }
 
-.tabbrowser-tab[fadein] {
-max-width: 100vw !important;                                   /* TABS, max width */
+tab[visuallyselected] .tab-background::before {
+    border-bottom-right-radius: var(--tab-corner-rounding) !important;
+    transform: translateX(calc(-1 * var(--tab-corner-rounding))) !important;
+    box-shadow: 4px 4px 0px 4px var(--toolbar-bgcolor) !important;
+    transition: var(--animation-speed) !important;
 }
 
-.tab-label {
--moz-box-flex: 1 !important;
-text-align: center !important;                                 /* TABS, show text in the middle of them */
+tab[visuallyselected] .tab-background::after {
+    border-bottom-left-radius: var(--tab-corner-rounding) !important;
+    right: 0px !important;
+    transform: translateX(calc(var(--tab-corner-rounding) + 1px)) !important;
+    box-shadow: -4px 4px 0px 4px var(--toolbar-bgcolor) !important;
+    transition: var(--animation-speed) !important;
 }
+/* --------------------------------------------------------------------------------------- */
 
-.tab-label-container[textoverflow][labeldirection="ltr"]:not([pinned]) {
-mask-image: none !important;                                   /* TABS, remove fade-out effect right end side */
-}
 
-.tab-loading-burst {                                           /* TABS, remove swipe animation after page has loaded */
-display: none !important;
-}
 
-/* ------------------------------------------------------------ */
-/* Colour behind / below tabs                                   */
-/* ------------------------------------------------------------ */
-
-#TabsToolbar {
-background-color: rgb(60,60,60) !important;                    /* ==================================== DARK MODE */
-border: none !important;                                       /* ==================================== DARK MODE */
--moz-appearance: none !important;
-}
 
-#titlebar {
-margin-bottom: -1px !important;
+/* This makes certain menus adapt to your toolbar text color. Can make menu text illegible in 
+some transparent themes, remove if needed. */
+panelview:not([extension]),
+.panel-arrowcontent {
+    background-color: var(--toolbar-bgcolor) !important;
+    color: var(--toolbar-color) !important;
 }
+/*-------------------------------------------------------------------*/
 
-/* ------------------------------------------------------------ */
-/* Tab icons                                                    */
-/* ------------------------------------------------------------ */
 
-.tab-icon-image {
-display: none !important;                                      /* TABS, hide icons */
-}
 
-.tabbrowser-tab .tab-close-button {                            /* TAB CLOSE, move to left & show backbround only on hover */
-display:-moz-box! important;
--moz-box-ordinal-group:0!important;
-* margin-right:3px!important;
--moz-margin-start:-8.5px !important;
--moz-margin-end:0px !important;
-transform: scale(0.85, 0.85) !important;                       /* size */
-}
 
-.tabbrowser-tab:not(:hover) .tab-close-button{                 /* TAB CLOSE, X, hide when not hover */
-opacity: 0;
-}
 
-.tab-close-button{
-color: rgb(169,169,169) !important;                            /* ==================================== DARK MODE */
-}
+/* -------------------- Transitions for some things -------------------- */
+toolbarbutton,
+.subviewbutton,
+stack, 
+.toolbarbutton-icon,
+vbox
+{
+    transition: background-color var(--animation-speed) !important;
 
-.tabbrowser-tab .tab-icon-sound {                              /* SOUND ICON, move to the right to perfectly centre TAB text */
-display:-moz-box! important;
--moz-box-ordinal-group:1!important;
-* margin-left:3px!important;
--moz-margin-start:2px !important;
--moz-margin-end:-6.5px !important;
-transform: scale(0.85, 0.85) !important;                       /* size */
-}
+} 
 
-.tab-icon-sound[soundplaying] {
-color: rgb(169,169,169) !important;                            /* ==================================== DARK MODE */
-transform: scale(0.85, 0.85) !important;                       /* size */
-}
 
-/* ------------------------------------------------------------ */
-/* New Tab and Overflow menu                                    */
-/* ------------------------------------------------------------ */
 
-#alltabs-button {                                              /* Hide drop down icon */
-display: none;
-}
 
-.scrollbutton-up[orient="horizontal"] ~ spacer {               /* Hide scroll buttons down icon */
-display: none !important;
-}
+/* -------------------- Style tab bar -------------------- */
 
-#tabs-newtab-button {                                          /* NEW TAB, + icon, dimensions - normal */
-transform: scale(0.8, 1.0) !important;
-margin-left: -6px !important;
-margin-right: -3px !important;
-padding: 0px 0px 0px 3px !important;
-fill: rgb(144,144,144) !important;                             /* ==================================== DARK MODE */
+.titlebar-spacer[type="pre-tabs"] {
+    border-inline-end: 0px !important;
+    width: 0px !important;
 }
 
-#new-tab-button {                                              /* NEW TAB, + icon, dimensions - many tabs */
-transform: scale(0.8, 1.0) !important;
-margin-left: -6px !important;
-margin-right: -3px !important;
-padding: 0px 0px 0px 3px !important;
-fill: rgb(144,144,144) !important;                             /* ==================================== DARK MODE */
+scrollbox[part="scrollbox"][flex="1"][orient="horizontal"] {
+    padding-left: 12px !important;
 }
 
-#tabs-newtab-button .toolbarbutton-icon {                      /* NEW TAB, background of icon - normal */
-border-radius: 0px !important;
-background-color: rgb(32,32,32) !important;                    /* ==================================== DARK MODE */
-}
-#tabs-newtab-button:hover .toolbarbutton-icon {
-border-radius: 0px !important;
-background-color: rgb(80,80,80) !important;                    /* ==================================== DARK MODE */
-}
-#tabs-newtab-button:active .toolbarbutton-icon {
-border-radius: 0px !important;
-background-color: rgb(64,64,64) !important;
-}
 
-#new-tab-button .toolbarbutton-icon {                          /* NEW TAB, background of icon - many tabs */
-border-radius: 0px !important;
-background-color: rgb(32,32,32) !important;                    /* ==================================== DARK MODE */
-}
-#new-tab-button:hover .toolbarbutton-icon {
-border-radius: 0px !important;
-background-color: rgb(80,80,80) !important;                    /* ==================================== DARK MODE */
-}
-#new-tab-button:active .toolbarbutton-icon {
-border-radius: 0px !important;
-background-color: rgb(64,64,64) !important;
-}
+.tab-background, .tab-loading-burst  {
+    border-radius: var(--tab-corner-rounding) var(--tab-corner-rounding) 0px 0px !important;
+    margin: -1px !important;
 
-/* ------------------------------------------------------------ */
-/* Dropdown menu folders in bookmark bar                        */
-/* ------------------------------------------------------------ */
-
-menupopup, popup,
-popup > menu > menupopup,
-menupopup > menu > menupopup {                                 /* BACKGROUND */
--moz-appearance: none !important;                              /* ==================================== !!! */
-background: rgb(60,60,60) !important;                          /* ==================================== DARK MODE */
-border-radius: 5px !important;
-padding: 0px 0px 0px 0px !important;                           /* space ABOVE RIGHT BELOW LEFT */
-max-width: 400px !important;                                   /* max width of pop-up window */
 }
 
-menupopup menuseparator {                                      /* above "open all tabs" */
--moz-appearance: none !important;                              /* ==================================== !!! */
-background: rgb(169,169,169) !important;                       /* ==================================== DARK MODE */
-margin: 0px 0px 0px 0px !important;
-padding: 0.75px !important;                                    /* height border above "open all tabs" */
+tab:not(:active) .tab-background {
+    transition: background-color var(--animation-speed) !important;
 }
 
-menupopup menu, menuitem{                                      /* ITEMS, DEFAULT */
--moz-appearance: none !important;                              /* ==================================== !!! */
-color: rgb(176,176,176) !important;                            /* ==================================== DARK MODE */
-padding: 0px 20px 0px 15px !important;                         /* space ABOVE RIGHT BELOW LEFT */
-height: 21px !important;                                       /* vertical height of each line */
-font-size: 12px !important;
-}
 
-menupopup menu:hover, menuitem:hover {                         /* ITEMS, HOVER */
--moz-appearance: none !important;                              /* ==================================== !!! */
-background: rgb(144,144,144) !important;                       /* ==================================== DARK MODE */
-color: rgb(0,0,0) !important;                                  /* ==================================== DARK MODE */
-font-size: 12px !important;
+:root[uidensity="compact"] {
+    --tab-min-height: 31px !important;
 }
 
-.menu-right {                                                  /* TRIANGLE SIGN to open sub-folders */
--moz-appearance: none !important;
-padding: 8px !important;
-margin-right: -10px !important;
-color: black !important;
-border: solid rgb(176,176,176);                                /* ==================================== DARK MODE */
-border-width: 0 2.5px 2.5px 0;
-transform: rotate(-45deg) scale(.4);
+tab:not([selected]):hover .tab-background {
+    background-color: var(--toolbarbutton-hover-background) !important;
 }
-                                                               /* inactive selected/open folders and website bookmarks */
-menuitem:hover, menu:hover, menu[open="true"], menuitem[_moz-menuactive="true"]  {
-background-color: rgb(144,144,144) !important;                 /* ==================================== DARK MODE */
-color: rgb(0,0,0) !important;                                  /* ==================================== DARK MODE */
-}
 
-/* ------------------------------------------------------------ */
-/* Folder icons, colour                                         */
-/* ------------------------------------------------------------ */
-
-*#PlacesToolbarItems toolbarbutton[container="true"] .toolbarbutton-icon,
-*:-moz-any(
-*#PlacesToolbarItems,
-*#PlacesChevronPopup,
-*#BMB_bookmarksPopup,
-*#bookmarksMenu) menu[container="true"] > .menu-iconic-left > .menu-iconic-icon,
-*/* Standard folder -- in Sidebar, Library, Add/Edit Bookmark dialog */
-*:-moz-any(
-*#bookmarks-view, 
-*#editBMPanel_folderTree, 
-*#placesList, 
-*#placeContent) treechildren::-moz-tree-image(container),
-*#editBMPanel_folderMenuList > .menulist-label-box > .menulist-icon,
-*#editBMPanel_folderMenuList menupopup menuitem {
-*fill: rgb(169,169,169) !important;                            /* ==================================== DARK MODE */
-*}
-
-*.bookmark-item.menuitem-with-favicon:not([container]) {       /* ==================================== DARK MODE */
-*fill: rgb(176,176,176) !important;
-*}
-
-/* ------------------------------------------------------------ */
-/* URL bar search results                                       */
-/* ------------------------------------------------------------ */
-
-#urlbar .urlbarView {
-position: absolute !important;                                 /* Override fixed */
-top: 31px !important;                                          /* distance from top of the window */
-left: unset !important;                                        /* Override 0 */
-right: unset !important;                                       /* Override 0 */
-min-width: 500px !important;
-max-width: 500px !important;
-background: rgb(60,60,60) !important;                          /* ==================================== DARK MODE */
-box-shadow: none !important;
-border: 1px solid rgb(32,32,32) !important;                    /* ==================================== DARK MODE */
-border-radius: 4px !important;                                 /* border radius */
+tab {
+    min-width: 1px !important;
+    clip-width: 1px !important;
+    padding-bottom: 1px !important;
 }
 
-#urlbar-input::-moz-selection {                                /* colour autocomplete text URL bar */
-background-color: rgb(80,80,80) !important;                    /* ==================================== DARK MODE */
-border: 0px !important;
-opacity: 1 !important;
-color: rgb(192,192,192) !important;                            /* ==================================== DARK MODE */
+.tab-line {
+    display: none !important;
 }
 
-#urlbar-results {
-font-size: 12px !important;
-color: rgb(192,192,192) !important;                            /* ==================================== DARK MODE */
-}
+tab:not([beforeselected-visible])::after {
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+    transition: border-color var(--animation-speed), margin-top var(--animation-speed) !important;
 
-.urlbarView-action {
-color: rgb(192,192,192) !important;                            /* ==================================== DARK MODE */
 }
 
-.urlbarView-favicon {
-transform: scale(.9, .9) !important;                           /* favicons in search results */
-* filter: grayscale(75%) !important;
+tab[beforehovered]::after,
+tab:hover::after {
+    border-color: transparent !important;
+    margin-top: 20px !important;
 }
 
-.urlbarView-row {
-padding: 6px 0px !important;                                   /* vertical space between lines */
+#navigator-toolbox {
+    --tabs-border-color: transparent !important;
 }
 
-.urlbarView-url {                                              /* drop-down results, URL color */
-color: rgb(192,192,192) !important;                            /* ==================================== DARK MODE */
-}
 
-.urlbarView-row[selected], .urlbarView-row:hover {             /* drop-down results, selected/hover colors */
-background-color: rgb(80,80,80) !important;                    /* ==================================== DARK MODE */
-}
 
-.urlbarView-row[selected] .urlbarView-title,
-.urlbarView-row:hover .urlbarView-title,
-.urlbarView-row[selected] .urlbarView-secondary,
-.urlbarView-row:hover .urlbarView-secondary,
-.urlbarView-row[selected] .urlbarView-title-separator,
-.urlbarView-row:hover .urlbarView-title-separator {            /* drop-down results, selected URL color */
-color: rgb(180,180,180) !important;                            /* ==================================== DARK MODE */
+tab[visuallyselected] {
+        box-shadow: 0px 3px 12px -5px black !important;
 }
 
-#main-window {
-min-width: 1235px !important;                                  /* min width of main window to avoid mis-behaviour */
+[last-visible-tab] {
+    margin-right: calc(var(--tab-corner-rounding) + 2px) !important; /* fix unexpected tab overflow */
 }
 
-/* ------------------------------------------------------------ */
-/* Search results in two lines - HIDDEN */
 
-.urlbarView-row-inner{ 
-* flex-wrap: wrap !important; 
-}
-.urlbarView-title[title]{
-* flex-grow: 1;
-}
-.urlbarView-row > .urlbarView-row-inner > .urlbarView-url{
-* margin-inline-start: 24px; min-width: 95%
-}
-.urlbarView-row[has-url]:not([type="switchtab"]) .urlbarView-title-separator{
-* display: none
-}
 
-/* ------------------------------------------------------------ */
-/* MacOS window buttons RED AMBER GREEN                         */
-/* ------------------------------------------------------------ */
-
-.titlebar-buttonbox-container {
-position: fixed !important;
-display: block !important;
-top: 0px !important;
-left 2px !important;
-}
 
-/* ------------------------------------------------------------ */
-/* Toolbar buttons                                              */
-/* ------------------------------------------------------------ */
-
-/* ------------------------------------------------------------ */
-/* Remove separator menu button */
-
-#PanelUI-button,
-#PanelUI-menu-button {
-border:none !important;
-padding-left:0px !important;
-margin-inline-end:1.4px !important;
+/* -------------------- Style toolbar -------------------- */
+.toolbarbutton-icon, .toolbarbutton-badge-stack {
+    background-color: transparent !important;
 }
-
-/* ------------------------------------------------------------ */
-/* Shape and size of buttons */
 
-.toolbarbutton-1 {
---toolbarbutton-hover-background: none !important;             /* over-write default HOVER colour*/
-transform: scale(0.825, 0.825) !important;                     /* size */
+toolbarbutton:not(#back-button)[open], .toolbarbutton-1:not(#back-button)[open] {
+    background-color: var(--toolbarbutton-active-background);
 }
 
 #nav-bar .toolbarbutton-1 {
-fill: rgb(24,24,24) !important;                                /* ==================================== DARK MODE */
+    margin-right: 2px !important;
 }
 
-/* ------------------------------------------------------------ */
-/* White boxes around all buttons */
-
-#nav-bar .toolbarbutton-1:not(:-moz-any([type="menu-button"], #nav-bar-overflow-button)) {
-background: rgb(128,128,128) !important;                       /* ==================================== DARK MODE */
-border: 1px solid rgb(48,48,48) !important;                    /* ==================================== DARK MODE */
-border-radius: 4px !important;
-padding: unset !important;
+.close-icon:not(.tab-close-button):hover {
+    fill-opacity: 0.0 !important;
 }
 
-/* ------------------------------------------------------------ */
-/* RELOAD button */
-
-#stop-reload-button .toolbarbutton-icon{                       /* icon */
-transform: scale(0.9, 0.9) !important;                         /* size */
-border-radius: 4px !important;
+toolbarbutton:not(#back-button):not([disabled]):not([open]):hover,
+.toolbarbutton-1:not(#back-button):not([disabled]):not([open]):hover {
+    background-color: var(--toolbarbutton-hover-background) !important;
 }
 
-#stop-reload-button{                                           /* RELOAD button, position and minimum margin */
-transform: translateX(735px);
-border-radius:0px !important;
-margin-right: 0px !important;                                  /* minimum margin from the URL bar when narrowing window */
+.tab-close-button {
+    transition: fill-opacity var(--animation-speed) !important;
 }
 
-/* ------------------------------------------------------------ */
-/* BACK BUTTON */
-
-#nav-bar #back-button {
-width: 30px !important;
-max-height: 30px !important;
-height: 30px !important;
-padding: 0px !important;
--moz-image-region: unset !important;
+.findbar-textbox:focus {
+    border: 1px solid grey !important;
 }
 
-*#nav-bar #back-button:hover .toolbarbutton-icon {
-* border-radius: 4px !important;
-* background-color: rgb(192,192,192) !important;
-}
-
-/* ------------------------------------------------------------ */
-/* FWD BUTTON */
-
-#nav-bar #forward-button {
-width: 29px !important;                                        /* width consistent with button height set in NAV BAR */
-padding: 0px !important;
--moz-box-align: center !important;
--moz-image-region: unset !important;
-}
-
-#nav-bar #forward-button:hover .toolbarbutton-icon {
-border-radius: 4px !important;
-* background-color: rgb(211,211,211) !important;
+#BMB_bookmarksShowAll {
+    display: none !important;
 }
 
 
-/* ------------------------------------------------------------ */
-/* Remove default of BACK/FWD buttons */
 
-#nav-bar #back-button > .toolbarbutton-icon,
-#nav-bar #forward-button > .toolbarbutton-icon
+/* touch and normal density buttons */
+
+:root:not([uidensity="compact"]) #back-button > .toolbarbutton-icon {
+    background-color: transparent !important;
+    border-color: var(--toolbarbutton-hover-background) !important;
+    transition: background-color var(--animation-speed) !important;
+}
+
+:root:not([uidensity="compact"]) #back-button:not([disabled]):not([open]):hover > .toolbarbutton-icon {
+    background-color: var(--toolbarbutton-hover-background) !important;
+    box-shadow: none !important;
+}
+
+:root:not([uidensity="compact"]) #back-button:not([disabled]):not([open]):active > .toolbarbutton-icon {
+    background-color: var(--toolbarbutton-active-background) !important;
+    box-shadow: none !important;
+}
+
+:root:not([uidensity="compact"]) toolbarbutton:not(#back-button):not([disabled]):not([open]):active,
+.toolbarbutton-1:not(#back-button):not([disabled]):not([open]):active {
+    background-color: var(--toolbarbutton-active-background) !important;
+}
+
+
+
+:root:not([uidensity="compact"]) #back-button[open] > .toolbarbutton-icon {
+    background-color: var(--toolbarbutton-active-background) !important;
+}
+
+:root:not([uidensity="compact"]) #PersonalToolbar { /* bookmark bar */
+    height: 30px !important; 
+}
+
+
+/* normal density buttons */
+
+:root:not([uidensity="touch"]):not([uidensity="compact"]) #nav-bar .toolbarbutton-1:not(#back-button)  {
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+}
+
+:root:not([uidensity="touch"]):not([uidensity="compact"]) #nav-bar .toolbarbutton-1:not(#back-button) image  {
+    margin-bottom: 1px !important;
+}
+
+:root:not([uidensity="touch"]):not([uidensity="compact"]) #back-button {
+    margin-top: -1px !important;
+    margin-bottom: -1px !important;
+}
+
+
+
+:root:not([uidensity="touch"]):not([uidensity="compact"]) #identity-box,
+:root:not([uidensity="touch"]):not([uidensity="compact"]) #tracking-protection-icon-container {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+:root:not([uidensity="touch"]):not([uidensity="compact"]) #identity-icon, 
+:root:not([uidensity="touch"]):not([uidensity="compact"]) #tracking-protection-icon-box {
+    margin-left: 1px !important;
+    margin-right: 1px !important;
+}
+
+:root:not([uidensity="touch"]):not([uidensity="compact"]) #urlbar {
+    height: 36px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+
+:root:not([uidensity="touch"]):not([uidensity="compact"]) .urlbar-icon:not(#pocket-button) {
+    width: 34px !important;
+    height: 36px !important;
+    padding: 8px !important;
+}
+
+
+
+:root:not([uidensity="touch"]):not([uidensity="compact"]) #pocket-button {
+    width: 32px !important;
+    height: 36px !important;
+    padding: 8px 8px 6px 8px !important;
+}
+
+:root:not([uidensity="touch"]):not([uidensity="compact"]) #contextual-feature-recommendation {
+    width: 32px !important;
+    height: 32px !important;
+    padding: 2px !important;
+}
+
+:root:not([uidensity="touch"]):not([uidensity="compact"]) #PanelUI-button {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+    margin-left: 5px !important;
+}
+
+:root:not([uidensity="touch"]):not([uidensity="compact"]) #library-animatable-box {
+    margin-top: 4px !important;
+}
+
+:root:not([uidensity="touch"]):not([uidensity="compact"]) #tabs-newtab-button {
+    margin-left: -5px !important;
+    padding-left: 2px !important;
+    margin-bottom: 1px !important;
+    padding-bottom: 1px !important;
+}
+
+
+/* compact density buttons */
+
+:root[uidensity="compact"] #nav-bar .toolbarbutton-1  {
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+    padding: 0px 0px 0px 0px !important;
+}
+
+
+
+
+:root[uidensity="compact"] #nav-bar toolbaritem[animate] box {
+    margin-top: 1px !important;
+}
+
+
+:root[uidensity="compact"] #back-button[open] {
+    background-color: var(--toolbarbutton-active-background) !important; 
+}
+
+
+:root[uidensity="compact"] #back-button:not([disabled]):not([open]):hover {
+    background-color: var(--toolbarbutton-hover-background) !important;
+}
+:root[uidensity="compact"] #back-button:not([disabled]):not([open]):active {
+    background-color: var(--toolbarbutton-active-background) !important;
+}
+
+:root[uidensity="compact"] #identity-box,
+:root[uidensity="compact"] #tracking-protection-icon-container {
+    min-width: 2px !important;
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+}
+
+:root[uidensity="compact"] #nav-bar{
+    padding-top: 1px !important;
+}
+
+
+:root[uidensity="compact"] #urlbar {
+    height: 30px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+
+
+:root[uidensity="compact"] .urlbar-icon:not(#pocket-button) {
+    width: 28px !important;
+    height: 30px !important;
+    padding: 6px !important;
+}
+
+:root[uidensity="compact"] #pocket-button {
+    width: 28px !important;
+    height: 40px !important;
+    padding: 7px 6px 5px 6px !important;
+}
+
+:root[uidensity="compact"] #contextual-feature-recommendation {
+    width: 32px !important;
+    height: 32px !important;
+    padding: 2px !important;
+}
+
+:root[uidensity="compact"] #PersonalToolbar {
+   height: 25px !important;
+}
+
+:root[uidensity="compact"] #library-animatable-box {
+    margin-top: 5px !important;
+}
+
+:root[uidensity="compact"] #tabs-newtab-button {
+    margin-left: -5px !important;
+    margin-bottom: 1px !important;
+    padding-bottom: 1px !important;
+}
+
+
+/* touch density buttons */
+
+:root[uidensity="touch"] #nav-bar .toolbarbutton-1:not(#back-button)  {
+    margin-top: 5px !important;
+    margin-bottom: 3px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+
+:root[uidensity="touch"] #stop-reload-button[animate] .toolbarbutton-animatable-image {
+    margin-top: 2px !important;
+}
+
+:root[uidensity="touch"] #identity-box,
+:root[uidensity="touch"] #tracking-protection-icon-container {
+    padding-left: 9px !important;
+    padding-right: 9px !important;
+}
+
+
+:root[uidensity="touch"] #urlbar {
+    height: 36px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+:root[uidensity="touch"] #nav-bar{
+    padding-top: 2px !important;
+}
+
+
+
+:root[uidensity="touch"] .urlbar-icon:not(#pocket-button) {
+    width: 34px !important;
+    height: 36px !important;
+    padding: 9px !important;
+}
+
+:root[uidensity="touch"] #pocket-button {
+    width: 34px !important;
+    height: 36px !important;
+    padding: 10px 7px 8px 7px !important;
+}
+
+:root[uidensity="touch"] #contextual-feature-recommendation {
+    width: 32px !important;
+    height: 33px !important;
+    padding: 2px !important;
+}
+
+:root[uidensity="touch"] #PanelUI-button {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+:root[uidensity="touch"] tab {
+    height: 40px !important;
+}
+
+:root[uidensity="touch"] #library-animatable-box {
+    margin-top: 7px !important;
+}
+
+:root[uidensity="touch"] #tabs-newtab-button {
+    margin-left: -5px !important;
+    margin-bottom: 2px !important;
+    padding-right: 3px !important;
+    padding-left: 3px !important;
+    padding-bottom: 1px !important;
+}
+
+
+
+/* various */
+.urlbar-input-box,
+#identity-box, 
+#tracking-protection-icon-container,
+.urlbar-history-dropmarker, 
+.urlbar-page-action,
+#reader-mode-button, 
+[anonid=urlbar-go-button],
+.toolbarbutton-1 > stack,
+toolbarbutton:not(.titlebar-button):not([class^="findbar-find"]):not([class^="scrollbutton"]),
+.close-icon
 {
-background: none !important;
-border: none !important;
-box-shadow: none !important;
-padding: unset !important;
+    border-radius: var(--button-corner-rounding)!important;
 }
 
-#back-button[disabled="true"] > .toolbarbutton-icon {
-opacity: 1 !important;
--moz-context-properties: none !important;
-fill-opacity: unset !important;
+
+.findbar-find-next {
+    border-radius: 0px var(--button-corner-rounding) var(--button-corner-rounding) 0px !important;
 }
 
-#back-button[disabled="true"] {
-opacity: 0.4 !important;
--moz-context-properties: none !important;
-fill-opacity: unset !important;
+.findbar-textbox {
+    border-radius: var(--button-corner-rounding) 0px 0px var(--button-corner-rounding) !important;
 }
 
-/* ------------------------------------------------------------ */
-/* Assign symbol of BACK button */
-
-#nav-bar #back-button {
-list-style-image: url('data:image/svg+xml;utf8,\ <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18">\ <path d="M12,5 L8.5,9 L12,13" fill="transparent" stroke="rgb(0,0,0)" stroke-width="1.1" stroke-linecap="round"/>\ </svg>') !important;
-}
-
-/* ------------------------------------------------------------ */
-/* Assign symbol of FWD button */
-
-#nav-bar #forward-button {
-list-style-image: url('data:image/svg+xml;utf8,\ <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18">\ <path d="M7,5 L11,9 L7,13" fill="transparent" stroke="rgb(0,0,0)" stroke-width="1.2" stroke-linecap="round"/>\ </svg>') !important;
-}
-
-/* ------------------------------------------------------------ */
-/* Position of FWD and BACK buttons */
-
-#forward-button .toolbarbutton-icon {
-margin-left: 1px !important;
-}
-
-#forward-button {
-margin-left: -4px !important;
-}
-
-#back-button .toolbarbutton-icon {
-margin-left: -5px !important;
-}
-
-/* ------------------------------------------------------------ */
-/* ARROW PANELS                                                   ==================================== DARK MODE */
-/* ------------------------------------------------------------ */
-
-:root {
---arrowpanel-border-color: none !important;                    /* external border */
---arrowpanel-background: rgb(60,60,60) !important;             /* background colour */
---arrowpanel-color: rgb(184,184,184) !important;               /* text colour */
---panel-disabled-color: rgb(144,144,144) !important;           /* text colour, inactive items */
-}
-
-/* ------------------------------------------------------------ */
-/* EDIT BOOKMARK PANEL                                            ==================================== DARK MODE */
-/* ------------------------------------------------------------ */
-
-#editBookmarkPanelInfoArea {                                   /* remove top area with image */
-display: none !important;
-}
-
-#editBookmarkPanelDoneButton{                                  /* button DONE */
-background-color: rgb(48,48,48) !important;
-color: rgb(188,188,188) !important;
-}
-#editBookmarkPanelDoneButton:hover {
-background-color: rgb(56,56,56) !important;
-color: rgb(188,188,188) !important;
-}
-#editBookmarkPanelDoneButton:active {
-background-color: rgb(40,40,40) !important;
-color: rgb(188,188,188) !important;
-}
-
-#editBookmarkPanelRemoveButton {                               /* button REMOVE */
-background-color: rgb(80,80,80) !important;
-}
-#editBookmarkPanelRemoveButton:hover {
-background-color: rgb(96,96,96) !important;
-}
-#editBookmarkPanelRemoveButton:active {
-background-color: rgb(88,88,88) !important;
-}
-
-*#editBookmarkPanelRows {                                      /* entire section between header and buttons */
-*color: rgb(0,0,0) !important;
-*background-color: rgb(60,60,60) !important;
-*}
-
-#editBMPanel_namePicker {                                      /* input fields */
-color: rgb(0,0,0) !important;
-background-color: rgb(144,144,144) !important;
-border: 0.75px solid rgb(32,32,32) !important;
-}
-#editBMPanel_folderMenuList {
-color: rgb(0,0,0) !important;
-background-color: rgb(144,144,144) !important;
-border: 0.75px solid rgb(32,32,32) !important;
-}
-#editBMPanel_tagsField {
-color: rgb(0,0,0) !important;
-background-color: rgb(144,144,144) !important;
-border: 0.75px solid rgb(32,32,32) !important;
-}
-
-#editBMPanel_foldersExpander {                                 /* side drop down */
-color: rgb(0,0,0) !important;
-background-color: rgb(144,144,144) !important;
-border: 0.75px solid rgb(32,32,32) !important;
-}
-#editBMPanel_tagselectorExpander {
-color: rgb(0,0,0) !important;
-background-color: rgb(144,144,144) !important;
-border: 0.75px solid rgb(32,32,32) !important;
-}
-
-#editBMPanel_nameRow {                                         /* names above input fields */
-color: rgb(169,169,169) !important;
-*background-color: rgb(144,144,144) !important;
-}
-
-*#editBMPanel_PanelRows-input::-moz-selection {                /* colour autocomplete text URL bar */
-*background-color: rgb(80,80,80) !important;
-*color: rgb(192,192,192) !important;
-*}
-
-/* ------------------------------------------------------------ */
-/* OPTION MENU - TOP MENU                                         ==================================== DARK MODE */
-/* ------------------------------------------------------------ */
-
-*#appMenu-popup .subviewbutton .toolbarbutton-text,            /* TEXT style */
-*#appMenu-popup .panel-arrowcontent,
-*panelmultiview .toolbaritem-combined-buttons>label {
-*}
-
-.appMenu-tp-separator,                                         /* HORIZONTAL BORDERS */
-toolbarseparator {
-display: visible !important;
-border-color: rgb(128,128,128) !important;
-}
-
-#appMenu-zoomReset-button {                                    /* ZOOM CONTROl xx% */
-background: transparent !important;
-color: rgb(169,169,169) !important;
-border: 0px solid rgb(169,169,169) !important;
-border-radius: 0px !important;
-}
-
-/* ------------------------------------------------------------ */
-/* OPTION MENU - SUB-MENUS                                        ==================================== DARK MODE */
-/* ------------------------------------------------------------ */
-
-.panel-header {                                                /* TOP HEADER */
-color: rgb(192,192,192) !important;
-background: rgb(48,48,48) !important;
-border-bottom: 1px solid rgb(128,128,128) !important;
-}
-
-/* ------------------------------------------------------------ */
-/* CONTEXT MENU                                                 */
-/* ------------------------------------------------------------ */
-
-#contentAreaContextMenu>*>*>image {                            /* Assign colour to icon on the right-hand side */
-fill: currentColor !important;
--moz-context-properties: fill, fill-opacity, stroke !important;
-}
-
-#context-navigation, #context-sep-navigation { 
-display: none !important 
-}
-
-/* ------------------------------------------------------------ */
-/* MISCELLANEOUS                                                */
-/* ------------------------------------------------------------ */
-
-#confirmation-hint {
-display: none !important;                                      /* hide "Saved to Library!" bookmark confirmation popup */
+.bookmark-item {
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+    margin-right: 0px !important;
 }
 
 
 
+#urlbar {
+    border-radius: calc(1px + var(--button-corner-rounding)) !important;
+}
+
+/* style identity box */
+#identity-box {
+    margin-right: 0px !important;
+}
+
+
+
+/* style address bar */
+#urlbar {
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+#tracking-protection-icon-container {
+    border-inline-end: none !important;
+}
+
+
+
+
+
+#pageActionSeparator {
+    display: none !important;
+}
+
+.urlbar-icon, #userContext-indicator, #userContext-label {
+    fill: transparent !important;
+    background-color: transparent !important;
+    color: transparent !important;
+    transition: var(--animation-speed) !important;
+}
+
+
+#urlbar:hover .urlbar-icon,
+#urlbar:active .urlbar-icon, 
+#urlbar[focused] .urlbar-icon {
+    fill: var(--toolbar-color) !important;
+}
+
+#urlbar:hover #userContext-indicator,
+#urlbar:active #userContext-indicator, 
+#urlbar[focused] #userContext-indicator,
+#urlbar:hover #userContext-label,
+#urlbar:active #userContext-label, 
+#urlbar[focused] #userContext-label {
+    color: var(--identity-tab-color) !important;
+    fill: var(--identity-tab-color) !important;
+}
+
+.urlbar-page-action[open] {
+    background-color: var(--toolbarbutton-active-background) !important;
+    fill: var(--toolbar-color) !important;
+}
+
+.urlbar-page-action[open]:hover {
+    background-color: var(--toolbarbutton-active-background) !important;
+    fill: var(--toolbar-color) !important;
+}
+
+.urlbar-page-action[open] .urlbar-icon {
+    fill: var(--toolbar-color) !important;
+}
+
+.urlbar-scheme {
+    padding-bottom: 11px !important;
+}
+
+
+#urlbar-container {
+    margin-left: -1px !important;
+    margin-right: -1px !important;
+}
+
+.urlbar-input-box {
+    padding: 5px 5px !important;
+}
+
+#urlbar {
+    background-color: transparent !important;
+    color: var(--lwt-toolbar-field-color, black) !important;
+}
+
+
+#urlbar:not(.hidden-focus)[focused="true"] {
+    background-color: var(--toolbarbutton-hover-background) !important;
+}
+
+#pocket-button {
+    padding-bottom: 4px !important;
+}
+
+.urlbar-icon-wrapper > .urlbar-icon:hover {
+    background-color: transparent !important;
+}
+
+.urlbar-icon-wrapper {
+    background-color: transparent !important;
+    transition: background-color var(--animation-speed) !important;
+}
+
+
+
+#urlbar:not([focused]) .urlbar-input-box:hover,
+#identity-box:hover, 
+#tracking-protection-icon-container:hover,
+.urlbar-icon:hover,
+.urlbar-icon-wrapper:hover,
+[anonid=urlbar-go-button]:hover {
+    background-color: var(--toolbarbutton-hover-background) !important;
+}
+
+
+#identity-box:active,
+#tracking-protection-icon-container:active,
+.urlbar-icon:active,
+.urlbar-icon-wrapper:active,
+[anonid=urlbar-go-button]:active {
+    background-color: var(--toolbarbutton-active-background) !important;
+}
+
+.urlbar-input-box, 
+#identity-box,
+#tracking-protection-icon-container,
+[anonid=urlbar-go-button],
+#urlbar {
+    transition: background-color var(--animation-speed) !important;
+}
+
+#tracking-protection-icon,
+#identity-box image {
+    transition: fill-opacity var(--animation-speed) !important;
+}
+
+[lwthemetextcolor="dark"] .urlbarView-body-outer {
+    background-color: #f5f6f7 !important;
+    color: var(--toolbar-color) !important;
+}
+
+.urlbarView-body-inner {
+    background-color: var(--toolbar-bgcolor) !important;
+}
+
+.downloadsPanelFooterButton:hover {
+    outline: none !important;
+}
+
+/* -------------------- Style context menus -------------------- */
+#context-navigation,
+#context-sep-navigation,
+#context-bookmarklink,
+#context-viewinfo,
+#context-viewpartialsource-selection,
+#inspect-separator,
+#context-savelink,
+#context-sendimage,
+#context-setDesktopBackground,
+#context_reloadTab,
+#context_moveTabOptions,
+#context_bookmarkTab,
+.bookmarks-actions-menuseparator,
+.openintabs-menuitem {
+    display: none !important;
+}
+
+menupopup,
+menupopup menuitem,
+menupopup menu,
+menupopup menuseparator {
+	-moz-appearance: none !important;
+}
+
+menupopup:not(#BMB_bookmarksPopup) {
+    padding: 6px 9px 9px !important;
+	margin: -6px -9px 0 !important;
+    border: 0 !important;
+    background: 0 !important;
+}
+
+menu[open] menupopup:not(#BMB_bookmarksPopup) {
+	margin: -12px -9px 0 !important;
+}
+
+#BMB_bookmarksPopup menu[open] menupopup {
+    transform: translateY(4px) !important;
+}
+
+menupopup menuseparator
+{
+	margin-top: 5px !important;
+    margin-bottom: 5px !important;
+	padding: 0px !important;
+    border-bottom: none !important;
+	opacity: 0.2 !important;
+}
+.popup-internal-box {
+    background: Menu !important; /* fall back if adaptable colors are removed */
+}
+
+.popup-internal-box:not(.in-bookmarks-menu) {
+	padding: 6px 0 !important;
+}
+
+
+.panel-arrowcontent {
+    padding-top: 0px !important;
+    border: none !important;
+}
+
+/* shadows and rounded corners for menus */
+.popup-internal-box:not(.in-bookmarks-menu) {
+    border-radius: var(--menu-corner-rounding) !important;
+    box-shadow: 0px 2px 9px -3px black !important;
+}
+
+.panel-arrowcontainer .panel-arrowcontent, .popup-internal-box, hbox[flex="1"][part="innerbox"] {
+    border-radius: var(--menu-corner-rounding) !important;
+}
+
+
+
+
+.in-bookmarks-menu {
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+}
+
+
+menu,
+menuitem, 
+menucaption {
+    -moz-appearance: none !important;
+    height: var(--menu-item-height) !important;
+}
+
+menu,
+menuitem, 
+menucaption {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+menu:not(.subviewbutton) > .menu-right  {
+    margin-top: 2px !important;
+    margin-right: 0px !important;
+    width: 0px !important;
+}
+
+menu:not(.subviewbutton) > .menu-right image {
+    margin-right: -5px !important;
+    margin-top: -2px !important;
+    border: 6px solid var(--toolbar-color) !important;
+    border-top-color: transparent !important;
+    border-right-color: transparent !important;
+    border-bottom-color: transparent !important;
+}
+
+panelview toolbarbutton:not(#fxa-manage-account-button) {
+    height: var(--menu-item-height) !important;
+}
+
+#BMB_bookmarksPopup .menu-right {
+    height: 23px !important;
+}
+
+#sidebar-switcher-bookmarks, #customization-uidensity-menuitem-compact {
+    margin-top: 5px !important;
+}
+
+#customization-lwtheme-menu-header {
+    margin-top: 0px !important;
+}
+
+/* windows-specific adjustments */
+@media (-moz-os-version: windows-win7), (-moz-os-version: windows-win8), (-moz-os-version: windows-win10) {
+    .bookmark-item .scrollbutton-up {
+        margin-top: -3px !important;
+    }
+
+    .bookmark-item .scrollbutton-up > .toolbarbutton-icon {
+        margin-top: -2px !important;
+        border: 6px solid MenuText !important;
+        border-top-color: transparent !important;
+        border-right-color: transparent !important;
+        border-left-color: transparent !important;
+    }
+
+    .bookmark-item .scrollbutton-down {
+        margin-bottom: -3px !important;
+    }
+
+    .bookmark-item .scrollbutton-down > .toolbarbutton-icon {
+        margin-bottom: -2px !important;
+        border: 6px solid MenuText !important;
+        border-bottom-color: transparent !important;
+        border-right-color: transparent !important;
+        border-left-color: transparent !important;
+    }
+    
+    menu,
+    menuitem, 
+    menucaption {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    
+    menu:not(.subviewbutton) > .menu-right  {
+        margin-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    
+    .in-bookmarks-menu {
+        padding-bottom: 5px !important;
+        padding-top: 1px !important;
+    }
+    
+    #BMB_bookmarksPopup menu menupopup {
+        transform: translateY(-1px) !important;
+    }
+}
+
+/* linux and mac-specific adjustments */
+@media not (-moz-os-version: windows-win10)  {
+    @media not (-moz-os-version: windows-win8) {
+       @media not (-moz-os-version: windows-win7)  {
+            hbox[flex="1"][part="innerbox"] {
+                box-shadow: 0px 2px 12px -6px black !important;
+            }
+
+            .menu-iconic-left {
+                margin: 0px 6px !important;
+            }
+           
+           #BMB_bookmarksPopup menu[open] menupopup {
+                transform: translateY(1px) !important;
+            }
+        }
+    }
+}
+
+
+/* make menus adapt to theme */
+menu,
+menuitem,
+menucaption {
+    color: var(--toolbar-color) !important;
+}
+
+.popup-internal-box {
+    background-color: var(--toolbar-bgcolor, Menu) !important;
+}
+
+menu[_moz-menuactive="true"]:not([disabled="true"]), 
+menuitem[_moz-menuactive="true"]:not([disabled="true"]), 
+menucaption[_moz-menuactive="true"]:not([disabled="true"]) {
+    background-color: var(--toolbarbutton-hover-background, rgba(127,127,127,0.5)) !important;
+}
+
+menu[disabled="true"], 
+menuitem[disabled="true"], 
+menucaption[disabled="true"] {
+    color: var(--toolbarbutton-hover-background, rgba(127,127,127,0.5)) !important;
+}
+
+menu[disabled="true"][_moz-menuactive="true"], 
+menuitem[disabled="true"][_moz-menuactive="true"], 
+menucaption[disabled="true"][_moz-menuactive="true"] {
+    background-color: transparent !important;
+}
+
+.panel-arrow {
+    fill: var(--toolbar-bgcolor) !important;
+}
+
+[lwthemetextcolor="dark"] panelview:not([extension]),
+[lwthemetextcolor="dark"] .panel-arrowcontent {
+    background-color: #f5f6f7 !important;   
+}
+
+.panel-subview-body  {
+    background-color: var(--toolbar-bgcolor) !important;
+}
+
+#downloadsPanel-mainView {
+    background-color: var(--toolbar-bgcolor) !important;
+}
+
+#identity-popup-mainView {
+    background-color: var(--toolbar-bgcolor) !important;
+}
+
+#identity-popup-content-blocking-detected {
+    color: var(--toolbar-active-background) !important;
+}
+
+#identity-popup-permission-empty-hint {
+    color: var(--toolbar-active-background) !important;
+}
+
+.identity-popup-warning-yellow {
+    color: black !important;
+}
+
+panel:not([viewId^="PanelUI-webext"]) .panel-arrow {
+    fill: var(--toolbar-bgcolor) !important;
+}
+
+.bookmark-item [class^="scrollbutton"] {
+    background-color: var(--toolbar-bgcolor) !important;
+}

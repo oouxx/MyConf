@@ -1161,12 +1161,15 @@
     "vim.neovimPath": "/usr/bin/nvim",
     "editor.scrollBeyondLastLine": false,
     "vscode-neovim.neovimPath": "/usr/bin/nvim",
-    "workbench.colorTheme": "Solarized Light",
+    "workbench.colorTheme": "Monokai Dimmed",
     "vim.enableNeovim": true,
     "editor.minimap.enabled": true,
     "editor.renderWhitespace": "none",
     "editor.renderControlCharacters": false,
     "python.formatting.provider": "yapf",
     "editor.multiCursorModifier": "alt",
-    "editor.fontSize": 16
+    "terminal.explorerKind": "external",
+    "terminal.external.linuxExec": "termite",
+    "editor.fontFamily": "'Hack'",
+    "window.zoomLevel": 0.5
 }

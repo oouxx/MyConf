@@ -14,7 +14,7 @@ set -xg PAGER less
 set -xg GTAGSLABEL ctags
 # go env
 set -xg GOROOT /usr/lib/go
-set -xg GOPATH ~/go/
+set -xg GOPATH ~/go
 set -xg GOBIN $GOPATH/gobin
 set -xg PATH $HOME/.cargo/bin $GOROOT/bin $GOBIN $HOME/.local/bin $PATH
 set -xg GOPROXY "https://goproxy.io"
