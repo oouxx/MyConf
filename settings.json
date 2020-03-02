@@ -1161,7 +1161,7 @@
     "vim.neovimPath": "/usr/bin/nvim",
     "editor.scrollBeyondLastLine": false,
     "vscode-neovim.neovimPath": "/usr/bin/nvim",
-    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorTheme": "Solarized Dark",
     "vim.enableNeovim": true,
     "editor.minimap.enabled": true,
     "editor.renderWhitespace": "none",

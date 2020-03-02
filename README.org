@@ -1,23 +1,70 @@
 * WXX's dotfiles
-** config
+** Dependencies
+1. Archlinux
+2. i3-gaps
+3. libinput-gestures
+4. vimium(chromium extension)
+5. neovim
+6. emacs
+7. tmux
+8. fish
+9. termite
+10. setting.json(vscode personal settings)
+11. polybar
+** Screenshot  
+** Features
+** Installation
+** Introducation
+*** libinput-gestures
+    
+   | keybinding    | map                            | explanation         |   | ---------------+--------------------------------+--------------------- |   |
+   | swipe up 3    | xdotool key super+f            | fullscreen          |   |                                                                        |   |
+   | swipe down 3  | xdotool key super+e            | layout toggle split |   |                                                                        |   |
+   | swipe left 4  | xdotool key super+bracketleft  | workspace_prev      |   |                                                                        |   |
+   | swipe right 4 | xdotool key super+bracketright | workspace_next      |   |                                                                        |   |
+   | swipe left 3  | xdotool key Alt_L+Left         |                     |   |                                                                        |   |
+   | swipe right 3 | xdotool key Alt_L+Right        |                     |   |                                                                        |   |
+   | pinch out 2   | xdotool key ctrl+KP_Add        |                     |   |                                                                        |   |
+   | pinch in 2    | xdotool key ctrl+KP_Subtract   |                     |   |                                                                        |   |
 
-- archlinux
-- i3-gaps
-- polybar
-- rofi(application launcher)
-- feh
-- ranger(filemanager)
-- fish + oh-my-fish
-- tmux + oh-my-tmux
-- termite(dropdown)
-- zathura(pdf viewer)
-- text editor
-    - neovim + spacevim
-    - emacs + spacemacs
-- libinput-gestures(many useful touchpad gestures)
+*** i3wm
+    
+   | keybinding   | map                    | explanation         |   |
+   |--------------+------------------------+---------------------+---|
+   | $mod+Shift+h | move left              |                     |   |
+   | $mod+Shift+j | move down              |                     |   |
+   | $mod+Shift+k | move up                |                     |   |
+   | $mod+Shift+l | move right             |                     |   |
+   | $mod+s       | layout stacking        |                     |   |
+   | $mod+t       | layout tabbed          |                     |   |
+   | $mod+e       | layout toggle split    |                     |   |
+   | $mod+q       | kill                   | kill focused window |   |
+   | $mod+w       | exec rofi -show window | show windows        |   |
+   | $mod+rofi    | exec rofi -show drun   | show applications   |   |
+   | $mod+h       | focus left             |                     |   |
+   | $mod+j       | focus down             |                     |   |
+   | $mod+k       | focus up               |                     |   |
+   | $mod+l       | focus right            |                     |   |
+   | $mod+b       | split toggle           |                     |   |
 
-** install
+*** vimium
+    
+    I use C-T to open new tab and C-w to kill tab.
+    
+   | keybinding | map                           | explanation       |
+   |------------+-------------------------------+-------------------|
+   | C-c        | (C-[)/ESC                     | exit              |
+   | t          | Vomnibar.activateTabSelection | select opened tab |
    
-```shell
-./install.sh
-```
+*** setting.json
+    Some personal perferences with spacemacs like keybindings.
+    
+*** neovim
+
+*** emacs
+
+*** termite
+
+*** polybar
+
+*** tmux
