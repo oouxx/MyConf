@@ -41,7 +41,7 @@
    | $mod+e       | layout toggle split    |                     |
    | $mod+q       | kill                   | kill focused window |
    | $mod+w       | exec rofi -show window | show windows        |
-   | $mod+rofi    | exec rofi -show drun   | show applications   |
+   | $mod+d       | exec rofi -show drun   | show applications   |
    | $mod+h       | focus left             |                     |
    | $mod+j       | focus down             |                     |
    | $mod+k       | focus up               |                     |
