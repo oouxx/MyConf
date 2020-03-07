@@ -1,8 +1,8 @@
 [user]
 	email = wangxinxing961129@gmail.com
 	name = oouxx
-[alais]
-    a = add --all
+[alias]
+  a = add --all
 	ai = add -i
 	#############
 	ap = apply
@@ -200,6 +200,12 @@
 	subrepo = !sh -c 'git filter-branch --prune-empty --subdirectory-filter $1 master' -
 	human = name-rev --name-only --refs=refs/heads/*
 
-[mergetool.ediff]
+# [mergetool.ediff]
 # use git mergetool ediff to resolve conflicts
-cmd = emacs -nw -Q --eval \"(setq startup-now t)\" -l \"~/.emacs.d/init.el\" --eval \"(progn (setq ediff-quit-hook 'kill-emacs) (if (file-readable-p \\\"$BASE\\\") (ediff-merge-files-with-ancestor \\\"$LOCAL\\\" \\\"$REMOTE\\\" \\\"$BASE\\\" nil \\\"$MERGED\\\") (ediff-merge-files \\\"$LOCAL\\\" \\\"$REMOTE\\\" nil \\\"$MERGED\\\")))\"
+# cmd = emacs -nw -Q --eval \"(setq startup-now t)\" -l \"~/.emacs.d/init.el\" --eval \"(progn (setq ediff-quit-hook 'kill-emacs) (if (file-readable-p \\\"$BASE\\\") (ediff-merge-files-with-ancestor \\\"$LOCAL\\\" \\\"$REMOTE\\\" \\\"$BASE\\\" nil \\\"$MERGED\\\") (ediff-merge-files \\\"$LOCAL\\\" \\\"$REMOTE\\\" nil \\\"$MERGED\\\")))\"
+[credential]
+	helper = /usr/lib/git-core/git-credential-libsecret
+[https]
+	proxy = http://127.0.0.1:8888
+[http]
+	proxy = http://127.0.0.1:8888

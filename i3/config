@@ -4,12 +4,6 @@ set $mod Mod4
 # is used in the bar {} block below.
 font pango:Hack 9
 
-# i3-gaps settings
-gaps inner 10
-gaps outer 5
-# smart_gaps on
-# smart_borders on
-
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
 new_window pixel 1
 new_float normal
@@ -21,12 +15,12 @@ hide_edge_borders none
 floating_modifier $mod
 
 # Screen brightness controls
-bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
-bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
+bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up 10%'"
+bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down 10%'"
 
 # Volume
-bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -c 0 -q set Master 2dB+ unmute
-bindsym XF86AudioLowerVolume exec --no-startup-id amixer -c 0 -q set Master 2dB- unmute
+bindsym XF86AudioRaiseVolume exec --no-startup-id "amixer -c 0 -q set Master 2dB+ unmute; notify-send 'volume up 2dB'"
+bindsym XF86AudioLowerVolume exec --no-startup-id "amixer -c 0 -q set Master 2dB- unmute; notify-send 'volume down 2dB'"
 bindsym XF86AudioMute exec --no-startup-id amixer -q set Master toggle
 
 # Start Applications
@@ -42,8 +36,12 @@ bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 bindsym $mod+p exec --no-startup-id mpc toggle
-bindsym $mod+Left exec --no-startup-id mpc prev
-bindsym $mod+Right exec --no-startup-id mpc next
+# bindsym $mod+Left exec --no-startup-id mpc prev
+# bindsym $mod+Right exec --no-startup-id mpc next
+bindsym $mod+Up exec "xbacklight -inc 10; notify-send 'brightness up 10%'"
+bindsym $mod+Down exec "xbacklight -dec 10; notify-send 'brightness down 10%'"
+bindsym $mod+Right exec --no-startup-id "amixer -c 0 -q set Master 2dB+ unmute; notify-send 'volume up 2dB'"
+bindsym $mod+Left exec --no-startup-id "amixer -c 0 -q set Master 2dB- unmute; notify-send 'volume down 2dB'"
 
 
 # start a terminal
@@ -52,6 +50,8 @@ bindsym $mod+Return exec termite
 # kill focused window
 bindsym $mod+q kill
 
+# jump to urgent window 
+bindsym $mod+x [urgent=latest] focus
 # start rofi (a program launcher)
 bindsym $mod+d exec rofi -show drun
 bindsym $mod+w exec rofi -show window
@@ -111,10 +111,10 @@ bindsym --release $mod+bracketleft workspace prev
 bindsym --release $mod+bracketright workspace next
 
 # minus or plus gap munually
-bindsym $mod+i           gaps inner current plus 5
-bindsym $mod+Shift+i     gaps inner current minus 5
-bindsym $mod+o           gaps outer current plus 5
-bindsym $mod+Shift+o     gaps outer current minus 5
+# bindsym $mod+i           gaps inner current plus 5
+# bindsym $mod+Shift+i     gaps inner current minus 5
+# bindsym $mod+o           gaps outer current plus 5
+# bindsym $mod+Shift+o     gaps outer current minus 5
 
 # switch to workspace
 bindsym $mod+1 workspace 1
@@ -126,7 +126,6 @@ bindsym $mod+6 workspace 6
 bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
-bindsym $mod+0 workspace 10
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace 1
@@ -138,7 +137,6 @@ bindsym $mod+Shift+6 move container to workspace 6
 bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
-bindsym $mod+Shift+0 move container to workspace 10
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -207,12 +205,127 @@ bindsym $mod+r mode "resize"
 
 # autostart
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-#exec --no-startup-id nm-applet
-#exec --no-startup-id blueman-applet
+exec --no-startup-id nm-applet
+exec --no-startup-id blueman-applet
 exec --no-startup-id feh --bg-scale ~/Pictures/wp1.jpg
 exec --no-startup-id termite
-exec_always --no-startup-id ~/.config/polybar/launch.sh
+# exec_always --no-startup-id ~/.config/polybar/launch.sh
 # exec_always --no-startup-id picom -b
 exec_always --no-startup-id fcitx &
+exec --no-startup-id dunst -config ~/.config/dunst/dunstrc
 
-# for-windows
+# Open applications on specific workspaces
+# assign [class="Thunderbird"] $ws1
+# assign [class="Pale moon"] $ws2
+# assign [class="Pcmanfm"] $ws3
+# assign [class="Skype"] $ws5
+
+# Start i3bar to display a workspace bar (plus the system information i3status if available)
+bar {
+    font pango:DejaVu Sans Mono, FontAwesome 7
+	i3bar_command i3bar
+	# status_command i3status-rs
+    status_command i3status
+	position top
+    # mode hide
+    # workspace_buttons yes
+
+## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
+#	tray_output primary
+#	tray_output eDP1
+
+	bindsym button4 nop
+	bindsym button5 nop
+    # font xft:URWGothic-Book 8
+	strip_workspace_numbers yes
+
+    colors {
+        background #222D31
+        statusline #F9FAF9
+        separator  #454947
+
+#                          border  backgr. text
+        focused_workspace  #F9FAF9 #16a085 #292F34
+        active_workspace   #595B5B #353836 #FDF6E3
+        inactive_workspace #595B5B #222D31 #EEE8D5
+        binding_mode       #16a085 #2C2C2C #F9FAF9
+        urgent_workspace   #16a085 #FDF6E3 #E5201D
+    }
+}
+
+# hide/unhide i3status bar
+bindsym $mod+m bar mode toggle
+
+# Set shut down, restart and locking features
+bindsym $mod+0 mode "$mode_system"
+set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
+mode "$mode_system" {
+    bindsym l exec --no-startup-id i3exit lock, mode "default"
+    bindsym s exec --no-startup-id i3exit suspend, mode "default"
+    bindsym u exec --no-startup-id i3exit switch_user, mode "default"
+    bindsym e exec --no-startup-id i3exit logout, mode "default"
+    bindsym h exec --no-startup-id i3exit hibernate, mode "default"
+    bindsym r exec --no-startup-id i3exit reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
+
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+#############################
+### settings for i3-gaps: ###
+#############################
+
+# Set inner/outer gaps
+gaps inner 14
+gaps outer -2
+
+# Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
+# gaps inner|outer current|all set|plus|minus <px>
+# gaps inner all set 10
+# gaps outer all plus 5
+
+# Smart gaps (gaps used if only more than one container on the workspace)
+# smart_gaps on
+
+# Smart borders (draw borders around container only if it is not the only container on this workspace) 
+# on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
+# smart_borders on
+
+# Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
+set $mode_gaps Gaps: (o) outer, (i) inner
+set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
+set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
+bindsym $mod+Shift+g mode "$mode_gaps"
+
+mode "$mode_gaps" {
+        bindsym o      mode "$mode_gaps_outer"
+        bindsym i      mode "$mode_gaps_inner"
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_inner" {
+        bindsym plus  gaps inner current plus 5
+        bindsym minus gaps inner current minus 5
+        bindsym 0     gaps inner current set 0
+
+        bindsym Shift+plus  gaps inner all plus 5
+        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+0     gaps inner all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_outer" {
+        bindsym plus  gaps outer current plus 5
+        bindsym minus gaps outer current minus 5
+        bindsym 0     gaps outer current set 0
+
+        bindsym Shift+plus  gaps outer all plus 5
+        bindsym Shift+minus gaps outer all minus 5
+        bindsym Shift+0     gaps outer all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}

@@ -1,4 +1,4 @@
-set first-page-column 2
+set first-page-column 1:1
 set window-title-basename true
 set guioptions ""
 
