@@ -32,7 +32,7 @@ alias dkc="sudo docker-compose"
 alias vim="nvim"
 
 # command
-command setxkbmap -option ctrl:nocaps
+# command setxkbmap -option ctrl:nocaps
 command setxkbmap -option altwin:swap_lalt_lwin
 
 # disable greeting message

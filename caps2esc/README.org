@@ -1,0 +1,7 @@
+* Setup
+  
+  yay -S interception-caps2esc-delay-git
+  
+  sudo cp ./udevmon.yaml /etc/
+  
+  systemctl enable udevmon.service
