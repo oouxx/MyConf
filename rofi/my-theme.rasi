@@ -1,9 +1,11 @@
 configuration {
-	modi: "window,run,ssh";
-/*	width: 50;*/
+	modi: "window,drun,run,ssh,combi";
+  theme: "solarized";
+	combi-modi: "drun,window,run";
+	width: 20;
 /*	lines: 15;*/
-/*	columns: 1;*/
-/*	font: "mono 12";*/
+	columns: 1;
+/*	font: "hack 10";*/
 /*	bw: 1;*/
 /*	location: 0;*/
 /*	padding: 5;*/
@@ -13,13 +15,14 @@ configuration {
 	show-icons: true;
 	terminal: "termite";
 	ssh-client: "ssh";
-	ssh-command: "{terminal} -e {ssh-client} {host} [-p {port}]";
+  ssh-user:"admin";
+	ssh-command: "{terminal} -e {ssh-client} {ssh-user}@{host} [-p {port}]";
     /*	run-command: "{cmd}";*/
 /*	run-list-command: "";*/
 /*	run-shell-command: "{terminal} -e {cmd}";*/
 /*	window-command: "wmctrl -i -R {window}";*/
 /*	window-match-fields: "all";*/
-	/* icon-theme: "papirus"; */
+	  icon-theme: "Papirus";
 /*	drun-match-fields: "name,generic,exec,categories";*/
 /*	drun-show-actions: false;*/
 /*	drun-display-format: "{name} [<span weight='light' size='small'><i>({generic})</i></span>]";*/
@@ -34,7 +37,6 @@ configuration {
 /*	auto-select: false;*/
 /*	parse-hosts: false;*/
 /*	parse-known-hosts: true;*/
-	combi-modi: "window,run";
 /*	matching: "normal";*/
 /*	tokenize: true;*/
 /*	m: "-5";*/
@@ -42,7 +44,7 @@ configuration {
 /*	line-padding: 1;*/
 /*	filter: ;*/
 /*	separator-style: "dash";*/
-/*	hide-scrollbar: false;*/
+	hide-scrollbar: true;
 /*	fullscreen: false;*/
 /*	fake-transparency: false;*/
 /*	dpi: -1;*/
@@ -53,7 +55,6 @@ configuration {
 /*	window-format: "{w}    {c}   {t}";*/
 /*	click-to-exit: true;*/
 /*	show-match: true;*/
-/*	theme: ;*/
 /*	color-normal: ;*/
 /*	color-urgent: ;*/
 /*	color-active: ;*/
@@ -93,7 +94,7 @@ configuration {
 /*	kb-mode-previous: "Shift+Left,Control+ISO_Left_Tab";*/
 /*	kb-row-left: "Control+Page_Up";*/
 /*	kb-row-right: "Control+Page_Down";*/
-/*	kb-row-up: "Up,Control+p,ISO_Left_Tab";*/
+/*	kb-row-up: "Up,Control+p,Control+k,ISO_Left_Tab";*/
 /*	kb-row-down: "Down,Control+n";*/
 /*	kb-row-tab: "Tab";*/
 /*	kb-page-prev: "Page_Up";*/

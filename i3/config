@@ -53,7 +53,7 @@ bindsym $mod+q kill
 # jump to urgent window 
 bindsym $mod+x [urgent=latest] focus
 # start rofi (a program launcher)
-bindsym $mod+d exec rofi -show drun -theme my-theme
+bindsym $mod+d exec rofi -show combi -theme my-theme
 bindsym $mod+w exec rofi -show window -theme my-theme
 
 # change focus
@@ -204,13 +204,13 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # autostart
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+# exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id feh --bg-scale ~/Pictures/wp1.jpg
 exec --no-startup-id termite
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec --no-startup-id picom -b
-# exec --no-startup-id fcitx &
-# exec dunst -config ~/.config/dunst/dunstrc
+exec --no-startup-id nm-applet
+exec --no-startup-id blueman-applet
 
 # Open applications on specific workspaces
 # assign [class="Thunderbird"] $ws1

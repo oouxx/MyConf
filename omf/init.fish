@@ -11,6 +11,7 @@ end
 set -xg EDITOR nvim
 set -xg TERMINAL termite
 set -xg PAGER less
+set -xg LESS "-C -M -I -j 10 -#4"
 set -xg GTAGSLABEL ctags
 # go env
 set -xg GOROOT /usr/lib/go
