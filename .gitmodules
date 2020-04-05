@@ -1,0 +1,3 @@
+[submodule "rofi/adi1090x_rofi"]
+	path = rofi/adi1090x_rofi
+	url = https://github.com/adi1090x/rofi.git

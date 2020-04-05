@@ -25,7 +25,7 @@ bindsym XF86AudioMute exec --no-startup-id amixer -q set Master toggle
 
 # Start Applications
 bindsym $mod+F1 exec emacs
-bindsym $mod+F2 exec chromium
+bindsym $mod+F2 exec google-chrome-stable
 # bindsym $mod+F3 exec termite -e ranger
 bindsym $mod+F3 exec pcmanfm
 bindsym $mod+F4 exec termite -e ncmpcpp
@@ -35,7 +35,7 @@ bindsym Print exec --no-startup-id i3-scrot
 bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
-bindsym $mod+p exec --no-startup-id mpc toggle
+# bindsym $mod+p exec --no-startup-id mpc toggle
 # bindsym $mod+Left exec --no-startup-id mpc prev
 # bindsym $mod+Right exec --no-startup-id mpc next
 bindsym $mod+Up exec "xbacklight -inc 10; notify-send 'brightness up 10%'"
@@ -53,7 +53,7 @@ bindsym $mod+q kill
 # jump to urgent window 
 bindsym $mod+x [urgent=latest] focus
 # start rofi (a program launcher)
-bindsym $mod+d exec rofi -show combi -theme my-theme
+bindsym $mod+d exec bash ~/.config/rofi/launcher.sh
 bindsym $mod+w exec rofi -show window -theme my-theme
 
 # change focus
@@ -116,9 +116,13 @@ bindsym --release $mod+bracketright workspace next
 # bindsym $mod+o           gaps outer current plus 5
 # bindsym $mod+Shift+o     gaps outer current minus 5
 
+# set workspace
+set $ws1 "1:"
+set $ws2 "2:www"
+
 # switch to workspace
-bindsym $mod+1 workspace 1
-bindsym $mod+2 workspace 2
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
 bindsym $mod+3 workspace 3
 bindsym $mod+4 workspace 4
 bindsym $mod+5 workspace 5
@@ -128,8 +132,8 @@ bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1
-bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
 bindsym $mod+Shift+3 move container to workspace 3
 bindsym $mod+Shift+4 move container to workspace 4
 bindsym $mod+Shift+5 move container to workspace 5
@@ -140,6 +144,8 @@ bindsym $mod+Shift+9 move container to workspace 9
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
+for_window [instance=”TIM.exe”] floating enable
+for_window [instance=”TIM.exe”] border none
 
 set_from_resource $term_background background
 set_from_resource $term_foreground foreground

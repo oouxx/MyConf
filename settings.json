@@ -1161,7 +1161,7 @@
     "vim.neovimPath": "/usr/bin/nvim",
     "editor.scrollBeyondLastLine": false,
     "vscode-neovim.neovimPath": "/usr/bin/nvim",
-    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorTheme": "Monokai Dimmed",
     "vim.enableNeovim": true,
     "editor.minimap.enabled": true,
     "editor.renderWhitespace": "none",
@@ -1171,5 +1171,6 @@
     "terminal.explorerKind": "external",
     "terminal.external.linuxExec": "termite",
     "editor.fontFamily": "'Hack'",
-    "window.zoomLevel": 0.5
+    "window.zoomLevel": 0.5,
+    "workbench.iconTheme": "material-icon-theme"
 }

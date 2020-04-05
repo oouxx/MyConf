@@ -31,6 +31,7 @@ alias ht="htop"
 alias dk="sudo docker"
 alias dkc="sudo docker-compose"
 alias vim="nvim"
+alias grep="rg"
 
 # command
 # command setxkbmap -option ctrl:nocaps
