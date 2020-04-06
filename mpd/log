@@ -1,0 +1,3020 @@
+Feb 01 18:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 18:58 : update: added /全世界宣布爱你.mp3
+Feb 01 19:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 19:22 : client: [0] opened from [::1]:35224
+Feb 01 19:22 : client: [0] closed
+Feb 01 19:22 : client: [1] opened from [::1]:35226
+Feb 01 19:22 : client: [1] closed
+Feb 01 19:22 : client: [2] opened from [::1]:35228
+Feb 01 19:22 : client: [2] closed
+Feb 01 19:22 : client: [3] opened from [::1]:35230
+Feb 01 19:22 : client: [3] closed
+Feb 01 19:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 19:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 19:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 19:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 20:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 20:09 : client: [0] opened from [::1]:48754
+Feb 01 20:09 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 01 20:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 20:09 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 01 20:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 20:09 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 01 20:10 : client: [0] closed
+Feb 01 20:10 : player: played "全世界宣布爱你.mp3"
+Feb 01 20:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 20:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 20:11 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 01 20:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 20:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 01 20:14 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 01 20:14 : player: played "全世界宣布爱你.mp3"
+Feb 01 20:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 20:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 20:44 : client: [0] opened from 127.0.0.1:33472
+Feb 01 20:44 : client: [1] opened from 127.0.0.1:33470
+Feb 01 20:44 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 01 20:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 20:46 : client: [0] opened from 127.0.0.1:33542
+Feb 01 20:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 20:46 : client: [0] opened from 127.0.0.1:33568
+Feb 01 20:47 : client: [1] opened from [::1]:54506
+Feb 01 20:47 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 01 20:47 : client: [1] closed
+Feb 01 20:47 : client: [2] opened from [::1]:54510
+Feb 01 20:47 : client: [2] closed
+Feb 01 20:48 : client: [3] opened from 127.0.0.1:33674
+Feb 01 20:48 : client: [3] closed
+Feb 01 20:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 20:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 01 20:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 20:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 01 20:48 : client: [4] opened from 127.0.0.1:33676
+Feb 01 20:48 : client: [4] closed
+Feb 01 20:48 : client: [5] opened from 127.0.0.1:33678
+Feb 01 20:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 01 20:48 : client: [5] closed
+Feb 01 20:48 : client: [6] opened from 127.0.0.1:33680
+Feb 01 20:48 : player: played "全世界宣布爱你.mp3"
+Feb 01 20:48 : client: [6] closed
+Feb 01 20:48 : client: [7] opened from 127.0.0.1:33682
+Feb 01 20:48 : client: [7] closed
+Feb 01 20:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 01 20:48 : client: [8] opened from 127.0.0.1:33684
+Feb 01 20:48 : client: [8] closed
+Feb 01 20:49 : client: [9] opened from [::1]:54742
+Feb 01 20:49 : client: [9] closed
+Feb 01 20:50 : client: [10] opened from 127.0.0.1:33852
+Feb 01 20:50 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 01 20:50 : client: [10] closed
+Feb 01 20:50 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 01 20:50 : client: [11] opened from 127.0.0.1:33854
+Feb 01 20:50 : player: played "全世界宣布爱你.mp3"
+Feb 01 20:50 : client: [11] closed
+Feb 01 20:50 : client: [12] opened from 127.0.0.1:33856
+Feb 01 20:50 : client: [12] closed
+Feb 01 20:50 : client: [13] opened from 127.0.0.1:33858
+Feb 01 20:50 : client: [13] closed
+Feb 01 20:50 : client: [14] opened from 127.0.0.1:33872
+Feb 01 20:50 : exception: Failed to decode /home/wxx/Music/全世界宣布爱你.mp3
+Feb 01 20:50 : exception: nested: Failed to open '/home/wxx/Music/全世界宣布爱你.mp3': No such file or directory
+Feb 01 20:50 : player: played "全世界宣布爱你.mp3"
+Feb 01 20:50 : client: [14] closed
+Feb 01 20:50 : client: [15] opened from [::1]:54792
+Feb 01 20:50 : exception: Failed to decode /home/wxx/Music/全世界宣布爱你.mp3
+Feb 01 20:50 : exception: nested: Failed to open '/home/wxx/Music/全世界宣布爱你.mp3': No such file or directory
+Feb 01 20:50 : player: played "全世界宣布爱你.mp3"
+Feb 01 20:50 : exception: Failed to decode /home/wxx/Music/全世界宣布爱你.mp3
+Feb 01 20:50 : exception: nested: Failed to open '/home/wxx/Music/全世界宣布爱你.mp3': No such file or directory
+Feb 01 20:50 : exception: Failed to decode /home/wxx/Music/全世界宣布爱你.mp3
+Feb 01 20:50 : exception: nested: Failed to open '/home/wxx/Music/全世界宣布爱你.mp3': No such file or directory
+Feb 01 20:50 : player: played "全世界宣布爱你.mp3"
+Feb 01 20:50 : update: removing 全世界宣布爱你.mp3
+Feb 01 20:50 : update: added /张杰 - 明天过后.mp3
+Feb 01 20:50 : update: updating /张杰 - 明天过后.mp3
+Feb 01 20:51 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Feb 01 20:51 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Feb 01 20:51 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Feb 01 20:51 : update: updating /张杰 - 明天过后.mp3
+Feb 01 20:51 : update: added /Missing You (Feat. 김윤아 of 자우림)   权志龙.mp3
+Feb 01 20:51 : client: [16] opened from [::1]:55026
+Feb 01 20:51 : update: added /5dbbde127e94076da815a5c0.mp3
+Feb 01 20:51 : client: [16] closed
+Feb 01 20:52 : client: [17] opened from [::1]:55078
+Feb 01 20:52 : update: updating /Missing You (Feat. 김윤아 of 자우림)   权志龙.mp3
+Feb 01 20:52 : client: [17] closed
+Feb 01 20:52 : update: updating /Missing You (Feat. 김윤아 of 자우림)   权志龙.mp3
+Feb 01 20:52 : update: updating /5dbbde127e94076da815a5c0.mp3
+Feb 01 20:53 : client: [15] closed
+Feb 01 20:53 : client: [18] opened from [::1]:55296
+Feb 01 20:53 : client: [18] closed
+Feb 01 20:55 : client: [19] opened from [::1]:55298
+Feb 01 20:55 : client: [19] closed
+Feb 01 20:55 : client: [20] opened from [::1]:55300
+Feb 01 20:55 : client: [20] closed
+Feb 01 20:55 : client: [21] opened from [::1]:55302
+Feb 01 20:55 : client: [21] closed
+Feb 01 20:55 : client: [22] opened from 127.0.0.1:34412
+Feb 01 20:55 : client: [22] closed
+Feb 01 20:55 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 01 20:55 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 01 20:55 : client: [23] opened from [::1]:55344
+Feb 01 20:56 : client: [24] opened from 127.0.0.1:34454
+Feb 01 20:56 : client: [24] closed
+Feb 01 20:56 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 01 20:56 : client: [25] opened from 127.0.0.1:34456
+Feb 01 20:56 : client: [25] closed
+Feb 01 20:56 : client: [26] opened from 127.0.0.1:34458
+Feb 01 20:56 : player: played "Missing You (Feat. 김윤아 of 자우림)   权志龙.mp3"
+Feb 01 20:56 : client: [26] closed
+Feb 01 20:56 : client: [27] opened from 127.0.0.1:34460
+Feb 01 20:56 : client: [27] closed
+Feb 01 20:56 : client: [28] opened from 127.0.0.1:34462
+Feb 01 20:56 : client: [28] closed
+Feb 01 20:57 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 01 20:57 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 01 20:57 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 01 20:59 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Feb 01 20:59 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Feb 01 20:59 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1026.
+Feb 01 20:59 : update: updating /5dbbde127e94076da815a5c0.mp3
+Feb 01 20:59 : update: updating /Missing You (Feat. 김윤아 of 자우림)   权志龙.mp3
+Feb 01 21:00 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 01 21:00 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 01 21:00 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 01 21:01 : player: played "Missing You (Feat. 김윤아 of 자우림)   权志龙.mp3"
+Feb 01 21:01 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 01 21:01 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 01 21:04 : player: played "张杰 - 明天过后.mp3"
+Feb 01 21:08 : client: [29] opened from [::1]:55994
+Feb 01 21:08 : client: [29] closed
+Feb 01 21:08 : client: [30] opened from [::1]:56002
+Feb 01 21:08 : client: [30] closed
+Feb 01 21:08 : player: played "5dbbde127e94076da815a5c0.mp3"
+Feb 01 21:12 : player: played "Missing You (Feat. 김윤아 of 자우림)   权志龙.mp3"
+Feb 01 21:32 : client: [31] opened from 127.0.0.1:36182
+Feb 01 21:32 : client: [31] closed
+Feb 01 21:32 : client: [32] opened from 127.0.0.1:36184
+Feb 01 21:32 : client: [32] closed
+Feb 01 21:32 : client: [33] opened from 127.0.0.1:36186
+Feb 01 21:32 : client: [33] closed
+Feb 01 21:32 : client: [34] opened from 127.0.0.1:36188
+Feb 01 21:32 : client: [34] closed
+Feb 01 21:32 : client: [35] opened from 127.0.0.1:36190
+Feb 01 21:32 : client: [35] closed
+Feb 01 21:32 : client: [36] opened from 127.0.0.1:36192
+Feb 01 21:32 : client: [36] closed
+Feb 01 21:32 : client: [37] opened from 127.0.0.1:36194
+Feb 01 21:32 : client: [37] closed
+Feb 01 21:32 : client: [38] opened from 127.0.0.1:36196
+Feb 01 21:32 : client: [38] closed
+Feb 01 21:32 : client: [39] opened from 127.0.0.1:36198
+Feb 01 21:32 : client: [39] closed
+Feb 01 21:32 : client: [40] opened from 127.0.0.1:36200
+Feb 01 21:32 : client: [40] closed
+Feb 01 21:32 : client: [41] opened from 127.0.0.1:36202
+Feb 01 21:32 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 01 21:32 : client: [41] closed
+Feb 01 21:32 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 01 21:32 : client: [42] opened from 127.0.0.1:36204
+Feb 01 21:32 : client: [42] closed
+Feb 01 21:32 : client: [43] opened from 127.0.0.1:36206
+Feb 01 21:32 : client: [43] closed
+Feb 01 21:32 : client: [44] opened from [::1]:57102
+Feb 01 21:32 : update: added /尹道贤 - 사랑했나봐.mp3
+Feb 01 21:32 : update: added /薛之谦   认真的雪.mp3
+Feb 01 21:32 : client: [44] closed
+Feb 01 21:33 : client: [45] opened from [::1]:57108
+Feb 01 21:33 : client: [45] closed
+Feb 01 21:33 : client: [46] opened from [::1]:57110
+Feb 01 21:33 : client: [46] closed
+Feb 01 21:33 : client: [47] opened from [::1]:57112
+Feb 01 21:33 : client: [47] closed
+Feb 01 21:33 : client: [48] opened from [::1]:57122
+Feb 01 21:33 : client: [48] closed
+Feb 01 21:33 : client: [49] opened from [::1]:57124
+Feb 01 21:33 : client: [49] closed
+Feb 01 21:33 : client: [50] opened from [::1]:57132
+Feb 01 21:34 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 01 21:34 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 01 21:34 : client: [51] opened from [::1]:57140
+Feb 01 21:34 : client: [51] closed
+Feb 01 21:36 : client: [50] closed
+Feb 01 21:36 : client: [52] opened from [::1]:57252
+Feb 01 21:36 : client: [52] closed
+Feb 01 21:38 : player: played "尹道贤 - 사랑했나봐.mp3"
+Feb 01 21:39 : client: [23] closed
+Feb 01 21:39 : client: [53] opened from [::1]:57332
+Feb 01 21:39 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 01 21:39 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 01 21:39 : client: [53] closed
+Feb 01 21:39 : client: [54] opened from 127.0.0.1:36442
+Feb 01 21:39 : client: [54] closed
+Feb 02 10:40 : client: [55] opened from 127.0.0.1:36566
+Feb 02 10:40 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 10:40 : client: [55] closed
+Feb 02 10:40 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 10:41 : client: [56] opened from 127.0.0.1:36592
+Feb 02 10:41 : client: [56] closed
+Feb 02 11:22 : client: [57] opened from 127.0.0.1:36688
+Feb 02 11:22 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 11:22 : client: [57] closed
+Feb 02 11:22 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 11:22 : client: [58] opened from [::1]:57582
+Feb 02 11:22 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 11:22 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 11:22 : client: [58] closed
+Feb 02 11:24 : player: played "张杰 - 明天过后.mp3"
+Feb 02 11:28 : player: played "Missing You (Feat. 김윤아 of 자우림)   权志龙.mp3"
+Feb 02 11:32 : player: played "薛之谦   认真的雪.mp3"
+Feb 02 11:36 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 11:36 : player: played "5dbbde127e94076da815a5c0.mp3"
+Feb 02 11:37 : client: [59] opened from [::1]:58290
+Feb 02 11:37 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 11:37 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 11:41 : player: played "张杰 - 明天过后.mp3"
+Feb 02 11:41 : client: [59] closed
+Feb 02 11:42 : client: [60] opened from 127.0.0.1:37420
+Feb 02 11:42 : client: [60] closed
+Feb 02 11:50 : client: [61] opened from [::1]:58490
+Feb 02 11:51 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 11:51 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 11:51 : client: [61] closed
+Feb 02 11:52 : client: [62] opened from 127.0.0.1:37618
+Feb 02 11:52 : client: [62] closed
+Feb 02 11:53 : client: [63] opened from [::1]:58514
+Feb 02 11:53 : client: [63] closed
+Feb 02 11:55 : client: [64] opened from [::1]:58518
+Feb 02 11:56 : player: played "5dbbde127e94076da815a5c0.mp3"
+Feb 02 11:56 : client: [64] closed
+Feb 02 11:56 : client: [65] opened from [::1]:58520
+Feb 02 11:57 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 11:57 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 11:57 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 11:57 : exception: Bad song index
+Feb 02 11:57 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 11:57 : client: [66] opened from 127.0.0.1:37632
+Feb 02 11:57 : client: [66] closed
+Feb 02 12:09 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 12:09 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 12:09 : client: [65] closed
+Feb 02 12:09 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 12:09 : client: [67] opened from 127.0.0.1:37642
+Feb 02 12:09 : client: [67] closed
+Feb 02 12:34 : client: [68] opened from [::1]:58570
+Feb 02 12:34 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 12:34 : client: [68] closed
+Feb 02 12:34 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 12:34 : client: [69] opened from [::1]:58572
+Feb 02 12:35 : update: removing 5dbbde127e94076da815a5c0.mp3
+Feb 02 12:35 : update: removing 薛之谦   认真的雪.mp3
+Feb 02 12:37 : player: played "尹道贤 - 사랑했나봐.mp3"
+Feb 02 12:38 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 12:38 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 12:38 : client: [69] closed
+Feb 02 12:38 : client: [70] opened from [::1]:58600
+Feb 02 12:39 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 12:40 : update: added /杨千嬅 - 可惜我是水瓶座.mp3
+Feb 02 12:40 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 12:43 : player: played "杨千嬅 - 可惜我是水瓶座.mp3"
+Feb 02 12:43 : client: [70] closed
+Feb 02 12:44 : client: [71] opened from [::1]:59096
+Feb 02 12:45 : update: removing 尹道贤 - 사랑했나봐.mp3
+Feb 02 12:45 : update: removing 杨千嬅 - 可惜我是水瓶座.mp3
+Feb 02 12:45 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Feb 02 12:45 : update: added /Justin bieber - Yummy  (Official Music Video 202 h_xRFwvXlf4.m4a
+Feb 02 12:45 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Feb 02 12:45 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 12:45 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 12:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 12:48 : client: [72] opened from 127.0.0.1:38470
+Feb 02 12:48 : client: [72] closed
+Feb 02 12:50 : client: [71] closed
+Feb 02 12:53 : client: [73] opened from [::1]:59410
+Feb 02 12:53 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 12:53 : client: [73] closed
+Feb 02 12:53 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 12:53 : client: [74] opened from [::1]:59412
+Feb 02 12:53 : client: [74] closed
+Feb 02 12:53 : client: [75] opened from [::1]:59414
+Feb 02 12:53 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 12:53 : client: [75] closed
+Feb 02 12:53 : client: [76] opened from [::1]:59416
+Feb 02 12:53 : client: [76] closed
+Feb 02 12:53 : client: [77] opened from [::1]:59418
+Feb 02 12:53 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 12:53 : client: [77] closed
+Feb 02 12:53 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 12:55 : client: [78] opened from [::1]:59422
+Feb 02 12:55 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 12:55 : client: [78] closed
+Feb 02 12:55 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 12:55 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 12:55 : client: [79] opened from [::1]:59424
+Feb 02 12:55 : client: [79] closed
+Feb 02 12:55 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 12:55 : client: [80] opened from [::1]:59426
+Feb 02 12:55 : client: [80] closed
+Feb 02 12:55 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 12:56 : client: [81] opened from [::1]:59428
+Feb 02 12:56 : client: [81] closed
+Feb 02 12:56 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 12:56 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 12:56 : client: [82] opened from [::1]:59430
+Feb 02 12:56 : client: [82] closed
+Feb 02 12:56 : client: [83] opened from [::1]:59432
+Feb 02 12:56 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Feb 02 12:56 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 12:56 : client: [83] closed
+Feb 02 12:56 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 12:56 : client: [84] opened from [::1]:59434
+Feb 02 12:56 : player: played "Justin bieber - Yummy  (Official Music Video 202 h_xRFwvXlf4.m4a"
+Feb 02 12:56 : client: [84] closed
+Feb 02 12:56 : client: [85] opened from [::1]:59436
+Feb 02 12:56 : exception: Not playing
+Feb 02 12:56 : client: [85] closed
+Feb 02 12:56 : client: [86] opened from [::1]:59438
+Feb 02 12:56 : exception: Not playing
+Feb 02 12:56 : client: [86] closed
+Feb 02 12:56 : client: [87] opened from [::1]:59440
+Feb 02 12:56 : exception: Not playing
+Feb 02 12:56 : client: [87] closed
+Feb 02 12:56 : client: [88] opened from [::1]:59442
+Feb 02 12:56 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 12:56 : client: [88] closed
+Feb 02 12:56 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 13:00 : player: played "张杰 - 明天过后.mp3"
+Feb 02 13:00 : client: [89] opened from 127.0.0.1:39200
+Feb 02 13:00 : client: [89] closed
+Feb 02 13:08 : client: [90] opened from [::1]:60658
+Feb 02 13:08 : update: added /DNA.mp3
+Feb 02 13:08 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 13:08 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 13:08 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 13:08 : client: [90] closed
+Feb 02 13:08 : client: [91] opened from [::1]:60702
+Feb 02 13:09 : client: [92] opened from [::1]:60786
+Feb 02 13:09 : client: [92] closed
+Feb 02 13:14 : client: [91] closed
+Feb 02 13:15 : client: [93] opened from [::1]:60992
+Feb 02 13:15 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 13:15 : client: [93] closed
+Feb 02 13:15 : client: [94] opened from [::1]:60994
+Feb 02 13:15 : client: [94] closed
+Feb 02 13:15 : client: [95] opened from [::1]:60996
+Feb 02 13:15 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 13:15 : client: [95] closed
+Feb 02 13:15 : client: [96] opened from [::1]:60998
+Feb 02 13:15 : client: [96] closed
+Feb 02 18:33 : client: [97] opened from 127.0.0.1:42762
+Feb 02 18:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 18:33 : client: [97] closed
+Feb 02 18:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 18:36 : client: [98] opened from 127.0.0.1:42864
+Feb 02 18:36 : player: played "DNA.mp3"
+Feb 02 18:36 : client: [98] closed
+Feb 02 18:36 : client: [99] opened from [::1]:35526
+Feb 02 18:38 : client: [99] closed
+Feb 02 20:12 : client: [0] closed
+Feb 02 20:12 : client: [100] opened from 127.0.0.1:41606
+Feb 02 20:12 : client: [101] opened from 127.0.0.1:41608
+Feb 02 20:15 : client: [100] closed
+Feb 02 20:15 : client: [101] closed
+Feb 02 20:15 : client: [102] opened from 127.0.0.1:41814
+Feb 02 20:15 : client: [103] opened from 127.0.0.1:41816
+Feb 02 20:16 : client: [104] opened from 127.0.0.1:41908
+Feb 02 20:16 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 20:16 : client: [104] closed
+Feb 02 20:16 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 20:16 : client: [105] opened from 127.0.0.1:41910
+Feb 02 20:16 : client: [105] closed
+Feb 02 21:53 : client: [106] opened from [::1]:38730
+Feb 02 21:53 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 21:53 : client: [106] closed
+Feb 02 21:53 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 21:53 : client: [107] opened from 127.0.0.1:46074
+Feb 02 21:53 : client: [107] closed
+Feb 02 21:53 : client: [108] opened from 127.0.0.1:46076
+Feb 02 21:53 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 21:53 : client: [108] closed
+Feb 02 21:53 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 21:55 : client: [109] opened from [::1]:38798
+Feb 02 21:55 : client: [109] closed
+Feb 02 21:55 : client: [110] opened from [::1]:38800
+Feb 02 21:55 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 21:55 : client: [110] closed
+Feb 02 21:55 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 21:55 : client: [111] opened from [::1]:38802
+Feb 02 21:55 : client: [111] closed
+Feb 02 21:55 : client: [112] opened from [::1]:38804
+Feb 02 21:55 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 21:55 : client: [112] closed
+Feb 02 21:55 : client: [113] opened from [::1]:38806
+Feb 02 21:55 : client: [113] closed
+Feb 02 22:55 : client: [114] opened from 127.0.0.1:51234
+Feb 02 22:55 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 22:55 : client: [114] closed
+Feb 02 22:55 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 22:55 : client: [115] opened from 127.0.0.1:51236
+Feb 02 22:55 : client: [115] closed
+Feb 02 22:55 : client: [116] opened from 127.0.0.1:51238
+Feb 02 22:55 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Feb 02 22:55 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 02 22:55 : client: [116] closed
+Feb 02 22:55 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 02 22:55 : client: [117] opened from 127.0.0.1:51244
+Feb 02 22:55 : client: [117] closed
+Feb 03 12:00 : client: [118] opened from [::1]:45066
+Feb 03 12:00 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 03 12:00 : client: [118] closed
+Feb 03 12:00 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 12:00 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 12:03 : player: played "Justin bieber - Yummy  (Official Music Video 202 h_xRFwvXlf4.m4a"
+Feb 03 12:03 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 12:03 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 03 12:04 : client: [119] opened from 127.0.0.1:53412
+Feb 03 12:04 : client: [119] closed
+Feb 03 14:53 : client: [120] opened from [::1]:50322
+Feb 03 14:53 : client: [120] closed
+Feb 03 15:09 : player: played "DNA.mp3"
+Feb 03 15:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 15:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 15:32 : client: [0] opened from 127.0.0.1:38584
+Feb 03 15:32 : client: [1] opened from 127.0.0.1:38582
+Feb 03 15:32 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 03 15:32 : client: [2] opened from [::1]:39650
+Feb 03 15:32 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 03 15:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 15:32 : client: [2] closed
+Feb 03 15:32 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 15:32 : client: [3] opened from [::1]:39652
+Feb 03 15:32 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 15:32 : update: added /星弟 - 多余的关心.MP3
+Feb 03 15:32 : update: added /四个女生 - 心愿.MP3
+Feb 03 15:32 : update: added /陈奕迅 - 淘汰.MP3
+Feb 03 15:32 : update: added /金贤政 - 7년간의 사랑.MP3
+Feb 03 15:32 : update: added /Carpenters - Yesterday Once More.MP3
+Feb 03 15:32 : update: added /T-ara - SEXY LOVE.MP3
+Feb 03 15:32 : update: added /胜屿 - 该死的懦弱.MP3
+Feb 03 15:32 : update: added /Defrix - Walking In the Sun (Defrix Remix).MP3
+Feb 03 15:32 : update: added /BIGBANG - GIRLFRIEND.MP3
+Feb 03 15:32 : update: added /Daz Sampson - Teenage Life.MP3
+Feb 03 15:32 : update: added /WINNER - 공허해.MP3
+Feb 03 15:32 : update: added /张翰 - 拾忆.MP3
+Feb 03 15:32 : update: added /江语晨 - 最后一页.MP3
+Feb 03 15:32 : update: added /马旭东 - 我们不可能.MP3
+Feb 03 15:32 : update: added /周传雄 - 花香.MP3
+Feb 03 15:32 : update: added /凉城 张震岳 - 思念是一种病.MP3
+Feb 03 15:32 : update: added /誓言 - 求佛.MP3
+Feb 03 15:32 : update: added /高耀太 - 불꽃.MP3
+Feb 03 15:32 : update: added /BTS (防弹少年团) - I NEED U.MP3
+Feb 03 15:32 : update: added /胜屿 - 笑着结束.MP3
+Feb 03 15:32 : update: added /Hélène Rolles - Je m'appelle Hélène.MP3
+Feb 03 15:32 : update: added /太阳 - RINGA LINGA.MP3
+Feb 03 15:32 : update: added /BIGBANG - Haru Haru -하루 하루-.MP3
+Feb 03 15:32 : update: added /鹏泊 - 啷个哩个啷.MP3
+Feb 03 15:32 : update: added /薛之谦 - 演员.MP3
+Feb 03 15:32 : update: added /曾沛慈 - 一个人想着一个人.MP3
+Feb 03 15:32 : update: added /Honey Cocaine - Gwola.MP3
+Feb 03 15:32 : update: added /张震岳 - 思念是一种病(Live).MP3
+Feb 03 15:32 : update: added /迪克牛仔 - 值得.MP3
+Feb 03 15:32 : update: added /王菲 - 容易受伤的女人.MP3
+Feb 03 15:32 : update: added /赵乃吉 - 最初的温柔.MP3
+Feb 03 15:32 : update: added /DJ Okawari - Flower Dance.MP3
+Feb 03 15:32 : update: added /自由派对 - 拥抱着你的滋味.MP3
+Feb 03 15:32 : update: added /郝云 - 活着.MP3
+Feb 03 15:32 : update: added /张振宇 - 别说我的眼泪你无所谓.MP3
+Feb 03 15:32 : update: added /刘佳 - 爱的就是你.MP3
+Feb 03 15:32 : update: added /华晨宇 - 横冲直撞.MP3
+Feb 03 15:32 : update: added /BIGBANG - LAST DANCE.MP3
+Feb 03 15:32 : update: added /陈小春 - 乱世巨星.MP3
+Feb 03 15:32 : update: added /石欣卉 - 一人留.MP3
+Feb 03 15:32 : update: added /Virtual Riot - Energy Drink.MP3
+Feb 03 15:32 : update: added /左颜 - 木头的心.MP3
+Feb 03 15:32 : update: added /OneRepublic - Counting Stars.MP3
+Feb 03 15:32 : update: added /DJ Daniel Kim - Pop Danthology 2012.MP3
+Feb 03 15:32 : update: added /玄彬 - 가질 수 없는 너.MP3
+Feb 03 15:32 : update: added /刘昊霖 kidult. - Landing Guy.MP3
+Feb 03 15:32 : update: added /Sam Smith - Too Good At Goodbyes.MP3
+Feb 03 15:32 : update: added /Asher Monroe - Here With You.MP3
+Feb 03 15:32 : update: added /Sara Nusara Poongprasert - เจอกับตัวเอง...ถึงรู้.MP3
+Feb 03 15:32 : update: added /BIGBANG - 눈물뿐인 바보.MP3
+Feb 03 15:32 : update: added /Timmy Trumpet Savage - Freaks (Radio Edit).MP3
+Feb 03 15:32 : update: added /男才女貌 - 外滩十八号.MP3
+Feb 03 15:32 : update: added /BIGBANG - Follow Me.MP3
+Feb 03 15:32 : update: added /吴若希 - 越难越爱.MP3
+Feb 03 15:32 : update: added /AGA - Wonderful U (Demo Version).MP3
+Feb 03 15:32 : update: added /陈粒 - 小半.MP3
+Feb 03 15:32 : update: added /Girl's Day - 기대해.MP3
+Feb 03 15:32 : update: added /成龙 - 醉拳(粤).MP3
+Feb 03 15:32 : update: added /许亚童 - 想要你知道.MP3
+Feb 03 15:32 : update: added /陈壹千 - IF You & Faded Remix（Cover BIGBANG & Alan Walker）.MP3
+Feb 03 15:32 : update: added /光良 - 烟火.MP3
+Feb 03 15:32 : update: added /杨宗纬 - 空白格 (Live).MP3
+Feb 03 15:32 : update: added /少女时代-Oh!GG - 쉼표 (Fermata).mp3
+Feb 03 15:32 : update: added /老狼 王婧 - 想把我唱给你听.MP3
+Feb 03 15:32 : update: added /李玖哲 - 想太多.MP3
+Feb 03 15:32 : update: added /宮崎歩 - brave heart.MP3
+Feb 03 15:32 : update: added /Larry Mullen Jr. - Theme from Mission： Impossible.MP3
+Feb 03 15:32 : update: added /罗百吉 宝贝 - 摩天轮.MP3
+Feb 03 15:32 : update: added /BIGBANG - LIE.MP3
+Feb 03 15:32 : update: added /Owl City Carly Rae Jepsen - Good Time.MP3
+Feb 03 15:32 : update: added /BIGBANG - Heaven -천국-.MP3
+Feb 03 15:32 : update: added /Eminem Rihanna - Love The Way You Lie.MP3
+Feb 03 15:32 : update: added /金志文 - 远走高飞.MP3
+Feb 03 15:32 : update: added /Kelly Clarkson - Because of You.MP3
+Feb 03 15:32 : update: added /弦子 - 醉清风.MP3
+Feb 03 15:32 : update: added /50 Cent - Disco Inferno.MP3
+Feb 03 15:32 : update: added /Apink - Mr. Chu.MP3
+Feb 03 15:32 : update: added /王杰 - 我是真的爱上你.MP3
+Feb 03 15:32 : update: added /咖啡少年 - 장가갈 수 있을까.MP3
+Feb 03 15:32 : update: added /薛之谦 - 刚刚好.MP3
+Feb 03 15:32 : update: added /许巍 - 故乡.MP3
+Feb 03 15:32 : update: added /BIGBANG - BEAUTIFUL HANGOVER.MP3
+Feb 03 15:32 : update: added /Brand X Music - Helmet to Helmet.MP3
+Feb 03 15:32 : update: added /Westlife - Beautiful In White (Demo).MP3
+Feb 03 15:32 : update: added /陈绮贞 - 我喜欢上你时的内心活动.MP3
+Feb 03 15:32 : update: added /陈柏宇 - 你瞒我瞒.MP3
+Feb 03 15:32 : update: added /李代沫 - 遗憾.MP3
+Feb 03 15:32 : update: added /张信哲 刘嘉玲 - 有一点动心.MP3
+Feb 03 15:32 : update: added /Era - The Mass.MP3
+Feb 03 15:32 : update: added /911 - I Do.MP3
+Feb 03 15:32 : update: added /Alexander Jean - Whiskey and Morphine.MP3
+Feb 03 15:32 : update: added /Tiger JK Jinsil - Reset(2).MP3
+Feb 03 15:32 : update: added /阿杜 - 撕夜.MP3
+Feb 03 15:32 : update: added /Any Band - T.P.L (Talk Play Love).MP3
+Feb 03 15:32 : update: added /Fool's Garden - Lemon Tree.MP3
+Feb 03 15:32 : update: added /逃跑计划 - 再见,再见.MP3
+Feb 03 15:32 : update: added /Kelly Clarkson - Catch My Breath.MP3
+Feb 03 15:32 : update: added /王筝 - 我们都是好孩子.MP3
+Feb 03 15:32 : update: added /Maroon 5 Christina Aguilera - Moves Like Jagger.MP3
+Feb 03 15:32 : update: added /Rocoberry - 계절 끝 (잠 못 드는 밤 2).MP3
+Feb 03 15:32 : update: added /郑欣宜 - 上心.MP3
+Feb 03 15:32 : update: added /许廷铿 - 面具.MP3
+Feb 03 15:32 : update: added /汪源 刘千楚 徐逸昊 鲁天舒 姜玮珉 胡梦原 张鎏依 梁竞元 游彧涵 金书援 许一璇 张夙西 - 北京东路的日子.MP3
+Feb 03 15:32 : update: added /Jibbs - Chain Hang Low.MP3
+Feb 03 15:32 : update: added /蔡淳佳 - 依恋.MP3
+Feb 03 15:32 : update: added /Kim Taylor - I Am You.MP3
+Feb 03 15:32 : update: added /权志龙 - Today.MP3
+Feb 03 15:32 : update: added /薛之谦 - 你还要我怎样.MP3
+Feb 03 15:32 : update: added /绘梨衣 - 最后的旅行——记《龙族》.MP3
+Feb 03 15:32 : update: added /Justin Bieber - Love Yourself.MP3
+Feb 03 15:32 : update: added /梁咏琪 - 胆小鬼.MP3
+Feb 03 15:32 : update: added /江语晨 - 浪漫爱.MP3
+Feb 03 15:32 : update: added /胡彦斌 - 为你我受冷风吹(2).MP3
+Feb 03 15:32 : update: added /吉佑社 - 我们已不同.MP3
+Feb 03 15:32 : update: added /G-Dragon 金润雅 - MISSING YOU.MP3
+Feb 03 15:32 : update: added /邓福如 - Me & U.MP3
+Feb 03 15:32 : update: added /Maroon 5 - Lucky Strike.MP3
+Feb 03 15:32 : update: added /张信哲 - 爱就一个字.MP3
+Feb 03 15:32 : update: added /陈鸿宇 - 理想三旬.MP3
+Feb 03 15:32 : update: added /YUI - HELP.mp3
+Feb 03 15:32 : update: added /郑欣宜 - 忘记的理由.MP3
+Feb 03 15:32 : update: added /曾春年 - 最幸福的人.MP3
+Feb 03 15:32 : update: added /Matt B - Color Blind.MP3
+Feb 03 15:32 : update: added /王冕 - 勉为其难.MP3
+Feb 03 15:32 : update: added /弦子 - 舍不得.MP3
+Feb 03 15:32 : update: added /林俊杰 - 就是我.MP3
+Feb 03 15:32 : update: added /Tiësto Sevenn - BOOM.MP3
+Feb 03 15:32 : update: added /Embody Claire Ridgely - Lost & Found.MP3
+Feb 03 15:32 : update: added /冬子 刘东明 小河 钟立风 好妹妹 蒋明 - 啊朋友 再见.MP3
+Feb 03 15:32 : update: added /徐薇 - 我以为.MP3
+Feb 03 15:32 : update: added /杜婧荧 王艺翔 - 雪.MP3
+Feb 03 15:32 : update: added /Steven Cooper - Born to Do.MP3
+Feb 03 15:32 : update: added /林峯 - 爱在记忆中找你.MP3
+Feb 03 15:32 : update: added /JAEFOREAL - 是个好人.MP3
+Feb 03 15:32 : update: added /丁可 - If.MP3
+Feb 03 15:32 : update: added /BIGBANG - IF YOU.MP3
+Feb 03 15:32 : update: added /封茗囧菌 - 幹物女(WeiWei).MP3
+Feb 03 15:32 : update: added /Fall Out Boy - Immortals.MP3
+Feb 03 15:32 : update: added /Taio Cruz - Break Your Heart.MP3
+Feb 03 15:32 : update: added /Candee! - Ein kleines Lied (Around The World).MP3
+Feb 03 15:32 : update: added /2PM 尹恩惠 - Tik Tok.MP3
+Feb 03 15:32 : update: added /Fefe Dobson - Stuttering.MP3
+Feb 03 15:32 : update: added /孙耀威 - 爱的故事(上).MP3
+Feb 03 15:32 : update: added /栗先达 - 相守.MP3
+Feb 03 15:32 : update: added /夏浅景 - 秋殇别恋.MP3
+Feb 03 15:32 : update: added /彭佳慧 - 相见恨晚.MP3
+Feb 03 15:32 : update: added /Jason Walker - Down.MP3
+Feb 03 15:32 : update: added /陈慧琳 - 前所未见.MP3
+Feb 03 15:32 : update: added /金雅中 - Maria.MP3
+Feb 03 15:32 : update: added /尹熙水 - 拥抱的理由.MP3
+Feb 03 15:32 : update: added /范晓萱 - 氧气.MP3
+Feb 03 15:32 : update: added /羽肿 - 花火が瞬く夜に.MP3
+Feb 03 15:32 : update: added /蒋蒋 - 残雪.MP3
+Feb 03 15:32 : update: added /泰仁 - 그 남자의 거짓말.MP3
+Feb 03 15:32 : update: added /MC 梦 Sweden Laundry - 죽을만큼 아파서 Part.2.MP3
+Feb 03 15:32 : update: added /The Downtown Fiction - I Just Wanna Run.MP3
+Feb 03 15:32 : update: added /Soler - 风的季节.MP3
+Feb 03 15:32 : update: added /封茗囧菌 - 东京不太热.MP3
+Feb 03 15:32 : update: added /陈慧琳 - 记事本.MP3
+Feb 03 15:32 : update: added /任然 - 凉城.MP3
+Feb 03 15:32 : update: added /Timmy Trumpet Andrew W.K. MAKJ - Party Till We Die (Extended Mix).MP3
+Feb 03 15:32 : update: added /锦零 - 豆花之歌（Cover：Pianoboy高至豪）.MP3
+Feb 03 15:32 : update: added /Tank - 三国恋.MP3
+Feb 03 15:32 : update: added /Eminem 50 Cent Cashis Lloyd Banks - You Don't Know.MP3
+Feb 03 15:32 : update: added /动力火车 - 终于明白.MP3
+Feb 03 15:32 : update: added /Akon - Right Now (Na Na Na).MP3
+Feb 03 15:32 : update: added /MC 梦 Mellow - 죽을 만큼 아파서.MP3
+Feb 03 15:32 : update: added /胜屿 - 后遗症.MP3
+Feb 03 15:32 : update: added /潘玮柏 - 亲爱的.MP3
+Feb 03 15:32 : update: added /许茹芸 - 独角戏.MP3
+Feb 03 15:32 : update: added /罗百吉 - Hero Tonight 英雄 Feat Missy Babe.MP3
+Feb 03 15:32 : update: added /V.A. - 샤랄라 (허밍).MP3
+Feb 03 15:32 : update: added /孙子涵 - 回忆那么伤.MP3
+Feb 03 15:32 : update: added /M2M - Pretty Boy.MP3
+Feb 03 15:32 : update: added /蔡妍 - 两个人.MP3
+Feb 03 15:32 : update: added /夏婉安 - 一个人.MP3
+Feb 03 15:32 : update: added /范逸臣 - I Believe.MP3
+Feb 03 15:32 : update: added /雷智皓 - 山楂树の恋.MP3
+Feb 03 15:32 : update: added /周传雄 - 我难过.MP3
+Feb 03 15:32 : update: added /成始璄 - 너의 모든 순간.MP3
+Feb 03 15:32 : update: added /刘佳 - 一个人走.MP3
+Feb 03 15:32 : update: added /李孝利 - 10 MINUTES.MP3
+Feb 03 15:32 : update: added /K.Will - 말해! 뭐해？.MP3
+Feb 03 15:32 : update: added /Michael Jackson - You Are Not Alone.MP3
+Feb 03 15:32 : update: added /Krystal - 울컥.MP3
+Feb 03 15:32 : update: added /周杰伦 - 晴天.MP3
+Feb 03 15:32 : update: added /赵雷 - 成都.MP3
+Feb 03 15:32 : update: added /Sistar - SHAKE IT.MP3
+Feb 03 15:32 : update: added /徐佳莹 - 身骑白马.MP3
+Feb 03 15:32 : update: added /欧得洋 - 孤单北半球.MP3
+Feb 03 15:32 : update: added /宇桐非 胡雯 - 擦肩而过.MP3
+Feb 03 15:32 : update: added /SpeXial - 心流感.MP3
+Feb 03 15:32 : update: added /朱雅 - 前度.MP3
+Feb 03 15:32 : update: added /杨宗纬 - 给未来的自己(Live).MP3
+Feb 03 15:32 : update: added /Frankmusik - Wrecking Ball.MP3
+Feb 03 15:32 : update: added /孝敏 Loco - Nice Body.MP3
+Feb 03 15:32 : update: added /马天宇 - 依然在一起.MP3
+Feb 03 15:32 : update: added /SS501 - The ONE.MP3
+Feb 03 15:32 : update: added /Hello Venus - 위글위글.MP3
+Feb 03 15:32 : update: added /Tiger JK Jinsil - Reset.mp3
+Feb 03 15:32 : update: added /Two Steps From Hell - Victory.MP3
+Feb 03 15:32 : update: added /Britney Spears - Till The World Ends.MP3
+Feb 03 15:32 : update: added /杨千嬅 - 处处吻.MP3
+Feb 03 15:32 : update: added /陈小春 - 友情岁月.MP3
+Feb 03 15:32 : update: added /BIGBANG - Stay.MP3
+Feb 03 15:32 : update: added /简弘亦 - 出卖.MP3
+Feb 03 15:32 : update: added /Ethno Music Project - Childhood Memory.MP3
+Feb 03 15:32 : update: added /Anthem Lights - Best of 2012： Payphone Call Me Maybe Wide Awake Starship We Are Young.MP3
+Feb 03 15:32 : update: added /BIGBANG - Bigbang.MP3
+Feb 03 15:32 : update: added /G-Dragon Lydia Paek - R.O.D..MP3
+Feb 03 15:32 : update: added /BOBO - 光荣.MP3
+Feb 03 15:32 : update: added /Hampton the Hampster - The Hampster Dance Song.MP3
+Feb 03 15:32 : update: added /王冰洋 - 飞舞.MP3
+Feb 03 15:32 : update: added /Tamas Wells - Valder Fields.MP3
+Feb 03 15:32 : update: added /张玮伽 - 海浪.MP3
+Feb 03 15:32 : update: added /Dr. Dre Snoop Dogg Kurupt - The Next Episode.MP3
+Feb 03 15:32 : update: added /李洪基 - 여전히.MP3
+Feb 03 15:32 : update: added /Daniel Powter - Free Loop (Vocal Up Version).MP3
+Feb 03 15:32 : update: added /Bon Jovi - It's My Life.MP3
+Feb 03 15:32 : update: added /BTS (防弹少年团) - Butterfly.MP3
+Feb 03 15:32 : update: added /BIGBANG - 거짓말.MP3
+Feb 03 15:32 : update: added /飘乐队 - 每条伤心的大街.MP3
+Feb 03 15:32 : update: added /李孝利 Teddy - Anyclub.MP3
+Feb 03 15:32 : update: added /薛之谦 - 我知道你都知道.MP3
+Feb 03 15:32 : update: added /Nana - Lonely.MP3
+Feb 03 15:32 : update: added /Ofenbach - You Don't Know Me.MP3
+Feb 03 15:32 : update: added /梁一贞 - 那面墙.MP3
+Feb 03 15:32 : update: added /毛阿敏 - 相思.MP3
+Feb 03 15:32 : update: added /Mario 朴素彬 송보람 - Never Say Goodbye.MP3
+Feb 03 15:32 : update: added /Darin - Be What You Wanna Be.MP3
+Feb 03 15:32 : update: added /T-ara N4 二段横踢 禹泰云 - 전원일기 (田园日记).MP3
+Feb 03 15:32 : update: added /李宝蓝 - 처음 그 자리에.MP3
+Feb 03 15:32 : update: added /Carly Rae Jepsen - Call Me Maybe.MP3
+Feb 03 15:32 : update: added /许廷铿 - 厌弃.MP3
+Feb 03 15:32 : update: added /Cam Kelley - Sketch Plane.MP3
+Feb 03 15:32 : update: added /Groove Coverage - She.MP3
+Feb 03 15:32 : update: added /陈辉权 - 不再说永远.MP3
+Feb 03 15:32 : update: added /林俊杰 金莎 - 被风吹过的夏天.MP3
+Feb 03 15:32 : update: added /阿桑 - 叶子.MP3
+Feb 03 15:32 : update: added /Joel Hanson - Traveling Light.MP3
+Feb 03 15:32 : update: added /Owl City Carly Rae Jepsen - Good Time(2).MP3
+Feb 03 15:32 : update: added /蓝波 - 你到底有没有爱过我.MP3
+Feb 03 15:32 : update: added /太阳 - 새벽한시 (1AM).MP3
+Feb 03 15:32 : update: added /Dreamtale - Intro： The Dawn.MP3
+Feb 03 15:32 : update: added /拉面儿 - 【中日双语】幻化成风（Cover：梁静茹 辻亚弥乃）.MP3
+Feb 03 15:32 : update: added /Hillsong Young & Free - Wake.MP3
+Feb 03 15:32 : update: added /The Script will.i.am - Hall of Fame.MP3
+Feb 03 15:32 : update: added /群星 - 心痛2009.MP3
+Feb 03 15:32 : update: added /CNBLUE - 외톨이야.MP3
+Feb 03 15:32 : update: added /孙子涵 - 隐身守候.MP3
+Feb 03 15:32 : update: added /白智英 - 총 맞은 것처럼.MP3
+Feb 03 15:32 : update: added /Dj Titon - 死机之歌.MP3
+Feb 03 15:32 : update: added /Rich Brian - Dat $tick.MP3
+Feb 03 15:32 : update: added /Flo Rida - Whistle.MP3
+Feb 03 15:32 : update: added /许一鸣 - 想你想疯了.MP3
+Feb 03 15:32 : update: added /Black Eyed Peas - Boom Boom Pow (Clean).MP3
+Feb 03 15:32 : update: added /Rainbow - Tell Me Tell Me.MP3
+Feb 03 15:32 : update: added /A Teens - Floorfiller.MP3
+Feb 03 15:32 : update: added /Joel Adams - Please Don't Go.MP3
+Feb 03 15:32 : update: added /零点乐队 - 爱不爱我.MP3
+Feb 03 15:32 : update: added /陈奕迅 - 谁来剪月光.MP3
+Feb 03 15:32 : update: added /Ailee - 보여줄게.MP3
+Feb 03 15:32 : update: added /许巍 - 执着.MP3
+Feb 03 15:32 : update: added /张靓颖 - 天下无双.MP3
+Feb 03 15:32 : update: added /本兮 - 情花.MP3
+Feb 03 15:32 : update: added /徐佳莹 - 失落沙洲.MP3
+Feb 03 15:32 : update: added /潘玮柏 苏芮 - 我想更懂你.MP3
+Feb 03 15:32 : update: added /双笙 封茗囧菌 - We Don't Talk Anymore（Cover Charlie Puth&Selena Gomez）.MP3
+Feb 03 15:32 : update: added /Deutschland sucht den Superstar Various Artists - Cry On My Shoulder.MP3
+Feb 03 15:32 : update: added /金志文 - 夏洛特烦恼.MP3
+Feb 03 15:32 : update: added /水木年华 - 在他乡.MP3
+Feb 03 15:32 : update: added /BIGBANG - HALLELUJAH.MP3
+Feb 03 15:32 : update: added /韦礼安 郭静 - 风景旧曾谙.MP3
+Feb 03 15:32 : update: added /Little Mix Charlie Puth - Oops.MP3
+Feb 03 15:32 : update: added /玄彬 - 그남자.MP3
+Feb 03 15:32 : update: added /翁梓铭 - 原来如此.MP3
+Feb 03 15:32 : update: added /Craig David - Insomnia.MP3
+Feb 03 15:32 : update: added /陈小春 - 独家记忆.MP3
+Feb 03 15:32 : update: added /以冬 - 我的一个道姑朋友（cover タイナカ 彩智）（Cover Lon）.MP3
+Feb 03 15:32 : update: added /Michael Jackson - We Are The World (Demo).MP3
+Feb 03 15:32 : update: added /姜育恒 - 再回首.MP3
+Feb 03 15:32 : update: added /杨宗纬 - 一次就好.MP3
+Feb 03 15:32 : update: added /Kenny G - Going home.MP3
+Feb 03 15:32 : update: added /Sara 刘佳 - 爱很美.MP3
+Feb 03 15:32 : update: added /FTISLAND - 미친 듯이 너 하나만.MP3
+Feb 03 15:32 : update: added /张敬轩 - 断点.MP3
+Feb 03 15:32 : update: added /Earphones - Primetime-sexcrime.MP3
+Feb 03 15:32 : update: added /RADWIMPS - なんでもないや (movie ver.).MP3
+Feb 03 15:32 : update: added /M80 - Feeling U.MP3
+Feb 03 15:32 : update: added /马頔 - 南山南.MP3
+Feb 03 15:32 : update: added /Miley Cyrus - We Can't Stop.MP3
+Feb 03 15:32 : update: added /Akie秋绘 - 天ノ弱.MP3
+Feb 03 15:32 : update: added /Remady - L-Holidays (Radio Edit).MP3
+Feb 03 15:32 : update: added /新街口组合 - 暗恋过 结局呢.MP3
+Feb 03 15:32 : update: added /Why - 운명.MP3
+Feb 03 15:32 : update: added /DJ Maxwell - It's Ok.MP3
+Feb 03 15:32 : update: added /简弘亦 - 情歌 (cover梁静茹).MP3
+Feb 03 15:32 : update: added /Fifth Harmony KiD Ink - Worth It.MP3
+Feb 03 15:32 : update: added /方雅贤 - 遇到.MP3
+Feb 03 15:32 : update: added /BIGBANG 朴春 - WE BELONG TOGETHER.MP3
+Feb 03 15:32 : update: added /周迅 - 飘摇.MP3
+Feb 03 15:32 : update: added /RAiNBOW计划 雷雨心 - 记念.MP3
+Feb 03 15:32 : update: added /Fort Minor Styles of Beyond - Remember The Name.MP3
+Feb 03 15:32 : update: added /大声 - 웃어본다.MP3
+Feb 03 15:32 : update: added /G-Dragon - 무제(無題) (Untitled, 2014).MP3
+Feb 03 15:32 : update: added /IU G-Dragon - 팔레트.MP3
+Feb 03 15:32 : update: added /王强 - 秋天不回来.MP3
+Feb 03 15:32 : update: added /光泽 - 空心.MP3
+Feb 03 15:32 : update: added /温岚 - 夏天的风.MP3
+Feb 03 15:32 : update: added /后弦 - 娃娃脸.MP3
+Feb 03 15:32 : update: added /Backstreet Boys - As Long as You Love Me.MP3
+Feb 03 15:32 : update: added /刘瑞琦 - 房间.MP3
+Feb 03 15:32 : update: added /以冬 - 造梦者.MP3
+Feb 03 15:32 : update: added /Tiësto Sevenn - Boom (Extended Mix).MP3
+Feb 03 15:32 : update: added /BIGBANG - MONSTER.MP3
+Feb 03 15:32 : update: added /草蜢 - 失恋.MP3
+Feb 03 15:32 : update: added /王绎龙 - 电音之王.MP3
+Feb 03 15:32 : update: added /Fall Out Boy - The Phoenix.MP3
+Feb 03 15:32 : update: added /绿森林组合 - 天亮之前.MP3
+Feb 03 15:32 : update: added /BIGBANG - Tell Me Goodbye.MP3
+Feb 03 15:32 : update: added /庄心妍 - 哎.MP3
+Feb 03 15:32 : update: added /Wisp X - Stand With Me.MP3
+Feb 03 15:32 : update: added /TheFatRat Laura Brehm - Monody.MP3
+Feb 03 15:32 : update: added /BIGBANG - 꽃 길.MP3
+Feb 03 15:32 : update: added /Justin Bieber - As Long As You Love Me.MP3
+Feb 03 15:32 : update: added /Bruno Mars - Marry You.MP3
+Feb 03 15:32 : update: added /三亩地 - 城南花已开.MP3
+Feb 03 15:32 : update: added /ILLIONAIRE RECORDS - 가.MP3
+Feb 03 15:32 : update: added /Jus Allah - betrayal.MP3
+Feb 03 15:32 : update: added /李代沫 - 到不了.MP3
+Feb 03 15:32 : update: added /레게 강 같은 평화 (RGP) 权正烈 - Beautiful Girl.MP3
+Feb 03 15:32 : update: added /刘诺婕 - 独寂.MP3
+Feb 03 15:32 : update: added /Daniel Powter - Free Loop.MP3
+Feb 03 15:32 : update: added /Kate Havnevik - So：Lo.MP3
+Feb 03 15:32 : update: added /波丹.尤莉娅 - Рiчка.MP3
+Feb 03 15:32 : update: added /Charlie Puth Selena Gomez - We Don't Talk Anymore.MP3
+Feb 03 15:32 : update: added /逃跑计划 - 一万次悲伤.MP3
+Feb 03 15:32 : update: added /Dr. Dre Snoop Dogg Nate Dogg - The Next Episode.MP3
+Feb 03 15:32 : update: added /小5 - 说一句我不走了.MP3
+Feb 03 15:32 : update: added /光良 - 约定.MP3
+Feb 03 15:32 : update: added /Rainton桐 - 最后的旅行 (日语念白版).MP3
+Feb 03 15:32 : update: added /黑豹乐队 - 无地自容.MP3
+Feb 03 15:32 : update: added /任然 - 你好陌生人.MP3
+Feb 03 15:32 : update: added /BIGBANG - FXXK IT(에라 모르겠다).MP3
+Feb 03 15:32 : update: added /Sara - 我的心好冷.MP3
+Feb 03 15:32 : update: added /薛之谦 - 暧昧.MP3
+Feb 03 15:32 : update: added /Stewart Mac - I Love You.MP3
+Feb 03 15:32 : update: added /Samantha Jade - Soldier.MP3
+Feb 03 15:32 : update: added /平野綾 - 冒険でしょでしょ？.mp3
+Feb 03 15:32 : update: added /T-ara - Falling U.MP3
+Feb 03 15:32 : update: added /潘广益 - 纪念的歌.MP3
+Feb 03 15:32 : update: added /Ethno Music Project - The Foggy Dew.MP3
+Feb 03 15:32 : update: added /蓝波 - 你到底有没有爱过我(2).MP3
+Feb 03 15:32 : update: added /Vitas - Opera 2.MP3
+Feb 03 15:32 : update: added /汪苏泷 - 唯你懂我心.MP3
+Feb 03 15:32 : update: added /Rain - 30     .MP3
+Feb 03 15:32 : update: added /腹肌 米白 莓子 奇多利 - 樱花樱花想见你（Cover 高野健一）.MP3
+Feb 03 15:32 : update: added /李翊君 - 永远永远.MP3
+Feb 03 15:32 : update: added /布衣乐队 - 我爱你亲爱的姑娘.MP3
+Feb 03 15:32 : update: added /陈奕迅 - 让我留在你身边.MP3
+Feb 03 15:32 : update: added /薛之谦 - 方圆几里.MP3
+Feb 03 15:32 : update: added /4円 - アイロニ.MP3
+Feb 03 15:32 : update: added /ZAYN Taylor Swift - I Don't Wanna Live Forever (Fifty Shades Darker).MP3
+Feb 03 15:32 : update: added /王菲 - 匆匆那年.MP3
+Feb 03 15:32 : update: added /Linkin Park - In The End.MP3
+Feb 03 15:32 : update: added /T-ara - Bo Peep Bo Peep.MP3
+Feb 03 15:32 : update: added /Justin Bieber Lil Wayne Chance the Rapper Quavo DJ Khaled - I'm the One.MP3
+Feb 03 15:32 : update: added /周传雄 - 青花.MP3
+Feb 03 15:32 : update: added /Martin Ermen - River Flows In You.MP3
+Feb 03 15:32 : update: added /东来东往 - 连哭都是我的错.MP3
+Feb 03 15:32 : update: added /孙丹菲 - 눈물이 주르륵.MP3
+Feb 03 15:32 : update: added /魏新雨 - 恋人心.MP3
+Feb 03 15:32 : update: added /夏天Alex - 不再联系.MP3
+Feb 03 15:32 : update: added /邓福如 - Nothing on you.MP3
+Feb 03 15:32 : update: added /太阳 - 눈, 코, 입.MP3
+Feb 03 15:32 : update: added /BLACKPINK - WHISTLE.MP3
+Feb 03 15:32 : update: added /Queen - We Will Rock You.MP3
+Feb 03 15:32 : update: added /张悬 - 宝贝 (in a day).MP3
+Feb 03 15:32 : update: added /Nightwish - I Want My Tears Back.MP3
+Feb 03 15:32 : update: added /Lenka - The Show.MP3
+Feb 03 15:32 : update: added /JC陈泳彤 - 说散就散.MP3
+Feb 03 15:32 : update: added /iKON - MY TYPE (취향저격).MP3
+Feb 03 15:32 : update: added /BIGBANG - Baby Baby -Japanese Version-.MP3
+Feb 03 15:32 : update: added /罗百吉 - I Miss You（Cover 青春美少女）.MP3
+Feb 03 15:32 : update: added /牛奶咖啡 - 越长大越孤单.MP3
+Feb 03 15:32 : update: added /夏小虎 - 逝年.MP3
+Feb 03 15:32 : update: added /张玉华 - 原谅.MP3
+Feb 03 15:32 : update: added /Vitas - Звезда.MP3
+Feb 03 15:32 : update: added /少女时代-Oh!GG - 몰랐니 (Lil` Touch).mp3
+Feb 03 15:32 : update: added /李克勤 陈慧琳 - 爱一个人.MP3
+Feb 03 15:32 : update: added /1983 - 对不起 我爱你.MP3
+Feb 03 15:32 : update: added /孙子涵 - 毕业后你不是我的.MP3
+Feb 03 15:32 : update: added /李贞贤 - 아리아리.MP3
+Feb 03 15:32 : update: added /张卫健 - 你爱我像谁.MP3
+Feb 03 15:32 : update: added /Ingrid Michaelson - Everybody.MP3
+Feb 03 15:32 : update: added /钟嘉欣 - 恋爱令人心痛.MP3
+Feb 03 15:32 : update: added /张栋梁 - 当你孤单你会想起谁.MP3
+Feb 03 15:32 : update: added /辉星 - Insomnia (불면증).MP3
+Feb 03 15:32 : update: added /李敏镐 羽·泉 - 奔跑.MP3
+Feb 03 15:32 : update: added /TAIBIAN - Queen.MP3
+Feb 03 15:32 : update: added /李玉刚 - 刚好遇见你.MP3
+Feb 03 15:32 : update: added /高耀太 - 순정.MP3
+Feb 03 15:32 : update: added /Blue - U Make Me Wanna.MP3
+Feb 03 15:32 : update: added /尤起胜 - 说谎.MP3
+Feb 03 15:32 : update: added /夹子道 - 死心塌地.MP3
+Feb 03 15:32 : update: added /Mi2 - 勇敢爱.MP3
+Feb 03 15:32 : update: added /李克勤 陈苑淇 - 合久必婚.MP3
+Feb 03 15:32 : update: added /Carly Rae Jepsen - I Really Like You.MP3
+Feb 03 15:32 : update: added /萌萌哒天团 - 帝都.MP3
+Feb 03 15:32 : update: added /陈奕迅 - 可以了.MP3
+Feb 03 15:32 : update: added /伍佰 - 突然的自我.MP3
+Feb 03 15:32 : update: added /许亚童 - 慢慢慢慢忘记你.MP3
+Feb 03 15:32 : update: added /安苏羽 - 左肩.MP3
+Feb 03 15:32 : update: added /陈苑淇 李克勤 - 合久必婚 (合唱).MP3
+Feb 03 15:32 : update: added /太妍 - 만약에.MP3
+Feb 03 15:32 : update: added /Tragédie - Hey Oh.MP3
+Feb 03 15:32 : update: added /赵薇 - 情深深雨濛濛.MP3
+Feb 03 15:32 : update: added /叶蒨文 - 情人知己.MP3
+Feb 03 15:32 : update: added /Snoop Dog Dr. Dre - The Next Episode instrumental.MP3
+Feb 03 15:32 : update: added /迪克牛仔 - 梦醒时分.MP3
+Feb 03 15:32 : update: added /T-ara - 넘버나인 (No.9).MP3
+Feb 03 15:32 : update: added /陈奕迅 - 海胆.MP3
+Feb 03 15:32 : update: added /申升勋 - I Believe (Guitar Ver.).MP3
+Feb 03 15:32 : update: added /本兮 - 有心无意.MP3
+Feb 03 15:32 : update: added /庄心妍 - 一直想着他.MP3
+Feb 03 15:32 : update: added /阿桑 - 一直很安静.MP3
+Feb 03 15:32 : update: added /陈慧琳 - Love Paradise.MP3
+Feb 03 15:32 : update: added /雷诺儿 - 别在我离开之前离开.MP3
+Feb 03 15:32 : update: added /简弘亦 - 如果云知道（Cover：许茹芸）.MP3
+Feb 03 15:32 : update: added /刘瑞琦 - 原谅 (Cover 张玉华).MP3
+Feb 03 15:32 : update: added /赵紫骅 - 可乐.MP3
+Feb 03 15:32 : update: added /金艺林 - All Right.MP3
+Feb 03 15:32 : update: added /太阳 - 나만 바라봐.MP3
+Feb 03 15:32 : update: added /上官晓懿 - 伤爱的理由.MP3
+Feb 03 15:32 : update: added /OMFG - Hello.MP3
+Feb 03 15:32 : update: added /Maroon 5 - Maps.MP3
+Feb 03 15:32 : update: added /欢子 - 心痛2009.MP3
+Feb 03 15:32 : update: added /BIGBANG - Bringing You Love.MP3
+Feb 03 15:32 : update: added /郑伊健 陈小春 - 热血燃烧.MP3
+Feb 03 15:32 : update: added /李玖哲 - 围墙.MP3
+Feb 03 15:32 : update: added /胡彦斌 - 为你我受冷风吹.MP3
+Feb 03 15:32 : update: added /AGA - Better Me.MP3
+Feb 03 15:32 : update: added /草蜢 - 失恋阵线联盟.MP3
+Feb 03 15:32 : update: added /John The Whistler - Wild Wild Web.MP3
+Feb 03 15:32 : update: added /蔡妍 - 위험한 연출.MP3
+Feb 03 15:32 : update: added /July - My Soul.MP3
+Feb 03 15:32 : update: added /谢春花 - 我从崖边跌落.MP3
+Feb 03 15:32 : update: added /Sensitive Bogdan Bondarenko - Remember (Original Mix).MP3
+Feb 03 15:32 : update: added /薛之谦 - 我好像在哪见过你.MP3
+Feb 03 15:32 : update: added /许慧欣 - 七月七日晴.MP3
+Feb 03 15:32 : update: added /刘昊霖 - 儿时.MP3
+Feb 03 15:32 : update: added /简弘亦 - 开始懂了（Cover：孙燕姿）.MP3
+Feb 03 15:32 : update: added /高进 - 别想她.MP3
+Feb 03 15:32 : update: added /山野 - 如果爱能早些说出来.MP3
+Feb 03 15:32 : update: added /Overground - One For Da Money.MP3
+Feb 03 15:32 : update: added /宁桓宇 - 爱情往事.MP3
+Feb 03 15:32 : update: added /Bruno Wen-li - Old Memory.mp3
+Feb 03 15:32 : update: added /Taylor Swift - Look What You Made Me Do.MP3
+Feb 03 15:32 : update: added /Crush Punch - 잠 못드는 밤.MP3
+Feb 03 15:32 : update: added /Raphaël Beau - Micmacs A La Gare.MP3
+Feb 03 15:32 : update: added /Candy - Bila.MP3
+Feb 03 15:32 : update: added /Baha Men - Who Let The Dogs Out.MP3
+Feb 03 15:32 : update: added /唐汉霄 - 让我留在你身边 (原唱作版).MP3
+Feb 03 15:32 : update: added /孙耀威 - 爱的故事(下)-但愿他珍惜你.MP3
+Feb 03 15:32 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 15:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 15:34 : client: [3] closed
+Feb 03 15:35 : client: [4] opened from [::1]:39676
+Feb 03 15:35 : player: played "太阳 - 나만 바라봐.MP3"
+Feb 03 15:35 : client: [4] closed
+Feb 03 15:35 : client: [5] opened from [::1]:39678
+Feb 03 15:35 : exception: Not playing
+Feb 03 15:35 : client: [5] closed
+Feb 03 15:35 : client: [6] opened from [::1]:39680
+Feb 03 15:35 : client: [6] closed
+Feb 03 15:35 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 03 15:35 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 15:35 : client: [7] opened from [::1]:39682
+Feb 03 15:35 : client: [7] closed
+Feb 03 15:35 : client: [8] opened from [::1]:39684
+Feb 03 15:35 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 15:35 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 15:35 : client: [8] closed
+Feb 03 15:39 : player: played "BIGBANG - 눈물뿐인 바보.MP3"
+Feb 03 15:43 : player: played "BIGBANG - 거짓말.MP3"
+Feb 03 15:43 : client: [9] opened from [::1]:39908
+Feb 03 15:44 : client: [9] closed
+Feb 03 15:46 : client: [10] opened from [::1]:40298
+Feb 03 15:46 : client: [10] closed
+Feb 03 15:47 : player: played "BIGBANG - GIRLFRIEND.MP3"
+Feb 03 15:47 : client: [11] opened from [::1]:40496
+Feb 03 15:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 15:49 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 15:51 : client: [11] closed
+Feb 03 15:51 : client: [12] opened from [::1]:40584
+Feb 03 15:52 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 15:55 : update: updating /Justin bieber - Yummy  (Official Music Video 202 h_xRFwvXlf4.m4a
+Feb 03 15:55 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Feb 03 15:56 : player: played "Akie秋绘 - 天ノ弱.MP3"
+Feb 03 16:01 : client: [13] opened from [::1]:40752
+Feb 03 16:01 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 03 16:01 : client: [13] closed
+Feb 03 16:01 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 16:01 : client: [14] opened from [::1]:40754
+Feb 03 16:01 : client: [15] opened from [::1]:40758
+Feb 03 16:01 : client: [15] closed
+Feb 03 16:02 : client: [14] closed
+Feb 03 16:03 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 03 16:03 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 16:06 : player: played "Kelly Clarkson - Because of You.MP3"
+Feb 03 16:21 : client: [16] opened from [::1]:40900
+Feb 03 16:21 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 03 16:21 : client: [16] closed
+Feb 03 16:21 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 16:21 : client: [17] opened from [::1]:40902
+Feb 03 16:21 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 16:21 : client: [17] closed
+Feb 03 16:21 : client: [18] opened from [::1]:40904
+Feb 03 16:21 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 16:22 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 16:22 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 16:22 : client: [18] closed
+Feb 03 16:22 : client: [12] closed
+Feb 03 16:27 : player: played "许廷铿 - 面具.MP3"
+Feb 03 16:31 : client: [19] opened from [::1]:41330
+Feb 03 16:31 : client: [19] closed
+Feb 03 16:31 : client: [20] opened from [::1]:41332
+Feb 03 16:31 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 03 16:31 : client: [20] closed
+Feb 03 16:31 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 16:31 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 03 16:31 : player: played "潘广益 - 纪念的歌.MP3"
+Feb 03 16:53 : client: [21] opened from [::1]:41822
+Feb 03 16:53 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 03 16:53 : client: [21] closed
+Feb 03 16:53 : client: [22] opened from [::1]:41824
+Feb 03 16:53 : client: [22] closed
+Feb 04 11:24 : client: [23] opened from [::1]:51754
+Feb 04 11:24 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 04 11:24 : client: [23] closed
+Feb 04 11:24 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 04 11:24 : client: [24] opened from [::1]:51764
+Feb 04 11:24 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 04 11:29 : player: played "Akie秋绘 - 天ノ弱.MP3"
+Feb 04 11:33 : player: played "Kelly Clarkson - Because of You.MP3"
+Feb 04 11:36 : player: played "DJ Maxwell - It's Ok.MP3"
+Feb 04 11:38 : player: played "Dr. Dre Snoop Dogg Nate Dogg - The Next Episode.MP3"
+Feb 04 11:39 : client: [24] closed
+Feb 04 11:39 : client: [25] opened from [::1]:42354
+Feb 04 11:42 : client: [25] closed
+Feb 04 11:42 : client: [26] opened from [::1]:47166
+Feb 04 11:42 : client: [27] opened from [::1]:47168
+Feb 04 11:43 : player: played "许廷铿 - 面具.MP3"
+Feb 04 11:45 : client: [27] closed
+Feb 04 11:45 : client: [26] closed
+Feb 04 11:45 : client: [28] opened from [::1]:52238
+Feb 04 11:46 : client: [28] closed
+Feb 04 11:47 : client: [29] opened from [::1]:55256
+Feb 04 11:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 04 11:48 : player: played "潘广益 - 纪念的歌.MP3"
+Feb 04 11:52 : client: [29] closed
+Feb 04 12:04 : update: added /BIGBANG-花路.mp3
+Feb 04 12:04 : client: [30] opened from [::1]:53458
+Feb 04 12:04 : client: [30] closed
+Feb 04 12:05 : client: [31] opened from [::1]:54768
+Feb 04 12:05 : client: [31] closed
+Feb 04 12:06 : client: [32] opened from [::1]:57174
+Feb 04 12:07 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 04 12:07 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 04 12:11 : player: played "陈慧琳 - 记事本.MP3"
+Feb 04 12:12 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 04 12:12 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 04 12:17 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 04 12:17 : player: played "Rainton桐 - 最后的旅行 (日语念白版).MP3"
+Feb 04 12:19 : client: [33] opened from [::1]:50470
+Feb 04 12:19 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 04 12:19 : client: [33] closed
+Feb 04 12:19 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 04 12:19 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 04 12:23 : player: played "太阳 - 나만 바라봐.MP3"
+Feb 04 12:24 : client: [32] closed
+Feb 04 12:27 : player: played "2PM 尹恩惠 - Tik Tok.MP3"
+Feb 04 12:28 : client: [34] opened from [::1]:36910
+Feb 04 12:28 : client: [34] closed
+Feb 04 12:31 : player: played "BIGBANG - 눈물뿐인 바보.MP3"
+Feb 04 12:31 : client: [35] opened from [::1]:43204
+Feb 04 12:32 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 04 12:32 : client: [35] closed
+Feb 04 12:32 : client: [36] opened from [::1]:44104
+Feb 04 12:32 : player: played "CNBLUE - 외톨이야.MP3"
+Feb 04 12:32 : client: [36] closed
+Feb 04 12:32 : client: [37] opened from [::1]:44326
+Feb 04 12:32 : exception: Not playing
+Feb 04 12:32 : client: [37] closed
+Feb 04 12:32 : client: [38] opened from [::1]:44336
+Feb 04 12:32 : exception: Not playing
+Feb 04 12:32 : client: [38] closed
+Feb 04 12:32 : client: [39] opened from [::1]:44346
+Feb 04 12:32 : exception: Not playing
+Feb 04 12:32 : client: [39] closed
+Feb 04 12:32 : client: [40] opened from [::1]:44926
+Feb 04 12:32 : exception: Not playing
+Feb 04 12:32 : client: [40] closed
+Feb 04 12:32 : client: [41] opened from [::1]:44962
+Feb 04 12:32 : exception: Not playing
+Feb 04 12:32 : client: [41] closed
+Feb 04 12:32 : client: [42] opened from [::1]:45146
+Feb 04 12:32 : exception: Not playing
+Feb 04 12:32 : client: [42] closed
+Feb 04 12:32 : client: [43] opened from [::1]:45280
+Feb 04 12:32 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 04 12:32 : client: [43] closed
+Feb 04 12:32 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 04 12:32 : client: [44] opened from [::1]:45312
+Feb 04 12:32 : client: [44] closed
+Feb 04 12:32 : client: [45] opened from [::1]:45428
+Feb 04 12:32 : client: [45] closed
+Feb 04 12:32 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 04 12:33 : client: [46] opened from [::1]:45500
+Feb 04 12:33 : client: [46] closed
+Feb 04 12:33 : client: [47] opened from [::1]:45522
+Feb 04 12:33 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Feb 04 12:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 04 12:33 : client: [47] closed
+Feb 04 12:33 : client: [48] opened from [::1]:45542
+Feb 04 12:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 04 12:33 : client: [48] closed
+Feb 04 12:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 04 12:33 : client: [49] opened from [::1]:45672
+Feb 04 12:33 : client: [49] closed
+Feb 04 12:34 : client: [50] opened from [::1]:47316
+Feb 04 12:34 : client: [50] closed
+Feb 04 15:30 : client: [51] opened from [::1]:40838
+Feb 04 15:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 04 15:30 : client: [51] closed
+Feb 04 15:30 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 04 15:30 : client: [52] opened from [::1]:40844
+Feb 04 15:30 : client: [52] closed
+Feb 04 15:30 : client: [53] opened from [::1]:40852
+Feb 04 15:30 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 04 15:30 : client: [53] closed
+Feb 04 15:30 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 04 15:33 : player: played "BTS (防弹少年团) - Butterfly.MP3"
+Feb 04 15:37 : player: played "太阳 - 나만 바라봐.MP3"
+Feb 04 15:41 : player: played "2PM 尹恩惠 - Tik Tok.MP3"
+Feb 04 15:43 : player: played "BIGBANG - 눈물뿐인 바보.MP3"
+Feb 04 15:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 15:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 15:48 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 04 15:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 15:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 04 15:48 : client: [0] opened from 127.0.0.1:40354
+Feb 04 15:48 : client: [1] opened from 127.0.0.1:40356
+Feb 04 15:50 : player: played "BIGBANG - 눈물뿐인 바보.MP3"
+Feb 04 15:53 : player: played "BIGBANG - 거짓말.MP3"
+Feb 04 15:57 : player: played "BIGBANG - GIRLFRIEND.MP3"
+Feb 04 16:01 : player: played "BIGBANG - MONSTER.MP3"
+Feb 04 16:05 : player: played "BIGBANG - Tell Me Goodbye.MP3"
+Feb 04 16:08 : player: played "BIGBANG - Bigbang.MP3"
+Feb 04 16:12 : player: played "BIGBANG - Haru Haru -하루 하루-.MP3"
+Feb 04 16:16 : player: played "BIGBANG - Heaven -천국-.MP3"
+Feb 04 16:18 : client: [2] opened from [::1]:46346
+Feb 04 16:18 : client: [2] closed
+Feb 04 16:19 : client: [3] opened from 127.0.0.1:43066
+Feb 04 16:19 : client: [3] closed
+Feb 04 16:20 : update: added /金钟国 - 한 남자.mp3
+Feb 04 16:20 : client: [4] opened from [::1]:48320
+Feb 04 16:21 : client: [4] closed
+Feb 04 16:23 : client: [5] opened from [::1]:51294
+Feb 04 16:23 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 04 16:23 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 04 16:23 : client: [5] closed
+Feb 04 16:27 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 04 16:27 : player: played "IU G-Dragon - 팔레트.MP3"
+Feb 05 10:52 : client: [6] opened from [::1]:49318
+Feb 05 10:52 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 05 10:52 : client: [6] closed
+Feb 05 10:52 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 10:52 : client: [7] opened from [::1]:49322
+Feb 05 10:52 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 10:53 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 10:53 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 10:53 : client: [7] closed
+Feb 05 10:56 : player: played "Tamas Wells - Valder Fields.MP3"
+Feb 05 11:12 : client: [8] opened from [::1]:49726
+Feb 05 11:12 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 05 11:12 : client: [8] closed
+Feb 05 11:12 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 11:12 : client: [9] opened from [::1]:49728
+Feb 05 11:12 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 11:12 : client: [9] closed
+Feb 05 11:16 : player: played "M2M - Pretty Boy.MP3"
+Feb 05 11:19 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 11:19 : player: played "Tamas Wells - Valder Fields.MP3"
+Feb 05 11:35 : client: [10] opened from [::1]:51060
+Feb 05 11:35 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 05 11:35 : client: [10] closed
+Feb 05 11:35 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 11:35 : client: [11] opened from [::1]:51062
+Feb 05 11:35 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 11:35 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 11:35 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 11:35 : client: [11] closed
+Feb 05 11:39 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 11:39 : player: played "Britney Spears - Till The World Ends.MP3"
+Feb 05 11:40 : client: [12] opened from [::1]:51200
+Feb 05 11:40 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 05 11:40 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 11:40 : client: [12] closed
+Feb 05 11:45 : player: played "Akie秋绘 - 天ノ弱.MP3"
+Feb 05 11:48 : player: played "Kelly Clarkson - Because of You.MP3"
+Feb 05 11:51 : player: played "DJ Maxwell - It's Ok.MP3"
+Feb 05 11:54 : player: played "Dr. Dre Snoop Dogg Nate Dogg - The Next Episode.MP3"
+Feb 05 11:59 : player: played "许廷铿 - 面具.MP3"
+Feb 05 12:03 : player: played "潘广益 - 纪念的歌.MP3"
+Feb 05 12:08 : player: played "陈慧琳 - 记事本.MP3"
+Feb 05 12:12 : player: played "Rainton桐 - 最后的旅行 (日语念白版).MP3"
+Feb 05 12:12 : client: [13] opened from 127.0.0.1:48020
+Feb 05 12:12 : client: [13] closed
+Feb 05 17:42 : client: [14] opened from [::1]:34106
+Feb 05 17:42 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 05 17:42 : client: [14] closed
+Feb 05 17:42 : client: [15] opened from [::1]:34116
+Feb 05 17:42 : client: [15] closed
+Feb 05 17:42 : client: [16] opened from [::1]:34118
+Feb 05 17:42 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 05 17:42 : client: [16] closed
+Feb 05 17:42 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 17:45 : player: played "CNBLUE - 외톨이야.MP3"
+Feb 05 17:48 : player: played "JAEFOREAL - 是个好人.MP3"
+Feb 05 17:52 : player: played "IU G-Dragon - 팔레트.MP3"
+Feb 05 17:52 : client: [17] opened from [::1]:39778
+Feb 05 17:52 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 17:52 : client: [17] closed
+Feb 05 17:57 : player: played "陈慧琳 - 记事本.MP3"
+Feb 05 17:57 : client: [18] opened from [::1]:42306
+Feb 05 17:57 : client: [18] closed
+Feb 05 17:57 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 17:57 : client: [19] opened from [::1]:42328
+Feb 05 17:57 : client: [19] closed
+Feb 05 17:57 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 17:57 : client: [20] opened from [::1]:42364
+Feb 05 17:57 : client: [20] closed
+Feb 05 17:57 : client: [21] opened from [::1]:42382
+Feb 05 17:57 : client: [21] closed
+Feb 05 17:57 : client: [22] opened from [::1]:42392
+Feb 05 17:57 : client: [22] closed
+Feb 05 17:57 : client: [23] opened from [::1]:42410
+Feb 05 17:57 : client: [23] closed
+Feb 05 17:57 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 05 18:00 : player: played "Tamas Wells - Valder Fields.MP3"
+Feb 05 18:03 : player: played "Asher Monroe - Here With You.MP3"
+Feb 05 18:06 : player: played "Baha Men - Who Let The Dogs Out.MP3"
+Feb 05 18:10 : player: played "Backstreet Boys - As Long as You Love Me.MP3"
+Feb 05 18:13 : client: [24] opened from [::1]:50394
+Feb 05 18:13 : client: [24] closed
+Feb 05 23:11 : player: played "Blue - U Make Me Wanna.MP3"
+Feb 06 11:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 11:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 11:01 : client: [0] opened from 127.0.0.1:49716
+Feb 06 11:01 : client: [1] opened from 127.0.0.1:49714
+Feb 06 11:01 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 06 11:02 : client: [2] opened from [::1]:53254
+Feb 06 11:02 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 06 11:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 11:02 : client: [2] closed
+Feb 06 11:02 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 06 11:02 : client: [3] opened from [::1]:53256
+Feb 06 11:02 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 06 11:02 : player: played "Blue - U Make Me Wanna.MP3"
+Feb 06 11:02 : client: [3] closed
+Feb 06 11:06 : player: played "Bon Jovi - It's My Life.MP3"
+Feb 06 11:09 : player: played "Brand X Music - Helmet to Helmet.MP3"
+Feb 06 11:13 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 06 11:13 : player: played "Britney Spears - Till The World Ends.MP3"
+Feb 06 11:20 : client: [4] opened from [::1]:53300
+Feb 06 11:21 : client: [4] closed
+Feb 06 11:21 : client: [5] opened from [::1]:53304
+Feb 06 11:21 : update: removing BIGBANG-花路.mp3
+Feb 06 11:21 : update: added /flower-road.mp3
+Feb 06 11:22 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 06 11:22 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 06 11:23 : client: [5] closed
+Feb 06 11:23 : update: removing flower-road.mp3
+Feb 06 11:24 : update: added /꽃 길 FLOWER ROAD   BIGBANG.mp3
+Feb 06 11:26 : player: played "封茗囧菌 - 东京不太热.MP3"
+Feb 06 11:30 : client: [6] opened from [::1]:54534
+Feb 06 11:31 : client: [6] closed
+Feb 06 11:59 : client: [7] opened from [::1]:56438
+Feb 06 11:59 : client: [7] closed
+Feb 06 12:00 : client: [8] opened from [::1]:56750
+Feb 06 12:00 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 06 12:00 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 06 12:01 : client: [8] closed
+Feb 06 12:04 : player: played "FTISLAND - 미친 듯이 너 하나만.MP3"
+Feb 06 14:39 : client: [9] opened from [::1]:59888
+Feb 06 14:39 : client: [9] closed
+Feb 06 14:39 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 06 14:39 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 06 14:39 : client: [10] opened from [::1]:59890
+Feb 06 14:39 : client: [10] closed
+Feb 06 14:41 : client: [11] opened from 127.0.0.1:56618
+Feb 06 14:41 : client: [11] closed
+Feb 06 14:41 : client: [12] opened from 127.0.0.1:56620
+Feb 06 14:41 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 06 14:41 : client: [12] closed
+Feb 06 14:41 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 06 14:43 : player: played "张杰 - 明天过后.mp3"
+Feb 06 14:43 : client: [13] opened from [::1]:60322
+Feb 06 14:43 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Feb 06 14:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 06 14:43 : client: [13] closed
+Feb 06 14:43 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 06 14:46 : player: played "Justin bieber - Yummy  (Official Music Video 202 h_xRFwvXlf4.m4a"
+Feb 06 14:46 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 06 14:46 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 06 14:47 : client: [14] opened from [::1]:60460
+Feb 06 14:47 : client: [14] closed
+Feb 06 16:10 : client: [15] opened from [::1]:38712
+Feb 06 16:10 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 06 16:10 : client: [15] closed
+Feb 06 16:10 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 06 16:10 : client: [16] opened from [::1]:38714
+Feb 06 16:10 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 06 16:14 : player: played "꽃 길 FLOWER ROAD   BIGBANG.mp3"
+Feb 06 16:18 : player: played "张杰 - 明天过后.mp3"
+Feb 06 16:20 : player: played "M80 - Feeling U.MP3"
+Feb 06 16:25 : player: played "Rainton桐 - 最后的旅行 (日语念白版).MP3"
+Feb 06 16:28 : player: played "Dr. Dre Snoop Dogg Nate Dogg - The Next Episode.MP3"
+Feb 06 16:28 : client: [16] closed
+Feb 06 16:31 : client: [17] opened from 127.0.0.1:36080
+Feb 06 16:31 : client: [17] closed
+Feb 07 15:31 : player: played "BIGBANG - BEAUTIFUL HANGOVER.MP3"
+Feb 07 15:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 15:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 15:32 : client: [0] opened from 127.0.0.1:37256
+Feb 07 15:32 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 07 15:32 : client: [1] opened from 127.0.0.1:37258
+Feb 07 22:16 : client: [0] closed
+Feb 07 22:16 : client: [1] closed
+Feb 07 22:16 : client: [2] opened from 127.0.0.1:45258
+Feb 07 22:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 22:16 : client: [3] opened from 127.0.0.1:45260
+Feb 07 22:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 22:16 : player: played "BIGBANG - BEAUTIFUL HANGOVER.MP3"
+Feb 07 22:16 : player: played "BIGBANG - BEAUTIFUL HANGOVER.MP3"
+Feb 07 22:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 22:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 22:17 : client: [0] opened from 127.0.0.1:40856
+Feb 07 22:17 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 07 22:17 : client: [1] opened from 127.0.0.1:40858
+Feb 08 15:19 : client: [2] opened from [::1]:52376
+Feb 08 15:19 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 08 15:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 15:19 : client: [2] closed
+Feb 08 15:19 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 15:19 : client: [3] opened from [::1]:52378
+Feb 08 15:20 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 15:20 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 15:24 : player: played "2PM 尹恩惠 - Tik Tok.MP3"
+Feb 08 15:24 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 15:28 : player: played "太阳 - RINGA LINGA.MP3"
+Feb 08 15:32 : player: played "BIGBANG - 눈물뿐인 바보.MP3"
+Feb 08 15:35 : client: [3] closed
+Feb 08 15:36 : player: played "BIGBANG 朴春 - WE BELONG TOGETHER.MP3"
+Feb 08 15:40 : player: played "BIGBANG - LIE.MP3"
+Feb 08 15:43 : player: played "BIGBANG - Bringing You Love.MP3"
+Feb 08 15:47 : player: played "BIGBANG - Heaven -천국-.MP3"
+Feb 08 15:49 : client: [4] opened from [::1]:53076
+Feb 08 15:49 : client: [4] closed
+Feb 08 17:11 : client: [5] opened from 127.0.0.1:52284
+Feb 08 17:11 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 08 17:11 : client: [5] closed
+Feb 08 17:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 17:12 : client: [6] opened from [::1]:55394
+Feb 08 17:12 : client: [6] closed
+Feb 08 17:44 : client: [7] opened from [::1]:55848
+Feb 08 17:44 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 08 17:44 : client: [7] closed
+Feb 08 17:44 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 17:44 : client: [8] opened from [::1]:55850
+Feb 08 17:44 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 17:44 : player: played "Any Band - T.P.L (Talk Play Love).MP3"
+Feb 08 17:45 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 08 17:45 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 17:45 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 17:45 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 17:45 : update: updating /꽃 길 FLOWER ROAD   BIGBANG.mp3
+Feb 08 17:49 : player: played "꽃 길 FLOWER ROAD   BIGBANG.mp3"
+Feb 08 17:51 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 17:52 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 17:52 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 17:52 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 17:52 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 17:53 : player: played "光良 - 烟火.MP3"
+Feb 08 17:58 : client: [9] opened from [::1]:55984
+Feb 08 17:58 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 08 17:58 : client: [9] closed
+Feb 08 17:58 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 17:58 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 18:02 : player: played "TAIBIAN - Queen.MP3"
+Feb 08 18:06 : player: played "WINNER - 공허해.MP3"
+Feb 08 18:10 : player: played "레게 강 같은 평화 (RGP) 权正烈 - Beautiful Girl.MP3"
+Feb 08 18:14 : player: played "刘瑞琦 - 房间.MP3"
+Feb 08 18:18 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 18:18 : player: played "꽃 길 FLOWER ROAD   BIGBANG.mp3"
+Feb 08 18:29 : client: [10] opened from [::1]:56486
+Feb 08 18:29 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 08 18:29 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 08 18:29 : client: [10] closed
+Feb 08 18:33 : player: played "Tank - 三国恋.MP3"
+Feb 08 18:36 : player: played "Taio Cruz - Break Your Heart.MP3"
+Feb 08 18:39 : client: [8] closed
+Feb 08 18:41 : player: played "刘瑞琦 - 房间.MP3"
+Feb 08 18:45 : player: played "레게 강 같은 평화 (RGP) 权正烈 - Beautiful Girl.MP3"
+Feb 08 18:48 : player: played "WINNER - 공허해.MP3"
+Feb 08 18:52 : player: played "光良 - 烟火.MP3"
+Feb 08 18:56 : player: played "TAIBIAN - Queen.MP3"
+Feb 08 19:00 : player: played "꽃 길 FLOWER ROAD   BIGBANG.mp3"
+Feb 09 12:54 : client: [11] opened from [::1]:38970
+Feb 09 12:54 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 09 12:54 : client: [11] closed
+Feb 09 12:54 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 12:54 : client: [12] opened from [::1]:38972
+Feb 09 12:54 : client: [12] closed
+Feb 09 12:54 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 12:54 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 12:57 : player: played "WINNER - 공허해.MP3"
+Feb 09 12:58 : client: [13] opened from [::1]:39066
+Feb 09 12:58 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 12:58 : player: played "Tank - 三国恋.MP3"
+Feb 09 12:58 : update: updating /Tank - 三国恋.MP3
+Feb 09 12:59 : client: [14] opened from [::1]:39090
+Feb 09 12:59 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 09 12:59 : client: [14] closed
+Feb 09 12:59 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 12:59 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 12:59 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 12:59 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 12:59 : client: [13] closed
+Feb 09 13:03 : player: played "Akie秋绘 - 天ノ弱.MP3"
+Feb 09 13:08 : player: played "刘瑞琦 - 房间.MP3"
+Feb 09 17:21 : client: [15] opened from [::1]:45198
+Feb 09 17:21 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 09 17:21 : client: [15] closed
+Feb 09 17:21 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 17:21 : client: [16] opened from [::1]:45202
+Feb 09 17:21 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 17:21 : client: [16] closed
+Feb 09 17:26 : player: played "Alexander Jean - Whiskey and Morphine.MP3"
+Feb 09 17:30 : player: played "Tank - 三国恋.MP3"
+Feb 09 17:34 : player: played "Akie秋绘 - 天ノ弱.MP3"
+Feb 09 17:38 : player: played "레게 강 같은 평화 (RGP) 权正烈 - Beautiful Girl.MP3"
+Feb 09 17:38 : client: [17] opened from [::1]:45704
+Feb 09 17:38 : client: [17] closed
+Feb 09 17:38 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 17:38 : client: [18] opened from [::1]:45706
+Feb 09 17:38 : client: [18] closed
+Feb 09 17:38 : client: [19] opened from [::1]:45708
+Feb 09 17:38 : client: [19] closed
+Feb 09 17:38 : client: [20] opened from [::1]:45710
+Feb 09 17:38 : client: [20] closed
+Feb 09 17:38 : client: [21] opened from [::1]:45712
+Feb 09 17:38 : player: played "刘瑞琦 - 房间.MP3"
+Feb 09 17:38 : client: [21] closed
+Feb 09 17:38 : client: [22] opened from [::1]:45714
+Feb 09 17:38 : exception: Not playing
+Feb 09 17:38 : client: [22] closed
+Feb 09 17:38 : client: [23] opened from [::1]:45716
+Feb 09 17:39 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 09 17:39 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 17:39 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 17:43 : player: played "DJ Okawari - Flower Dance.MP3"
+Feb 09 17:43 : client: [23] closed
+Feb 09 17:48 : player: played "Akie秋绘 - 天ノ弱.MP3"
+Feb 09 17:49 : client: [24] opened from [::1]:46190
+Feb 09 17:49 : client: [24] closed
+Feb 09 18:07 : client: [25] opened from [::1]:50654
+Feb 09 18:07 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 09 18:07 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 18:07 : client: [25] closed
+Feb 09 18:11 : player: played "BIGBANG - MONSTER.MP3"
+Feb 09 18:15 : player: played "꽃 길 FLOWER ROAD   BIGBANG.mp3"
+Feb 09 18:20 : player: played "Alexander Jean - Whiskey and Morphine.MP3"
+Feb 09 18:24 : player: played "Tank - 三国恋.MP3"
+Feb 09 18:24 : client: [26] opened from [::1]:51872
+Feb 09 18:24 : client: [26] closed
+Feb 09 18:24 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 18:24 : client: [27] opened from [::1]:51874
+Feb 09 18:24 : client: [27] closed
+Feb 09 18:24 : client: [28] opened from [::1]:51876
+Feb 09 18:24 : client: [28] closed
+Feb 09 18:24 : client: [29] opened from [::1]:51880
+Feb 09 18:24 : client: [29] closed
+Feb 09 18:24 : client: [30] opened from [::1]:51886
+Feb 09 18:24 : player: played "光良 - 烟火.MP3"
+Feb 09 18:24 : client: [30] closed
+Feb 09 18:25 : client: [31] opened from [::1]:51888
+Feb 09 18:25 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 09 18:25 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 18:25 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 18:25 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 09 18:25 : client: [31] closed
+Feb 09 18:29 : player: played "AGA - Wonderful U (Demo Version).MP3"
+Feb 09 18:37 : player: played "DJ Daniel Kim - Pop Danthology 2012.MP3"
+Feb 09 18:40 : player: played "Defrix - Walking In the Sun (Defrix Remix).MP3"
+Feb 09 18:43 : player: played "TAIBIAN - Queen.MP3"
+Feb 09 18:47 : player: played "Taio Cruz - Break Your Heart.MP3"
+Feb 09 18:49 : client: [32] opened from [::1]:52722
+Feb 09 18:49 : client: [32] closed
+Feb 09 23:30 : player: played "BIGBANG - MONSTER.MP3"
+Feb 10 10:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 10:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 10:01 : client: [0] opened from 127.0.0.1:45936
+Feb 10 10:01 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 10 10:01 : client: [1] opened from 127.0.0.1:45938
+Feb 10 11:33 : client: [2] opened from [::1]:43556
+Feb 10 11:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 10 11:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 11:33 : client: [2] closed
+Feb 10 11:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 10 11:33 : client: [3] opened from [::1]:43558
+Feb 10 11:33 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 10 11:34 : update: updating /1983 - 对不起 我爱你.MP3
+Feb 10 11:39 : player: played "1983 - 对不起 我爱你.MP3"
+Feb 10 11:39 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 10 11:44 : player: played "Alexander Jean - Whiskey and Morphine.MP3"
+Feb 10 11:50 : client: [3] closed
+Feb 10 11:52 : player: played "DJ Daniel Kim - Pop Danthology 2012.MP3"
+Feb 10 11:53 : client: [4] opened from 127.0.0.1:47180
+Feb 10 11:53 : client: [4] closed
+Feb 10 14:27 : client: [5] opened from 127.0.0.1:45000
+Feb 10 14:27 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 10 14:27 : client: [5] closed
+Feb 10 14:27 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 10 14:27 : client: [6] opened from 127.0.0.1:45014
+Feb 10 14:27 : client: [6] closed
+Feb 10 14:27 : client: [7] opened from [::1]:41824
+Feb 10 14:27 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 10 14:27 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 10 14:28 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 10 14:28 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 10 14:31 : client: [7] closed
+Feb 10 14:31 : player: played "IU G-Dragon - 팔레트.MP3"
+Feb 10 14:34 : player: played "AGA - Better Me.MP3"
+Feb 10 14:38 : player: played "TAIBIAN - Queen.MP3"
+Feb 10 14:42 : player: played "꽃 길 FLOWER ROAD   BIGBANG.mp3"
+Feb 10 14:44 : client: [8] opened from [::1]:42838
+Feb 10 14:44 : client: [8] closed
+Feb 10 15:54 : client: [9] opened from [::1]:46528
+Feb 10 15:54 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 10 15:54 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 10 15:55 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 10 15:55 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 10 15:55 : client: [9] closed
+Feb 10 15:58 : player: played "Craig David - Insomnia.MP3"
+Feb 10 16:02 : player: played "AGA - Wonderful U (Demo Version).MP3"
+Feb 10 16:06 : player: played "Deutschland sucht den Superstar Various Artists - Cry On My Shoulder.MP3"
+Feb 10 16:07 : client: [10] opened from [::1]:42400
+Feb 10 16:07 : client: [10] closed
+Feb 12 14:21 : client: [11] opened from [::1]:47198
+Feb 12 14:21 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 12 14:21 : client: [11] closed
+Feb 12 14:21 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 12 14:21 : client: [12] opened from [::1]:47208
+Feb 12 14:21 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 12 14:21 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 12 14:21 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 12 14:25 : player: played "Blue - U Make Me Wanna.MP3"
+Feb 12 14:28 : player: played "50 Cent - Disco Inferno.MP3"
+Feb 12 14:32 : player: played "Ethno Music Project - The Foggy Dew.MP3"
+Feb 12 14:35 : player: played "Taio Cruz - Break Your Heart.MP3"
+Feb 12 14:37 : client: [12] closed
+Feb 12 14:39 : player: played "光良 - 烟火.MP3"
+Feb 12 14:43 : player: played "WINNER - 공허해.MP3"
+Feb 12 14:47 : player: played "BIGBANG - FXXK IT(에라 모르겠다).MP3"
+Feb 12 14:51 : player: played "刘瑞琦 - 房间.MP3"
+Feb 12 14:56 : player: played "DJ Okawari - Flower Dance.MP3"
+Feb 12 14:58 : client: [13] opened from [::1]:50190
+Feb 12 14:58 : client: [13] closed
+Feb 12 19:35 : client: [14] opened from [::1]:44180
+Feb 12 19:35 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 12 19:35 : client: [14] closed
+Feb 12 19:35 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 12 19:35 : client: [15] opened from [::1]:44286
+Feb 12 19:35 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 12 19:35 : client: [15] closed
+Feb 12 19:39 : player: played "刘瑞琦 - 房间.MP3"
+Feb 12 19:39 : client: [16] opened from [::1]:49270
+Feb 12 19:39 : client: [16] closed
+Feb 12 19:39 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 12 19:39 : client: [17] opened from [::1]:49272
+Feb 12 19:39 : player: played "레게 강 같은 평화 (RGP) 权正烈 - Beautiful Girl.MP3"
+Feb 12 19:39 : client: [17] closed
+Feb 12 19:39 : client: [18] opened from [::1]:49274
+Feb 12 19:39 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 12 19:39 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 12 19:40 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 12 19:43 : player: played "BTS (防弹少年团) - Butterfly.MP3"
+Feb 12 19:44 : client: [19] opened from [::1]:49512
+Feb 12 19:44 : client: [19] closed
+Feb 12 19:44 : client: [20] opened from [::1]:49514
+Feb 12 19:44 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 12 19:44 : client: [20] closed
+Feb 12 19:44 : client: [21] opened from [::1]:49516
+Feb 12 19:44 : client: [21] closed
+Feb 12 19:44 : client: [22] opened from [::1]:49532
+Feb 12 19:44 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 12 19:44 : client: [22] closed
+Feb 12 19:44 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 12 19:45 : client: [23] opened from [::1]:49586
+Feb 12 19:45 : client: [23] closed
+Feb 12 19:45 : client: [24] opened from [::1]:49588
+Feb 12 19:45 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 12 19:45 : client: [24] closed
+Feb 12 19:45 : client: [25] opened from [::1]:49590
+Feb 12 19:45 : client: [25] closed
+Feb 13 10:11 : client: [26] opened from [::1]:56998
+Feb 13 10:11 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 13 10:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 13 10:12 : player: played "BIGBANG - 꽃 길.MP3"
+Feb 13 10:12 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 13 10:12 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 13 10:16 : player: played "Flo Rida - Whistle.MP3"
+Feb 13 10:19 : player: played "DNA.mp3"
+Feb 13 10:23 : player: played "Mario 朴素彬 송보람 - Never Say Goodbye.MP3"
+Feb 13 10:24 : client: [26] closed
+Feb 13 10:27 : player: played "Ingrid Michaelson - Everybody.MP3"
+Feb 13 10:30 : player: played "Honey Cocaine - Gwola.MP3"
+Feb 13 10:34 : player: played "JC陈泳彤 - 说散就散.MP3"
+Feb 13 10:38 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 13 10:38 : player: played "Justin Bieber - As Long As You Love Me.MP3"
+Feb 13 11:43 : client: [27] opened from [::1]:40532
+Feb 13 11:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 13 11:43 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 13 11:44 : client: [27] closed
+Feb 13 11:47 : player: played "Asher Monroe - Here With You.MP3"
+Feb 13 11:51 : player: played "Honey Cocaine - Gwola.MP3"
+Feb 13 11:54 : player: played "Ingrid Michaelson - Everybody.MP3"
+Feb 13 11:58 : player: played "Mario 朴素彬 송보람 - Never Say Goodbye.MP3"
+Feb 13 12:02 : player: played "Flo Rida - Whistle.MP3"
+Feb 13 12:05 : player: played "Justin Bieber - As Long As You Love Me.MP3"
+Feb 13 12:07 : client: [28] opened from [::1]:41710
+Feb 13 12:07 : client: [28] closed
+Feb 14 09:56 : client: [29] opened from [::1]:50354
+Feb 14 09:56 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 14 09:56 : client: [29] closed
+Feb 14 09:56 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 14 09:56 : client: [30] opened from [::1]:50388
+Feb 14 09:56 : client: [30] closed
+Feb 14 10:07 : player: played "JC陈泳彤 - 说散就散.MP3"
+Feb 14 10:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 10:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 10:09 : client: [0] opened from 127.0.0.1:55372
+Feb 14 10:09 : client: [1] opened from 127.0.0.1:55374
+Feb 14 10:09 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 14 10:32 : client: [2] opened from [::1]:49796
+Feb 14 10:32 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 14 10:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 10:32 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 14 10:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 14 10:36 : player: played "Fifth Harmony KiD Ink - Worth It.MP3"
+Feb 14 10:39 : client: [2] closed
+Feb 14 10:42 : player: played "Michael Jackson - You Are Not Alone.MP3"
+Feb 14 10:43 : client: [3] opened from [::1]:49918
+Feb 14 10:43 : client: [3] closed
+Feb 14 11:05 : client: [1] closed
+Feb 14 11:05 : client: [0] closed
+Feb 14 11:05 : client: [4] opened from 127.0.0.1:57668
+Feb 14 11:05 : client: [5] opened from 127.0.0.1:57670
+Feb 14 11:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 11:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 19:11 : player: played "DNA.mp3"
+Feb 14 19:11 : player: played "DNA.mp3"
+Feb 14 19:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 19:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 19:12 : client: [0] opened from 127.0.0.1:45904
+Feb 14 19:12 : client: [1] opened from 127.0.0.1:45906
+Feb 14 19:12 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 14 20:04 : client: [2] opened from 127.0.0.1:46444
+Feb 14 20:04 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 14 20:04 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 20:04 : client: [2] closed
+Feb 14 20:04 : client: [3] opened from 127.0.0.1:46446
+Feb 14 20:04 : client: [3] closed
+Feb 14 20:04 : client: [4] opened from [::1]:45934
+Feb 14 20:05 : client: [4] closed
+Feb 14 20:05 : client: [5] opened from 127.0.0.1:46476
+Feb 14 20:05 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 14 20:05 : client: [5] closed
+Feb 14 20:05 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 14 20:05 : client: [6] opened from 127.0.0.1:46480
+Feb 14 20:05 : client: [6] closed
+Feb 14 20:05 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 14 20:06 : client: [7] opened from [::1]:45978
+Feb 14 20:06 : client: [7] closed
+Feb 14 20:06 : client: [8] opened from 127.0.0.1:46502
+Feb 14 20:06 : client: [8] closed
+Feb 14 20:13 : client: [9] opened from 127.0.0.1:46548
+Feb 14 20:13 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 14 20:13 : client: [9] closed
+Feb 14 20:13 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 14 20:14 : client: [10] opened from 127.0.0.1:46554
+Feb 14 20:14 : client: [10] closed
+Feb 14 20:15 : player: played "Embody Claire Ridgely - Lost & Found.MP3"
+Feb 14 20:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 20:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 20:15 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 14 20:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 20:15 : client: [0] opened from 127.0.0.1:39832
+Feb 14 20:15 : client: [1] opened from 127.0.0.1:39834
+Feb 14 20:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 14 20:19 : player: played "Embody Claire Ridgely - Lost & Found.MP3"
+Feb 14 20:22 : player: played "Asher Monroe - Here With You.MP3"
+Feb 14 20:26 : player: played "Era - The Mass.MP3"
+Feb 14 20:30 : player: played "JC陈泳彤 - 说散就散.MP3"
+Feb 14 20:30 : client: [2] opened from [::1]:50562
+Feb 14 20:30 : client: [2] closed
+Feb 14 20:32 : player: played "Dr. Dre Snoop Dogg Nate Dogg - The Next Episode.MP3"
+Feb 14 20:36 : player: played "Flo Rida - Whistle.MP3"
+Feb 14 20:40 : player: played "Justin Bieber - As Long As You Love Me.MP3"
+Feb 14 20:43 : player: played "Fort Minor Styles of Beyond - Remember The Name.MP3"
+Feb 14 20:46 : player: played "Dr. Dre Snoop Dogg Kurupt - The Next Episode.MP3"
+Feb 14 20:49 : client: [3] opened from [::1]:50984
+Feb 14 20:49 : client: [3] closed
+Feb 14 20:49 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 14 20:49 : client: [4] opened from [::1]:50990
+Feb 14 20:49 : client: [4] closed
+Feb 14 20:49 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 14 20:53 : player: played "2PM 尹恩惠 - Tik Tok.MP3"
+Feb 14 20:59 : player: played "Michael Jackson - You Are Not Alone.MP3"
+Feb 14 21:04 : player: played "Nightwish - I Want My Tears Back.MP3"
+Feb 14 21:08 : player: played "Honey Cocaine - Gwola.MP3"
+Feb 14 21:09 : client: [5] opened from 127.0.0.1:40748
+Feb 14 21:09 : client: [5] closed
+Feb 14 21:10 : client: [0] closed
+Feb 14 21:10 : client: [1] closed
+Feb 14 21:11 : client: [6] opened from 127.0.0.1:40792
+Feb 14 21:11 : client: [7] opened from 127.0.0.1:40794
+Feb 14 21:11 : client: [8] opened from [::1]:51448
+Feb 14 21:11 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 14 21:11 : client: [8] closed
+Feb 14 21:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 14 21:11 : client: [9] opened from [::1]:51462
+Feb 14 21:11 : client: [9] closed
+Feb 14 21:11 : client: [10] opened from [::1]:51476
+Feb 14 21:11 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 14 21:11 : client: [10] closed
+Feb 14 21:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 14 21:11 : client: [11] opened from [::1]:51478
+Feb 14 21:11 : client: [11] closed
+Feb 14 21:47 : client: [12] opened from [::1]:53598
+Feb 14 21:47 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 14 21:47 : client: [12] closed
+Feb 14 21:47 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 14 21:49 : client: [13] opened from [::1]:53600
+Feb 14 21:49 : client: [13] closed
+Feb 14 21:49 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 14 21:49 : client: [14] opened from [::1]:53602
+Feb 14 21:49 : client: [14] closed
+Feb 14 21:53 : player: played "Ingrid Michaelson - Everybody.MP3"
+Feb 14 21:57 : player: played "Mario 朴素彬 송보람 - Never Say Goodbye.MP3"
+Feb 14 22:00 : player: played "DNA.mp3"
+Feb 14 22:04 : player: played "Fort Minor Styles of Beyond - Remember The Name.MP3"
+Feb 14 22:08 : player: played "OneRepublic - Counting Stars.MP3"
+Feb 14 22:13 : client: [15] opened from [::1]:54314
+Feb 14 22:13 : exception: Not playing
+Feb 14 22:13 : client: [15] closed
+Feb 14 22:13 : client: [16] opened from [::1]:54316
+Feb 14 22:13 : exception: Not playing
+Feb 14 22:13 : client: [16] closed
+Feb 14 22:13 : client: [17] opened from [::1]:54318
+Feb 14 22:13 : exception: Not playing
+Feb 14 22:13 : client: [17] closed
+Feb 14 22:15 : client: [18] opened from [::1]:54384
+Feb 14 22:15 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Feb 14 22:15 : client: [18] closed
+Feb 14 22:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 14 22:19 : player: played "DNA.mp3"
+Feb 14 22:23 : player: played "Asher Monroe - Here With You.MP3"
+Feb 14 22:27 : player: played "OneRepublic - Counting Stars.MP3"
+Feb 14 22:31 : client: [19] opened from [::1]:54968
+Feb 14 22:31 : client: [19] closed
+Feb 15 14:31 : player: played "Flo Rida - Whistle.MP3"
+Feb 17 10:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 10:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 10:32 : client: [0] opened from [::1]:44952
+Feb 17 10:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 10:35 : client: [0] closed
+Feb 17 10:37 : player: played "陈奕迅 - 可以了.MP3"
+Feb 17 10:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 10:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 10:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 10:41 : client: [1] opened from [::1]:45016
+Feb 17 10:41 : client: [1] closed
+Feb 17 10:41 : client: [2] opened from [::1]:45018
+Feb 17 10:41 : client: [2] closed
+Feb 17 10:41 : client: [3] opened from [::1]:45020
+Feb 17 10:41 : client: [3] closed
+Feb 17 10:41 : client: [4] opened from [::1]:45024
+Feb 17 10:41 : client: [4] closed
+Feb 17 10:41 : client: [5] opened from [::1]:45028
+Feb 17 10:41 : client: [5] closed
+Feb 17 10:41 : client: [6] opened from [::1]:45030
+Feb 17 10:41 : client: [6] closed
+Feb 17 10:41 : client: [7] opened from [::1]:45032
+Feb 17 10:41 : client: [7] closed
+Feb 17 10:41 : client: [8] opened from [::1]:45034
+Feb 17 10:41 : client: [8] closed
+Feb 17 10:41 : client: [9] opened from [::1]:45036
+Feb 17 10:41 : client: [9] closed
+Feb 17 10:41 : client: [10] opened from [::1]:45038
+Feb 17 10:41 : client: [10] closed
+Feb 17 10:41 : client: [11] opened from [::1]:45040
+Feb 17 10:41 : player: played "2PM 尹恩惠 - Tik Tok.MP3"
+Feb 17 10:41 : client: [11] closed
+Feb 17 10:43 : exception: Failed to commit /home/wxx/.config/mpd/state: File exists
+Feb 17 10:43 : player: played "Embody Claire Ridgely - Lost & Found.MP3"
+Feb 17 10:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 10:43 : client: [0] opened from [::1]:45066
+Feb 17 10:43 : client: [0] closed
+Feb 17 10:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 10:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 10:43 : client: [1] opened from [::1]:45072
+Feb 17 10:43 : client: [1] closed
+Feb 17 10:43 : client: [2] opened from [::1]:45074
+Feb 17 10:43 : client: [2] closed
+Feb 17 10:43 : client: [3] opened from [::1]:45076
+Feb 17 10:43 : client: [3] closed
+Feb 17 13:45 : client: [4] opened from [::1]:48460
+Feb 17 13:45 : client: [4] closed
+Feb 17 13:48 : player: played "Dr. Dre Snoop Dogg Kurupt - The Next Episode.MP3"
+Feb 17 13:51 : exception: Failed to play on "My Pulse Output" (pulse): suspended
+Feb 17 13:52 : player: played "Dr. Dre Snoop Dogg Nate Dogg - The Next Episode.MP3"
+Feb 17 13:55 : player: played "Fort Minor Styles of Beyond - Remember The Name.MP3"
+Feb 17 13:59 : player: played "Mario 朴素彬 송보람 - Never Say Goodbye.MP3"
+Feb 17 19:08 : client: [5] opened from [::1]:33592
+Feb 17 19:08 : client: [5] closed
+Feb 17 19:08 : client: [6] opened from [::1]:33594
+Feb 17 19:12 : player: played "陈鸿宇 - 理想三旬.MP3"
+Feb 17 19:17 : player: played "陈奕迅 - 可以了.MP3"
+Feb 17 19:21 : player: played "2PM 尹恩惠 - Tik Tok.MP3"
+Feb 17 19:25 : client: [6] closed
+Feb 17 19:25 : player: played "Eminem 50 Cent Cashis Lloyd Banks - You Don't Know.MP3"
+Feb 17 19:25 : client: [7] opened from [::1]:34186
+Feb 17 19:27 : client: [7] closed
+Feb 17 19:28 : client: [8] opened from [::1]:34282
+Feb 17 19:31 : player: played "Michael Jackson - You Are Not Alone.MP3"
+Feb 17 19:35 : client: [8] closed
+Feb 17 19:35 : player: played "Fort Minor Styles of Beyond - Remember The Name.MP3"
+Feb 17 19:39 : player: played "Embody Claire Ridgely - Lost & Found.MP3"
+Feb 17 19:39 : client: [9] opened from [::1]:34578
+Feb 17 19:39 : client: [9] closed
+Feb 17 19:39 : client: [10] opened from [::1]:34582
+Feb 17 19:40 : client: [10] closed
+Feb 17 19:40 : client: [11] opened from [::1]:34588
+Feb 17 19:40 : client: [11] closed
+Feb 17 19:40 : client: [12] opened from [::1]:34590
+Feb 17 19:45 : player: played "阿桑 - 一直很安静.MP3"
+Feb 17 19:46 : client: [13] opened from [::1]:34840
+Feb 17 19:46 : client: [13] closed
+Feb 17 19:47 : client: [12] closed
+Feb 17 20:05 : client: [14] opened from [::1]:35448
+Feb 17 20:08 : client: [14] closed
+Feb 17 20:12 : player: played "范晓萱 - 氧气.MP3"
+Feb 17 20:12 : client: [15] opened from [::1]:35714
+Feb 17 20:12 : client: [15] closed
+Feb 17 20:23 : client: [16] opened from [::1]:36078
+Feb 17 20:23 : client: [16] closed
+Feb 17 20:23 : client: [17] opened from [::1]:36080
+Feb 17 20:27 : player: played "阿杜 - 撕夜.MP3"
+Feb 17 20:31 : player: played "Mario 朴素彬 송보람 - Never Say Goodbye.MP3"
+Feb 17 20:34 : client: [17] closed
+Feb 17 20:35 : player: played "Fort Minor Styles of Beyond - Remember The Name.MP3"
+Feb 17 20:39 : player: played "JC陈泳彤 - 说散就散.MP3"
+Feb 17 20:42 : player: played "蔡妍 - 两个人.MP3"
+Feb 17 20:46 : player: played "蔡淳佳 - 依恋.MP3"
+Feb 17 20:49 : player: played "Era - The Mass.MP3"
+Feb 17 20:52 : player: played "Fefe Dobson - Stuttering.MP3"
+Feb 17 20:55 : player: played "Dr. Dre Snoop Dogg Nate Dogg - The Next Episode.MP3"
+Feb 17 20:58 : player: played "Ingrid Michaelson - Everybody.MP3"
+Feb 17 21:02 : player: played "Flo Rida - Whistle.MP3"
+Feb 17 21:06 : player: played "Asher Monroe - Here With You.MP3"
+Feb 17 21:10 : player: played "OneRepublic - Counting Stars.MP3"
+Feb 17 21:14 : player: played "Honey Cocaine - Gwola.MP3"
+Feb 17 21:16 : player: played "Dr. Dre Snoop Dogg Kurupt - The Next Episode.MP3"
+Feb 17 21:35 : client: [18] opened from [::1]:38268
+Feb 17 21:35 : client: [18] closed
+Feb 17 21:35 : client: [19] opened from [::1]:38278
+Feb 17 21:35 : client: [19] closed
+Feb 17 21:36 : player: played "Mario 朴素彬 송보람 - Never Say Goodbye.MP3"
+Feb 17 21:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 21:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 22:03 : client: [0] opened from [::1]:58026
+Feb 17 22:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 22:03 : client: [0] closed
+Feb 17 22:03 : client: [1] opened from [::1]:58028
+Feb 17 22:07 : player: played "陈慧琳 - 记事本.MP3"
+Feb 17 22:11 : player: played "JC陈泳彤 - 说散就散.MP3"
+Feb 17 22:15 : player: played "Embody Claire Ridgely - Lost & Found.MP3"
+Feb 17 22:20 : player: played "陈小春 - 独家记忆.MP3"
+Feb 17 22:24 : client: [2] opened from [::1]:58038
+Feb 17 22:24 : client: [2] closed
+Feb 17 22:27 : player: played "陈奕迅 - 谁来剪月光.MP3"
+Feb 17 22:31 : client: [1] closed
+Feb 17 22:31 : player: played "Fort Minor Styles of Beyond - Remember The Name.MP3"
+Feb 17 22:33 : client: [3] opened from [::1]:58040
+Feb 17 22:33 : client: [3] closed
+Feb 18 11:04 : client: [4] opened from [::1]:50400
+Feb 18 11:04 : client: [4] closed
+Feb 18 11:04 : client: [5] opened from [::1]:50410
+Feb 18 11:05 : client: [5] closed
+Feb 18 11:09 : player: played "曾沛慈 - 一个人想着一个人.MP3"
+Feb 18 11:13 : player: played "阿杜 - 撕夜.MP3"
+Feb 18 11:17 : player: played "Honey Cocaine - Gwola.MP3"
+Feb 18 11:20 : player: played "Fefe Dobson - Stuttering.MP3"
+Feb 18 11:26 : player: played "Michael Jackson - You Are Not Alone.MP3"
+Feb 18 11:29 : player: played "吉佑社 - 我们已不同.MP3"
+Feb 18 11:33 : player: played "蔡淳佳 - 依恋.MP3"
+Feb 18 11:37 : player: played "OneRepublic - Counting Stars.MP3"
+Feb 18 11:41 : player: played "Asher Monroe - Here With You.MP3"
+Feb 18 11:44 : player: played "草蜢 - 失恋阵线联盟.MP3"
+Feb 18 11:48 : player: played "陈柏宇 - 你瞒我瞒.MP3"
+Feb 18 11:49 : client: [6] opened from [::1]:50800
+Feb 18 11:49 : client: [6] closed
+Feb 18 11:52 : player: played "陈苑淇 李克勤 - 合久必婚 (合唱).MP3"
+Feb 18 11:52 : client: [7] opened from [::1]:50854
+Feb 18 11:52 : client: [7] closed
+Feb 18 11:56 : player: played "Era - The Mass.MP3"
+Feb 18 11:56 : client: [8] opened from [::1]:50860
+Feb 18 11:57 : update: updating /陈小春 - 乱世巨星.MP3
+Feb 18 11:58 : update: updating /陈小春 - 友情岁月.MP3
+Feb 18 11:59 : update: updating /光良 - 烟火.MP3
+Feb 18 11:59 : update: updating /光良 - 约定.MP3
+Feb 18 12:00 : update: updating /后弦 - 娃娃脸.MP3
+Feb 18 12:00 : player: played "陈小春 - 友情岁月.MP3"
+Feb 18 12:01 : update: updating /江语晨 - 浪漫爱.MP3
+Feb 18 12:01 : update: updating /姜育恒 - 再回首.MP3
+Feb 18 12:02 : player: played "金艺林 - All Right.MP3"
+Feb 18 12:02 : update: updating /誓言 - 求佛.MP3
+Feb 18 12:02 : client: [9] opened from [::1]:50880
+Feb 18 12:02 : client: [9] closed
+Feb 18 12:03 : update: updating /申升勋 - I Believe (Guitar Ver.).MP3
+Feb 18 12:07 : client: [8] closed
+Feb 18 12:08 : player: played "꽃 길 FLOWER ROAD   BIGBANG.mp3"
+Feb 18 12:11 : player: played "金贤政 - 7년간의 사랑.MP3"
+Feb 18 12:16 : player: played "范晓萱 - 氧气.MP3"
+Feb 18 12:20 : player: played "阿桑 - 一直很安静.MP3"
+Feb 18 12:22 : client: [10] opened from [::1]:51182
+Feb 18 12:22 : client: [10] closed
+Feb 19 11:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 19 11:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 19 11:40 : player: played "OneRepublic - Counting Stars.MP3"
+Feb 19 11:40 : player: played "OneRepublic - Counting Stars.MP3"
+Feb 19 13:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 19 13:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 20 13:39 : client: [0] opened from [::1]:58014
+Feb 20 13:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 20 13:39 : client: [0] closed
+Feb 20 13:39 : client: [1] opened from [::1]:58056
+Feb 20 13:39 : client: [1] closed
+Feb 20 13:42 : player: played "丁可 - If.MP3"
+Feb 20 13:45 : player: played "陈鸿宇 - 理想三旬.MP3"
+Feb 20 13:49 : player: played "曾沛慈 - 一个人想着一个人.MP3"
+Feb 20 13:53 : player: played "陈柏宇 - 你瞒我瞒.MP3"
+Feb 20 13:56 : player: played "简弘亦 - 出卖.MP3"
+Feb 20 14:00 : player: played "陈慧琳 - 记事本.MP3"
+Feb 20 14:04 : player: played "2PM 尹恩惠 - Tik Tok.MP3"
+Feb 20 14:08 : player: played "姜育恒 - 再回首.MP3"
+Feb 20 14:11 : player: played "陈慧琳 - Love Paradise.MP3"
+Feb 20 14:15 : player: played "Embody Claire Ridgely - Lost & Found.MP3"
+Feb 20 14:20 : player: played "陈奕迅 - 可以了.MP3"
+Feb 20 14:23 : client: [2] opened from [::1]:51290
+Feb 20 14:23 : client: [2] closed
+Feb 20 16:00 : client: [3] opened from [::1]:41024
+Feb 20 16:00 : client: [3] closed
+Feb 20 16:01 : client: [4] opened from [::1]:41034
+Feb 20 16:01 : client: [4] closed
+Feb 20 16:01 : client: [5] opened from [::1]:41036
+Feb 20 16:04 : player: played "安苏羽 - 左肩.MP3"
+Feb 20 16:06 : client: [5] closed
+Feb 20 16:08 : player: played "Ingrid Michaelson - Everybody.MP3"
+Feb 20 16:08 : client: [6] opened from [::1]:41956
+Feb 20 16:12 : player: played "白智英 - 총 맞은 것처럼.MP3"
+Feb 20 16:14 : client: [6] closed
+Feb 20 16:16 : player: played "Justin Bieber - As Long As You Love Me.MP3"
+Feb 20 16:21 : player: played "陈小春 - 独家记忆.MP3"
+Feb 20 16:24 : player: played "Fort Minor Styles of Beyond - Remember The Name.MP3"
+Feb 20 16:29 : player: played "阿杜 - 撕夜.MP3"
+Feb 20 16:32 : player: played "少女时代-Oh!GG - 몰랐니 (Lil` Touch).mp3"
+Feb 20 16:35 : player: played "Dr. Dre Snoop Dogg Kurupt - The Next Episode.MP3"
+Feb 20 16:35 : client: [7] opened from [::1]:55546
+Feb 20 16:35 : client: [7] closed
+Feb 20 16:35 : client: [8] opened from [::1]:55574
+Feb 20 16:35 : client: [8] closed
+Feb 20 16:38 : player: played "Era - The Mass.MP3"
+Feb 20 16:42 : player: played "陈小春 - 友情岁月.MP3"
+Feb 20 16:45 : player: played "Fort Minor Styles of Beyond - Remember The Name.MP3"
+Feb 20 16:49 : player: played "Asher Monroe - Here With You.MP3"
+Feb 20 16:52 : client: [9] opened from [::1]:35514
+Feb 20 16:52 : client: [9] closed
+Feb 20 16:52 : client: [10] opened from [::1]:35534
+Feb 20 16:52 : client: [10] closed
+Feb 20 16:53 : player: played "金贤政 - 7년간의 사랑.MP3"
+Feb 20 16:58 : player: played "Nightwish - I Want My Tears Back.MP3"
+Feb 20 17:01 : player: played "草蜢 - 失恋阵线联盟.MP3"
+Feb 20 17:05 : player: played "Honey Cocaine - Gwola.MP3"
+Feb 20 17:05 : client: [11] opened from [::1]:41836
+Feb 20 17:05 : client: [11] closed
+Feb 20 18:53 : client: [12] opened from [::1]:37448
+Feb 20 18:53 : client: [12] closed
+Feb 20 18:53 : client: [13] opened from [::1]:37466
+Feb 20 18:53 : client: [13] closed
+Feb 20 18:56 : player: played "Flo Rida - Whistle.MP3"
+Feb 20 18:59 : player: played "高耀太 - 순정.MP3"
+Feb 20 19:03 : player: played "蔡淳佳 - 依恋.MP3"
+Feb 20 19:06 : player: played "陈苑淇 李克勤 - 合久必婚 (合唱).MP3"
+Feb 20 19:10 : player: played "陈奕迅 - 谁来剪月光.MP3"
+Feb 20 19:13 : player: played "꽃 길 FLOWER ROAD   BIGBANG.mp3"
+Feb 20 19:17 : player: played "吉佑社 - 我们已不同.MP3"
+Feb 20 19:22 : player: played "陈粒 - 小半.MP3"
+Feb 20 19:25 : player: played "JC陈泳彤 - 说散就散.MP3"
+Feb 20 19:29 : player: played "Fefe Dobson - Stuttering.MP3"
+Feb 20 19:33 : player: played "Eminem 50 Cent Cashis Lloyd Banks - You Don't Know.MP3"
+Feb 20 19:35 : player: played "Dr. Dre Snoop Dogg Nate Dogg - The Next Episode.MP3"
+Feb 20 19:40 : player: played "范晓萱 - 氧气.MP3"
+Feb 20 19:44 : player: played "Mario 朴素彬 송보람 - Never Say Goodbye.MP3"
+Feb 20 19:47 : player: played "DNA.mp3"
+Feb 20 19:47 : client: [14] opened from [::1]:35648
+Feb 20 19:47 : client: [14] closed
+Feb 20 23:20 : player: played "阿桑 - 一直很安静.MP3"
+Feb 21 10:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 21 10:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 21 15:55 : client: [0] opened from [::1]:49824
+Feb 21 15:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 21 15:55 : client: [0] closed
+Feb 21 15:55 : client: [1] opened from [::1]:49826
+Feb 21 15:55 : client: [1] closed
+Feb 21 15:55 : client: [2] opened from [::1]:49828
+Feb 21 15:55 : client: [2] closed
+Feb 21 15:55 : client: [3] opened from [::1]:49830
+Feb 21 15:55 : client: [3] closed
+Feb 21 15:55 : client: [4] opened from [::1]:49832
+Feb 21 15:55 : client: [4] closed
+Feb 21 15:55 : client: [5] opened from [::1]:49836
+Feb 21 15:55 : client: [6] opened from [::1]:49840
+Feb 21 15:55 : client: [6] closed
+Feb 21 15:55 : exception: No such song
+Feb 21 15:55 : exception: No such song
+Feb 21 15:55 : exception: No such song
+Feb 21 15:56 : client: [5] closed
+Feb 21 15:59 : player: played "Justin Bieber - As Long As You Love Me.MP3"
+Feb 21 16:02 : player: played "安苏羽 - 左肩.MP3"
+Feb 21 16:02 : client: [7] opened from [::1]:49906
+Feb 21 16:02 : client: [7] closed
+Feb 21 16:02 : client: [8] opened from [::1]:49908
+Feb 21 16:02 : client: [8] closed
+Feb 21 16:02 : client: [9] opened from [::1]:49910
+Feb 21 16:02 : client: [9] closed
+Feb 21 16:05 : player: played "陈小春 - 友情岁月.MP3"
+Feb 21 16:09 : player: played "陈鸿宇 - 理想三旬.MP3"
+Feb 21 16:12 : player: played "Asher Monroe - Here With You.MP3"
+Feb 21 16:12 : client: [10] opened from [::1]:49942
+Feb 21 16:16 : client: [10] closed
+Feb 21 16:17 : player: played "迪克牛仔 - 梦醒时分.MP3"
+Feb 21 16:21 : player: played "陈柏宇 - 你瞒我瞒.MP3"
+Feb 21 16:25 : player: played "JC陈泳彤 - 说散就散.MP3"
+Feb 21 16:29 : player: played "白智英 - 총 맞은 것처럼.MP3"
+Feb 21 16:32 : client: [11] opened from [::1]:50210
+Feb 21 16:32 : client: [11] closed
+Feb 22 10:59 : client: [12] opened from [::1]:34044
+Feb 22 10:59 : client: [12] closed
+Feb 22 10:59 : client: [13] opened from [::1]:34046
+Feb 22 10:59 : player: played "꽃 길 FLOWER ROAD   BIGBANG.mp3"
+Feb 22 11:00 : client: [13] closed
+Feb 22 11:03 : player: played "陈壹千 - IF You & Faded Remix（Cover BIGBANG & Alan Walker）.MP3"
+Feb 22 11:07 : player: played "陈奕迅 - 谁来剪月光.MP3"
+Feb 22 11:10 : player: played "Era - The Mass.MP3"
+Feb 22 11:14 : player: played "曾沛慈 - 一个人想着一个人.MP3"
+Feb 22 11:17 : player: played "少女时代-Oh!GG - 몰랐니 (Lil` Touch).mp3"
+Feb 22 11:22 : player: played "阿杜 - 撕夜.MP3"
+Feb 22 11:25 : player: played "蔡妍 - 两个人.MP3"
+Feb 22 11:26 : client: [14] opened from [::1]:34734
+Feb 22 11:26 : client: [14] closed
+Feb 23 11:53 : client: [15] opened from [::1]:41768
+Feb 23 11:53 : client: [15] closed
+Feb 23 11:53 : client: [16] opened from [::1]:41804
+Feb 23 11:54 : client: [17] opened from [::1]:41852
+Feb 23 11:54 : client: [17] closed
+Feb 23 13:19 : player: played "911 - I Do.MP3"
+Feb 23 13:19 : client: [18] opened from [::1]:42008
+Feb 23 13:19 : client: [18] closed
+Feb 23 13:19 : client: [16] closed
+Feb 23 13:22 : client: [19] opened from [::1]:42058
+Feb 23 13:22 : client: [19] closed
+Feb 23 16:15 : client: [20] opened from [::1]:42276
+Feb 23 16:15 : client: [20] closed
+Feb 23 16:15 : client: [21] opened from [::1]:42278
+Feb 23 16:16 : client: [21] closed
+Feb 23 16:20 : player: played "陈奕迅 - 可以了.MP3"
+Feb 23 16:20 : client: [22] opened from [::1]:42644
+Feb 23 16:20 : player: played "Fort Minor Styles of Beyond - Remember The Name.MP3"
+Feb 23 16:21 : update: updating /刘佳 - 爱的就是你.MP3
+Feb 23 16:22 : update: updating /刘佳 - 一个人走.MP3
+Feb 23 16:22 : client: [22] closed
+Feb 23 16:24 : player: played "金志文 - 夏洛特烦恼.MP3"
+Feb 23 19:31 : client: [23] opened from [::1]:43802
+Feb 23 19:31 : client: [23] closed
+Feb 23 19:31 : client: [24] opened from [::1]:43804
+Feb 23 19:31 : client: [24] closed
+Feb 23 19:34 : player: played "金志文 - 夏洛特烦恼.MP3"
+Feb 24 11:02 : client: [25] opened from [::1]:46970
+Feb 24 11:02 : client: [25] closed
+Feb 24 11:02 : client: [26] opened from [::1]:46972
+Feb 24 11:07 : player: played "范晓萱 - 氧气.MP3"
+Feb 24 11:10 : player: played "金志文 - 夏洛特烦恼.MP3"
+Feb 24 11:14 : player: played "后弦 - 娃娃脸.MP3"
+Feb 24 11:20 : client: [26] closed
+Feb 24 11:22 : player: played "江语晨 - 最后一页.MP3"
+Feb 24 11:25 : player: played "封茗囧菌 - 东京不太热.MP3"
+Feb 24 11:27 : client: [27] opened from [::1]:47028
+Feb 24 11:27 : client: [27] closed
+Feb 24 16:53 : player: played "范晓萱 - 氧气.MP3"
+Feb 24 16:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 24 16:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 24 18:58 : player: played "范晓萱 - 氧气.MP3"
+Feb 24 18:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 24 18:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 24 22:17 : player: played "范晓萱 - 氧气.MP3"
+Feb 25 12:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 25 12:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 25 12:27 : client: [0] opened from [::1]:43292
+Feb 25 12:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 25 12:27 : client: [0] closed
+Feb 25 12:27 : client: [1] opened from [::1]:43294
+Feb 25 12:28 : client: [1] closed
+Feb 25 12:30 : client: [2] opened from [::1]:43500
+Feb 25 12:30 : client: [2] closed
+Feb 25 12:49 : client: [3] opened from [::1]:44390
+Feb 25 12:49 : client: [3] closed
+Feb 25 12:51 : player: played "拉面儿 - 【中日双语】幻化成风（Cover：梁静茹 辻亚弥乃）.MP3"
+Feb 25 12:56 : player: played "陈奕迅 - 淘汰.MP3"
+Feb 25 13:00 : player: played "江语晨 - 最后一页.MP3"
+Feb 25 13:03 : player: played "后弦 - 娃娃脸.MP3"
+Feb 25 13:07 : player: played "邓福如 - Nothing on you.MP3"
+Feb 25 13:10 : player: played "金志文 - 夏洛特烦恼.MP3"
+Feb 25 13:10 : client: [4] opened from [::1]:45506
+Feb 25 13:10 : client: [4] closed
+Feb 25 19:06 : client: [5] opened from [::1]:47000
+Feb 25 19:07 : client: [6] opened from [::1]:47002
+Feb 25 19:07 : client: [6] closed
+Feb 25 19:10 : player: played "安苏羽 - 左肩.MP3"
+Feb 25 19:10 : client: [5] closed
+Feb 25 19:15 : player: played "申升勋 - I Believe (Guitar Ver.).MP3"
+Feb 25 19:19 : player: played "Hélène Rolles - Je m'appelle Hélène.MP3"
+Feb 27 17:56 : client: [7] opened from [::1]:55890
+Feb 27 17:56 : client: [7] closed
+Feb 27 17:56 : client: [8] opened from [::1]:55892
+Feb 27 17:56 : client: [8] closed
+Feb 27 18:01 : player: played "陈辉权 - 不再说永远.MP3"
+Feb 27 18:05 : player: played "Hélène Rolles - Je m'appelle Hélène.MP3"
+Feb 27 18:09 : player: played "拉面儿 - 【中日双语】幻化成风（Cover：梁静茹 辻亚弥乃）.MP3"
+Feb 27 18:13 : client: [9] opened from [::1]:56258
+Feb 27 18:13 : client: [9] closed
+Feb 27 18:19 : client: [10] opened from [::1]:56316
+Feb 27 18:19 : client: [10] closed
+Feb 27 18:19 : client: [11] opened from [::1]:56318
+Feb 27 18:19 : player: played "江语晨 - 最后一页.MP3"
+Feb 27 18:23 : player: played "陈鸿宇 - 理想三旬.MP3"
+Feb 27 18:26 : player: played "安苏羽 - 左肩.MP3"
+Feb 27 18:30 : player: played "后弦 - 娃娃脸.MP3"
+Feb 27 18:34 : player: played "范晓萱 - 氧气.MP3"
+Feb 27 18:38 : player: played "陈绮贞 - 我喜欢上你时的内心活动.MP3"
+Feb 27 18:42 : player: played "申升勋 - I Believe (Guitar Ver.).MP3"
+Feb 27 18:47 : player: played "陈奕迅 - 淘汰.MP3"
+Feb 27 18:51 : player: played "邓福如 - Nothing on you.MP3"
+Feb 27 20:58 : client: [12] opened from [::1]:58734
+Feb 27 20:58 : client: [12] closed
+Feb 27 21:02 : player: played "阿桑 - 一直很安静.MP3"
+Feb 27 21:06 : player: played "后弦 - 娃娃脸.MP3"
+Feb 27 21:10 : player: played "封茗囧菌 - 东京不太热.MP3"
+Feb 27 21:13 : player: played "陈鸿宇 - 理想三旬.MP3"
+Feb 27 21:17 : player: played "邓福如 - Nothing on you.MP3"
+Feb 27 21:20 : player: played "金志文 - 夏洛特烦恼.MP3"
+Feb 27 21:25 : player: played "范晓萱 - 氧气.MP3"
+Feb 27 21:28 : player: played "安苏羽 - 左肩.MP3"
+Feb 27 21:33 : player: played "陈奕迅 - 淘汰.MP3"
+Feb 27 21:37 : player: played "申升勋 - I Believe (Guitar Ver.).MP3"
+Feb 27 21:42 : player: played "陈辉权 - 不再说永远.MP3"
+Feb 27 21:46 : player: played "江语晨 - 最后一页.MP3"
+Feb 27 21:50 : player: played "拉面儿 - 【中日双语】幻化成风（Cover：梁静茹 辻亚弥乃）.MP3"
+Feb 27 21:51 : client: [13] opened from [::1]:38582
+Feb 27 21:54 : player: played "陈鸿宇 - 理想三旬.MP3"
+Feb 27 21:58 : client: [14] opened from [::1]:42328
+Feb 27 21:58 : client: [14] closed
+Feb 27 22:07 : client: [13] closed
+Feb 27 22:18 : client: [15] opened from [::1]:52818
+Feb 27 22:18 : client: [15] closed
+Feb 27 22:18 : player: played "陈苑淇 李克勤 - 合久必婚 (合唱).MP3"
+Feb 27 22:23 : player: played "封茗囧菌 - 幹物女(WeiWei).MP3"
+Feb 29 10:17 : client: [16] opened from [::1]:34854
+Feb 29 10:17 : client: [16] closed
+Feb 29 10:17 : client: [17] opened from [::1]:34856
+Feb 29 10:20 : player: played "陈奕迅 - 让我留在你身边.MP3"
+Feb 29 10:23 : player: played "安苏羽 - 左肩.MP3"
+Feb 29 10:27 : player: played "邓福如 - Nothing on you.MP3"
+Feb 29 10:31 : player: played "陈鸿宇 - 理想三旬.MP3"
+Feb 29 10:34 : player: played "蔡妍 - 两个人.MP3"
+Feb 29 10:39 : player: played "陈奕迅 - 淘汰.MP3"
+Feb 29 10:43 : player: played "江语晨 - 最后一页.MP3"
+Feb 29 10:47 : player: played "阿桑 - 一直很安静.MP3"
+Feb 29 10:51 : player: played "陈辉权 - 不再说永远.MP3"
+Feb 29 10:54 : player: played "金志文 - 夏洛特烦恼.MP3"
+Feb 29 10:59 : player: played "范晓萱 - 氧气.MP3"
+Feb 29 11:03 : player: played "封茗囧菌 - 幹物女(WeiWei).MP3"
+Feb 29 11:08 : player: played "申升勋 - I Believe (Guitar Ver.).MP3"
+Feb 29 11:08 : client: [18] opened from [::1]:35776
+Feb 29 11:08 : client: [18] closed
+Feb 29 11:13 : player: played "光泽 - 空心.MP3"
+Feb 29 11:13 : client: [19] opened from [::1]:35850
+Feb 29 11:13 : client: [19] closed
+Feb 29 12:20 : client: [20] opened from [::1]:37788
+Feb 29 12:20 : client: [20] closed
+Feb 29 12:20 : client: [21] opened from [::1]:37790
+Feb 29 12:20 : client: [21] closed
+Feb 29 12:20 : client: [22] opened from [::1]:37792
+Feb 29 12:20 : client: [22] closed
+Feb 29 12:20 : client: [23] opened from [::1]:37794
+Feb 29 12:20 : client: [23] closed
+Feb 29 12:21 : client: [24] opened from [::1]:37804
+Feb 29 12:21 : client: [24] closed
+Feb 29 12:21 : client: [25] opened from [::1]:37806
+Feb 29 12:21 : client: [25] closed
+Feb 29 12:21 : client: [26] opened from [::1]:37808
+Feb 29 12:21 : client: [26] closed
+Feb 29 12:21 : client: [27] opened from [::1]:37810
+Feb 29 12:21 : client: [27] closed
+Feb 29 12:22 : client: [28] opened from [::1]:37838
+Feb 29 12:22 : client: [28] closed
+Feb 29 12:22 : client: [29] opened from [::1]:37840
+Feb 29 12:22 : client: [29] closed
+Feb 29 12:22 : client: [30] opened from [::1]:37842
+Feb 29 12:22 : client: [30] closed
+Feb 29 12:22 : client: [31] opened from [::1]:37844
+Feb 29 12:22 : client: [31] closed
+Feb 29 12:22 : client: [32] opened from [::1]:37846
+Feb 29 12:22 : client: [32] closed
+Feb 29 12:42 : client: [33] opened from [::1]:38138
+Feb 29 12:42 : client: [33] closed
+Feb 29 12:42 : client: [34] opened from [::1]:38140
+Feb 29 12:42 : client: [34] closed
+Feb 29 12:42 : client: [35] opened from [::1]:38142
+Feb 29 12:42 : client: [35] closed
+Feb 29 12:42 : client: [36] opened from [::1]:38144
+Feb 29 12:42 : client: [36] closed
+Feb 29 12:45 : player: played "陈绮贞 - 我喜欢上你时的内心活动.MP3"
+Feb 29 12:49 : client: [37] opened from [::1]:38408
+Feb 29 12:49 : client: [37] closed
+Mar 01 00:02 : player: played "拉面儿 - 【中日双语】幻化成风（Cover：梁静茹 辻亚弥乃）.MP3"
+Mar 01 11:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 01 11:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 02 09:59 : client: [0] opened from [::1]:49712
+Mar 02 09:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 02 09:59 : client: [0] closed
+Mar 02 09:59 : client: [1] opened from [::1]:49714
+Mar 02 09:59 : player: played "拉面儿 - 【中日双语】幻化成风（Cover：梁静茹 辻亚弥乃）.MP3"
+Mar 02 10:04 : player: played "迪克牛仔 - 梦醒时分.MP3"
+Mar 02 10:12 : player: played "东来东往 - 连哭都是我的错.MP3"
+Mar 02 10:16 : player: played "白智英 - 총 맞은 것처럼.MP3"
+Mar 02 10:20 : player: played "陈鸿宇 - 理想三旬.MP3"
+Mar 02 10:24 : player: played "蒋蒋 - 残雪.MP3"
+Mar 02 10:28 : player: played "封茗囧菌 - 幹物女(WeiWei).MP3"
+Mar 02 10:32 : player: played "阿桑 - 一直很安静.MP3"
+Mar 02 10:36 : player: played "陈绮贞 - 我喜欢上你时的内心活动.MP3"
+Mar 02 10:40 : player: played "邓福如 - Nothing on you.MP3"
+Mar 02 10:45 : player: played "光泽 - 空心.MP3"
+Mar 02 10:49 : player: played "范晓萱 - 氧气.MP3"
+Mar 02 10:52 : player: played "金志文 - 夏洛特烦恼.MP3"
+Mar 02 10:56 : player: played "封茗囧菌 - 东京不太热.MP3"
+Mar 02 11:01 : player: played "申升勋 - I Believe (Guitar Ver.).MP3"
+Mar 02 11:01 : client: [2] opened from [::1]:51306
+Mar 02 11:01 : client: [2] closed
+Mar 02 12:14 : client: [3] opened from [::1]:54450
+Mar 02 12:14 : client: [3] closed
+Mar 02 12:16 : player: played "陈苑淇 李克勤 - 合久必婚 (合唱).MP3"
+Mar 02 12:18 : client: [4] opened from [::1]:54842
+Mar 02 12:18 : client: [4] closed
+Mar 02 12:18 : client: [5] opened from [::1]:54844
+Mar 02 12:18 : client: [5] closed
+Mar 02 12:19 : player: played "陈奕迅 - 让我留在你身边.MP3"
+Mar 02 12:23 : player: played "后弦 - 娃娃脸.MP3"
+Mar 02 12:23 : client: [6] opened from [::1]:55034
+Mar 02 12:23 : client: [6] closed
+Mar 02 15:44 : client: [7] opened from [::1]:36110
+Mar 02 15:44 : client: [7] closed
+Mar 02 15:46 : client: [8] opened from [::1]:36192
+Mar 02 15:46 : client: [8] closed
+Mar 02 15:51 : player: played "夹子道 - 死心塌地.MP3"
+Mar 02 15:54 : player: played "安苏羽 - 左肩.MP3"
+Mar 02 15:58 : player: played "江语晨 - 最后一页.MP3"
+Mar 02 18:46 : client: [9] opened from [::1]:40660
+Mar 02 18:46 : client: [9] closed
+Mar 02 18:50 : player: played "雷诺儿 - 别在我离开之前离开.MP3"
+Mar 02 18:51 : client: [10] opened from [::1]:40902
+Mar 02 18:51 : client: [10] closed
+Mar 02 22:50 : player: played "阿桑 - 一直很安静.MP3"
+Mar 03 10:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 03 10:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 03 18:22 : client: [0] opened from [::1]:55882
+Mar 03 18:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 03 18:22 : client: [0] closed
+Mar 03 18:22 : client: [1] opened from [::1]:55884
+Mar 03 18:27 : player: played "绘梨衣 - 最后的旅行——记《龙族》.MP3"
+Mar 03 18:30 : client: [2] opened from [::1]:56032
+Mar 03 18:30 : client: [2] closed
+Mar 03 20:05 : client: [1] closed
+Mar 03 21:07 : client: [3] opened from [::1]:40916
+Mar 03 21:07 : client: [3] closed
+Mar 03 21:07 : client: [4] opened from [::1]:40934
+Mar 03 21:08 : client: [4] closed
+Mar 03 21:12 : player: played "动力火车 - 终于明白.MP3"
+Mar 03 21:13 : client: [5] opened from [::1]:43788
+Mar 03 21:18 : player: played "陈小春 - 独家记忆.MP3"
+Mar 03 21:23 : player: played "迪克牛仔 - 梦醒时分.MP3"
+Mar 03 21:26 : player: played "锦零 - 豆花之歌（Cover：Pianoboy高至豪）.MP3"
+Mar 03 21:27 : client: [6] opened from [::1]:51264
+Mar 03 21:27 : client: [6] closed
+Mar 03 23:25 : player: played "后弦 - 娃娃脸.MP3"
+Mar 03 23:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 03 23:25 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 04 00:06 : player: played "后弦 - 娃娃脸.MP3"
+Mar 04 00:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 04 00:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 04 16:58 : client: [0] opened from [::1]:34444
+Mar 04 16:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 04 16:58 : client: [0] closed
+Mar 04 16:59 : exception: Failed to play on "My Pulse Output" (pulse): suspended
+Mar 04 17:01 : player: played "后弦 - 娃娃脸.MP3"
+Mar 04 17:05 : player: played "东来东往 - 连哭都是我的错.MP3"
+Mar 04 17:08 : player: played "陈苑淇 李克勤 - 合久必婚 (合唱).MP3"
+Mar 04 17:13 : player: played "陈小春 - 独家记忆.MP3"
+Mar 04 17:18 : player: played "动力火车 - 终于明白.MP3"
+Mar 04 17:22 : player: played "邓福如 - Nothing on you.MP3"
+Mar 04 17:27 : player: played "绘梨衣 - 最后的旅行——记《龙族》.MP3"
+Mar 04 17:30 : player: played "蔡淳佳 - 依恋.MP3"
+Mar 04 17:34 : player: played "安苏羽 - 左肩.MP3"
+Mar 04 17:38 : player: played "陈奕迅 - 淘汰.MP3"
+Mar 04 17:42 : player: played "夹子道 - 死心塌地.MP3"
+Mar 04 17:46 : player: played "金志文 - 夏洛特烦恼.MP3"
+Mar 04 17:49 : player: played "蔡妍 - 两个人.MP3"
+Mar 04 17:53 : player: played "申升勋 - I Believe (Guitar Ver.).MP3"
+Mar 04 17:54 : exception: Failed to play on "My Pulse Output" (pulse): suspended
+Mar 04 17:57 : player: played "拉面儿 - 【中日双语】幻化成风（Cover：梁静茹 辻亚弥乃）.MP3"
+Mar 04 18:02 : player: played "迪克牛仔 - 梦醒时分.MP3"
+Mar 04 18:06 : player: played "迪克牛仔 - 值得.MP3"
+Mar 04 18:09 : client: [1] opened from [::1]:45468
+Mar 04 18:09 : client: [1] closed
+Mar 04 18:47 : player: played "蒋蒋 - 残雪.MP3"
+Mar 04 18:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 04 18:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 04 21:38 : client: [0] opened from [::1]:59730
+Mar 04 21:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 04 21:38 : client: [0] closed
+Mar 04 21:38 : client: [1] opened from [::1]:59732
+Mar 04 21:38 : client: [1] closed
+Mar 04 21:52 : client: [2] opened from [::1]:33980
+Mar 04 21:52 : client: [2] closed
+Mar 04 21:52 : client: [3] opened from [::1]:34000
+Mar 04 21:52 : client: [3] closed
+Mar 04 21:52 : client: [4] opened from [::1]:34100
+Mar 04 21:52 : client: [4] closed
+Mar 04 21:52 : client: [5] opened from [::1]:34112
+Mar 04 21:52 : client: [5] closed
+Mar 04 21:52 : client: [6] opened from [::1]:34122
+Mar 04 21:52 : client: [6] closed
+Mar 04 21:54 : player: played "蒋蒋 - 残雪.MP3"
+Mar 04 21:58 : player: played "东来东往 - 连哭都是我的错.MP3"
+Mar 04 21:59 : client: [7] opened from [::1]:37492
+Mar 04 21:59 : client: [7] closed
+Mar 04 22:26 : client: [8] opened from [::1]:51852
+Mar 04 22:26 : client: [8] closed
+Mar 04 22:29 : player: played "夹子道 - 死心塌地.MP3"
+Mar 04 22:34 : player: played "陈辉权 - 不再说永远.MP3"
+Mar 04 22:34 : client: [9] opened from [::1]:55622
+Mar 04 22:34 : client: [9] closed
+Mar 05 16:39 : client: [10] opened from [::1]:56438
+Mar 05 16:39 : client: [10] closed
+Mar 05 16:39 : client: [11] opened from [::1]:56444
+Mar 05 16:39 : client: [11] closed
+Mar 05 16:44 : player: played "阿桑 - 叶子.MP3"
+Mar 05 16:48 : player: played "安苏羽 - 左肩.MP3"
+Mar 05 16:51 : player: played "陈绮贞 - 我喜欢上你时的内心活动.MP3"
+Mar 05 16:56 : player: played "陈奕迅 - 淘汰.MP3"
+Mar 05 16:59 : player: played "蔡妍 - 两个人.MP3"
+Mar 05 17:03 : client: [12] opened from [::1]:58648
+Mar 05 17:03 : client: [12] closed
+Mar 06 16:21 : player: played "光泽 - 空心.MP3"
+Mar 06 16:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 06 16:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 06 17:59 : client: [0] opened from [::1]:37368
+Mar 06 17:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 06 17:59 : client: [0] closed
+Mar 06 17:59 : client: [1] opened from [::1]:37388
+Mar 06 17:59 : player: played "光泽 - 空心.MP3"
+Mar 06 17:59 : client: [1] closed
+Mar 06 18:03 : player: played "左颜 - 木头的心.MP3"
+Mar 06 18:07 : player: played "胡彦斌 - 为你我受冷风吹.MP3"
+Mar 06 18:11 : player: played "江语晨 - 最后一页.MP3"
+Mar 06 18:11 : client: [2] opened from [::1]:37806
+Mar 06 18:12 : client: [2] closed
+Mar 06 18:16 : player: played "曾春年 - 最幸福的人.MP3"
+Mar 06 18:20 : client: [3] opened from [::1]:38268
+Mar 06 18:20 : player: played "金艺林 - All Right.MP3"
+Mar 06 18:20 : client: [3] closed
+Mar 06 18:24 : player: played "陈慧琳 - 记事本.MP3"
+Mar 06 18:29 : player: played "冬子 刘东明 小河 钟立风 好妹妹 蒋明 - 啊朋友 再见.MP3"
+Mar 06 18:32 : player: played "金志文 - 夏洛特烦恼.MP3"
+Mar 06 18:36 : player: played "曾沛慈 - 一个人想着一个人.MP3"
+Mar 06 18:40 : player: played "东来东往 - 连哭都是我的错.MP3"
+Mar 06 18:40 : client: [4] opened from [::1]:38874
+Mar 06 18:40 : client: [4] closed
+Mar 06 19:23 : player: played "草蜢 - 失恋阵线联盟.MP3"
+Mar 06 19:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 06 19:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 07 13:18 : client: [0] opened from [::1]:34028
+Mar 07 13:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 07 13:18 : client: [0] closed
+Mar 07 13:21 : player: played "草蜢 - 失恋阵线联盟.MP3"
+Mar 07 13:24 : player: played "陈奕迅 - 让我留在你身边.MP3"
+Mar 07 13:27 : player: played "安苏羽 - 左肩.MP3"
+Mar 07 13:31 : player: played "封茗囧菌 - 幹物女(WeiWei).MP3"
+Mar 07 13:36 : player: played "胡彦斌 - 为你我受冷风吹.MP3"
+Mar 07 13:38 : exception: Failed to play on "My Pulse Output" (pulse): suspended
+Mar 07 13:40 : player: played "曾沛慈 - 一个人想着一个人.MP3"
+Mar 07 13:45 : player: played "陈辉权 - 不再说永远.MP3"
+Mar 07 13:49 : player: played "申升勋 - I Believe (Guitar Ver.).MP3"
+Mar 07 13:54 : player: played "Akie秋绘 - 天ノ弱.MP3"
+Mar 07 13:58 : player: played "拉面儿 - 【中日双语】幻化成风（Cover：梁静茹 辻亚弥乃）.MP3"
+Mar 07 14:03 : player: played "绘梨衣 - 最后的旅行——记《龙族》.MP3"
+Mar 07 14:03 : client: [1] opened from [::1]:34746
+Mar 07 14:03 : client: [1] closed
+Mar 07 15:03 : client: [2] opened from [::1]:35554
+Mar 07 15:03 : client: [2] closed
+Mar 07 15:07 : player: played "本兮 - 情花.MP3"
+Mar 07 15:08 : client: [3] opened from [::1]:35832
+Mar 07 15:08 : client: [4] opened from [::1]:35834
+Mar 07 15:08 : client: [4] closed
+Mar 07 15:10 : player: played "丁可 - If.MP3"
+Mar 07 15:15 : player: played "陈壹千 - IF You & Faded Remix（Cover BIGBANG & Alan Walker）.MP3"
+Mar 07 15:19 : player: played "封茗囧菌 - 东京不太热.MP3"
+Mar 07 15:23 : player: played "动力火车 - 终于明白.MP3"
+Mar 07 15:28 : player: played "陈奕迅 - 淘汰.MP3"
+Mar 07 15:33 : player: played "陈小春 - 独家记忆.MP3"
+Mar 07 15:37 : player: played "东来东往 - 连哭都是我的错.MP3"
+Mar 07 15:41 : player: played "雷诺儿 - 别在我离开之前离开.MP3"
+Mar 07 15:44 : player: played "蔡妍 - 两个人.MP3"
+Mar 07 15:48 : player: played "江语晨 - 最后一页.MP3"
+Mar 07 15:52 : player: played "蒋蒋 - 残雪.MP3"
+Mar 07 15:55 : player: played "陈鸿宇 - 理想三旬.MP3"
+Mar 07 15:59 : player: played "陈绮贞 - 我喜欢上你时的内心活动.MP3"
+Mar 07 16:03 : player: played "迪克牛仔 - 梦醒时分.MP3"
+Mar 07 16:07 : player: played "蔡妍 - 위험한 연출.MP3"
+Mar 07 16:11 : player: played "陈苑淇 李克勤 - 合久必婚 (合唱).MP3"
+Mar 07 16:15 : player: played "阿桑 - 叶子.MP3"
+Mar 07 16:20 : player: played "曾春年 - 最幸福的人.MP3"
+Mar 07 16:24 : player: played "范晓萱 - 氧气.MP3"
+Mar 07 16:28 : player: played "阿桑 - 一直很安静.MP3"
+Mar 07 16:34 : player: played "陈奕迅 - 可以了.MP3"
+Mar 07 16:38 : client: [5] opened from [::1]:38740
+Mar 07 16:38 : client: [5] closed
+Mar 08 14:10 : client: [6] opened from [::1]:49750
+Mar 08 14:10 : client: [6] closed
+Mar 08 14:12 : player: played "杜婧荧 王艺翔 - 雪.MP3"
+Mar 08 14:17 : player: played "夹子道 - 死心塌地.MP3"
+Mar 08 14:21 : player: played "陈慧琳 - 记事本.MP3"
+Mar 08 14:23 : exception: Failed to play on "My Pulse Output" (pulse): suspended
+Mar 08 14:25 : player: played "周杰伦 - 晴天.MP3"
+Mar 08 14:29 : player: played "白智英 - 총 맞은 것처럼.MP3"
+Mar 08 14:33 : player: played "邓福如 - Nothing on you.MP3"
+Mar 08 14:38 : player: played "迪克牛仔 - 值得.MP3"
+Mar 08 14:42 : player: played "锦零 - 豆花之歌（Cover：Pianoboy高至豪）.MP3"
+Mar 08 14:45 : player: played "Hélène Rolles - Je m'appelle Hélène.MP3"
+Mar 08 14:50 : player: played "蓝波 - 你到底有没有爱过我.MP3"
+Mar 08 14:50 : exception: Failed to play on "My Pulse Output" (pulse): suspended
+Mar 08 14:50 : client: [7] opened from [::1]:50734
+Mar 08 14:59 : player: played "李克勤 陈苑淇 - 合久必婚.MP3"
+Mar 08 15:04 : player: played "孙子涵 - 毕业后你不是我的.MP3"
+Mar 08 15:07 : player: played "孙子涵 - 隐身守候.MP3"
+Mar 08 15:12 : player: played "冬子 刘东明 小河 钟立风 好妹妹 蒋明 - 啊朋友 再见.MP3"
+Mar 08 17:19 : client: [8] opened from [::1]:33760
+Mar 08 17:19 : client: [8] closed
+Mar 08 17:19 : client: [9] opened from [::1]:33778
+Mar 08 17:19 : client: [9] closed
+Mar 08 17:20 : client: [7] closed
+Mar 08 17:24 : player: played "弦子 - 舍不得.MP3"
+Mar 08 17:28 : player: played "夹子道 - 死心塌地.MP3"
+Mar 08 17:32 : player: played "杜婧荧 王艺翔 - 雪.MP3"
+Mar 08 17:32 : exception: Failed to play on "My Pulse Output" (pulse): suspended
+Mar 08 17:32 : client: [3] closed
+Mar 08 17:32 : client: [10] opened from [::1]:40374
+Mar 08 17:32 : client: [10] closed
+Mar 08 17:32 : client: [11] opened from [::1]:40392
+Mar 08 17:32 : client: [11] closed
+Mar 08 17:32 : client: [12] opened from [::1]:40402
+Mar 08 17:32 : client: [12] closed
+Mar 08 17:32 : client: [13] opened from [::1]:40468
+Mar 08 17:32 : client: [13] closed
+Mar 08 17:32 : client: [14] opened from [::1]:40550
+Mar 08 17:32 : client: [14] closed
+Mar 08 23:45 : player: played "安苏羽 - 左肩.MP3"
+Mar 09 10:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 09 10:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 09 10:58 : player: played "安苏羽 - 左肩.MP3"
+Mar 09 10:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 09 10:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 09 10:59 : player: played "安苏羽 - 左肩.MP3"
+Mar 09 11:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 09 11:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 09 11:27 : player: played "安苏羽 - 左肩.MP3"
+Mar 09 11:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 09 11:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 10 11:48 : client: [0] opened from [::1]:56730
+Mar 10 11:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 10 11:48 : client: [0] closed
+Mar 10 11:48 : client: [1] opened from [::1]:56732
+Mar 10 11:48 : client: [1] closed
+Mar 10 11:49 : client: [2] opened from [::1]:56752
+Mar 10 11:49 : client: [2] closed
+Mar 10 11:52 : client: [3] opened from [::1]:56800
+Mar 10 11:52 : client: [3] closed
+Mar 10 11:55 : player: played "大声 - 웃어본다.MP3"
+Mar 10 11:55 : client: [4] opened from [::1]:56980
+Mar 10 12:00 : player: played "成始璄 - 너의 모든 순간.MP3"
+Mar 10 12:02 : client: [5] opened from [::1]:57034
+Mar 10 12:02 : client: [5] closed
+Mar 10 13:46 : client: [4] closed
+Mar 10 15:19 : client: [6] opened from [::1]:51286
+Mar 10 15:19 : client: [6] closed
+Mar 10 15:19 : client: [7] opened from [::1]:51288
+Mar 10 15:19 : client: [7] closed
+Mar 10 15:19 : client: [8] opened from [::1]:51292
+Mar 10 15:19 : client: [8] closed
+Mar 10 15:20 : player: played "成龙 - 醉拳(粤).MP3"
+Mar 10 15:23 : player: played "金艺林 - All Right.MP3"
+Mar 10 15:27 : player: played "曾沛慈 - 一个人想着一个人.MP3"
+Mar 10 15:32 : player: played "孙子涵 - 毕业后你不是我的.MP3"
+Mar 10 15:35 : player: played "蔡妍 - 两个人.MP3"
+Mar 10 15:40 : player: played "绘梨衣 - 最后的旅行——记《龙族》.MP3"
+Mar 10 15:40 : client: [9] opened from [::1]:51660
+Mar 10 15:40 : client: [9] closed
+Mar 11 15:16 : client: [10] opened from [::1]:60384
+Mar 11 15:16 : client: [10] closed
+Mar 11 15:16 : client: [11] opened from [::1]:60388
+Mar 11 15:16 : client: [11] closed
+Mar 11 15:16 : client: [12] opened from [::1]:60400
+Mar 11 15:16 : client: [12] closed
+Mar 11 15:18 : client: [13] opened from [::1]:60482
+Mar 11 15:18 : client: [13] closed
+Mar 12 20:15 : player: played "陈柏宇 - 你瞒我瞒.MP3"
+Mar 12 20:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 12 20:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 12 21:41 : player: played "陈柏宇 - 你瞒我瞒.MP3"
+Mar 12 21:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 12 21:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 14 16:36 : client: [0] opened from [::1]:40828
+Mar 14 16:36 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 14 16:36 : client: [0] closed
+Mar 14 16:36 : client: [1] opened from [::1]:40864
+Mar 14 16:38 : client: [1] closed
+Mar 14 16:38 : player: played "陈柏宇 - 你瞒我瞒.MP3"
+Mar 14 16:38 : client: [2] opened from [::1]:41948
+Mar 14 16:38 : client: [2] closed
+Mar 14 16:39 : client: [3] opened from [::1]:42398
+Mar 14 16:39 : client: [3] closed
+Mar 14 18:04 : update: removing Sara - 我的心好冷.MP3
+Mar 14 18:04 : update: removing Rainton桐 - 最后的旅行 (日语念白版).MP3
+Mar 14 18:04 : update: removing Rain - 30     .MP3
+Mar 14 18:04 : update: removing BOBO - 光荣.MP3
+Mar 14 18:04 : update: removing BIGBANG - 꽃 길.MP3
+Mar 14 18:04 : update: removing 黑豹乐队 - 无地自容.MP3
+Mar 14 18:04 : update: removing 迪克牛仔 - 梦醒时分.MP3
+Mar 14 18:04 : update: removing 迪克牛仔 - 值得.MP3
+Mar 14 18:04 : update: removing 刘昊霖 - 儿时.MP3
+Mar 14 18:04 : update: removing 刘昊霖 kidult. - Landing Guy.MP3
+Mar 14 18:04 : update: removing 张栋梁 - 当你孤单你会想起谁.MP3
+Mar 14 18:04 : update: removing 王冰洋 - 飞舞.MP3
+Mar 14 18:04 : update: removing 陈慧琳 - 记事本.MP3
+Mar 14 18:04 : update: removing 孙子涵 - 隐身守候.MP3
+Mar 14 18:04 : update: removing 潘玮柏 - 亲爱的.MP3
+Mar 14 18:04 : update: removing 王菲 - 容易受伤的女人.MP3
+Mar 14 18:04 : update: removing 弦子 - 醉清风.MP3
+Mar 14 18:04 : update: removing 成龙 - 醉拳(粤).MP3
+Mar 14 18:04 : update: removing 小5 - 说一句我不走了.MP3
+Mar 14 18:04 : update: removing 布衣乐队 - 我爱你亲爱的姑娘.MP3
+Mar 14 18:04 : update: removing 李代沫 - 到不了.MP3
+Mar 14 18:04 : update: removing 李代沫 - 遗憾.MP3
+Mar 14 18:04 : update: removing 夏小虎 - 逝年.MP3
+Mar 14 18:04 : update: removing 东来东往 - 连哭都是我的错.MP3
+Mar 14 18:04 : update: removing 牛奶咖啡 - 越长大越孤单.MP3
+Mar 14 18:04 : update: removing 赵紫骅 - 可乐.MP3
+Mar 14 18:04 : update: removing 飘乐队 - 每条伤心的大街.MP3
+Mar 14 18:04 : update: removing 尤起胜 - 说谎.MP3
+Mar 14 18:04 : update: removing JC陈泳彤 - 说散就散.MP3
+Mar 14 18:04 : update: removing 胜屿 - 该死的懦弱.MP3
+Mar 14 18:04 : update: removing 唐汉霄 - 让我留在你身边 (原唱作版).MP3
+Mar 14 18:04 : update: removing 陈奕迅 - 让我留在你身边.MP3
+Mar 14 18:04 : update: removing 周传雄 - 青花.MP3
+Mar 14 18:04 : update: removing 蒋蒋 - 残雪.MP3
+Mar 14 18:04 : update: removing 羽肿 - 花火が瞬く夜に.MP3
+Mar 14 18:04 : update: removing 罗百吉 宝贝 - 摩天轮.MP3
+Mar 14 18:04 : update: removing 罗百吉 - I Miss You（Cover 青春美少女）.MP3
+Mar 14 18:04 : update: removing 毛阿敏 - 相思.MP3
+Mar 14 18:04 : update: removing 翁梓铭 - 原来如此.MP3
+Mar 14 18:04 : update: removing 彭佳慧 - 相见恨晚.MP3
+Mar 14 18:04 : update: removing 冬子 刘东明 小河 钟立风 好妹妹 蒋明 - 啊朋友 再见.MP3
+Mar 14 18:04 : update: removing 群星 - 心痛2009.MP3
+Mar 14 18:04 : update: removing 曾沛慈 - 一个人想着一个人.MP3
+Mar 14 18:04 : update: removing 谢春花 - 我从崖边跌落.MP3
+Mar 14 18:04 : update: removing 简弘亦 - 如果云知道（Cover：许茹芸）.MP3
+Mar 14 18:04 : update: removing 简弘亦 - 开始懂了（Cover：孙燕姿）.MP3
+Mar 14 18:04 : update: removing 胜屿 - 笑着结束.MP3
+Mar 14 18:04 : update: removing 梁一贞 - 那面墙.MP3
+Mar 14 18:04 : update: removing Akie秋绘 - 天ノ弱.MP3
+Mar 14 18:04 : update: removing 夏浅景 - 秋殇别恋.MP3
+Mar 14 18:04 : update: removing 张靓颖 - 天下无双.MP3
+Mar 14 18:04 : update: removing Jason Walker - Down.MP3
+Mar 14 18:04 : update: removing 石欣卉 - 一人留.MP3
+Mar 14 18:04 : update: removing 栗先达 - 相守.MP3
+Mar 14 18:04 : update: removing 王绎龙 - 电音之王.MP3
+Mar 14 18:04 : update: removing 许巍 - 执着.MP3
+Mar 14 18:04 : update: removing 刘诺婕 - 独寂.MP3
+Mar 14 18:04 : update: removing 陈小春 - 独家记忆.MP3
+Mar 14 18:04 : update: removing 孙耀威 - 爱的故事(下)-但愿他珍惜你.MP3
+Mar 14 18:04 : update: removing 孙耀威 - 爱的故事(上).MP3
+Mar 14 18:04 : update: removing 封茗囧菌 - 幹物女(WeiWei).MP3
+Mar 14 18:04 : update: removing 封茗囧菌 - 东京不太热.MP3
+Mar 14 18:04 : update: removing 以冬 - 造梦者.MP3
+Mar 14 18:04 : update: removing 许一鸣 - 想你想疯了.MP3
+Mar 14 18:04 : update: removing 陈辉权 - 不再说永远.MP3
+Mar 14 18:04 : update: removing 绿森林组合 - 天亮之前.MP3
+Mar 14 18:04 : update: removing 徐薇 - 我以为.MP3
+Mar 14 18:04 : update: removing 老狼 王婧 - 想把我唱给你听.MP3
+Mar 14 18:04 : update: removing 潘广益 - 纪念的歌.MP3
+Mar 14 18:04 : update: removing 温岚 - 夏天的风.MP3
+Mar 14 18:04 : update: removing 陈奕迅 - 谁来剪月光.MP3
+Mar 14 18:04 : update: removing 陈奕迅 - 海胆.MP3
+Mar 14 18:04 : update: removing 陈鸿宇 - 理想三旬.MP3
+Mar 14 18:04 : update: removing 郝云 - 活着.MP3
+Mar 14 18:04 : update: removing 李翊君 - 永远永远.MP3
+Mar 14 18:04 : update: removing 零点乐队 - 爱不爱我.MP3
+Mar 14 18:04 : update: removing 水木年华 - 在他乡.MP3
+Mar 14 18:04 : update: removing 孙子涵 - 毕业后你不是我的.MP3
+Mar 14 18:04 : update: removing 夹子道 - 死心塌地.MP3
+Mar 14 18:04 : update: removing RAiNBOW计划 雷雨心 - 记念.MP3
+Mar 14 18:04 : update: removing 梁咏琪 - 胆小鬼.MP3
+Mar 14 18:04 : update: removing 左颜 - 木头的心.MP3
+Mar 14 18:04 : update: removing 薛之谦 - 暧昧.MP3
+Mar 14 18:04 : update: removing 星弟 - 多余的关心.MP3
+Mar 14 18:04 : update: removing 郑欣宜 - 忘记的理由.MP3
+Mar 14 18:04 : update: removing 郑欣宜 - 上心.MP3
+Mar 14 18:04 : update: removing 蔡妍 - 两个人.MP3
+Mar 14 18:04 : update: removing 刘瑞琦 - 房间.MP3
+Mar 14 18:04 : update: removing 张敬轩 - 断点.MP3
+Mar 14 18:04 : update: removing 以冬 - 我的一个道姑朋友（cover タイナカ 彩智）（Cover Lon）.MP3
+Mar 14 18:04 : update: removing 杨宗纬 - 空白格 (Live).MP3
+Mar 14 18:04 : update: removing 陈绮贞 - 我喜欢上你时的内心活动.MP3
+Mar 14 18:04 : update: removing 王筝 - 我们都是好孩子.MP3
+Mar 14 18:04 : update: removing 草蜢 - 失恋.MP3
+Mar 14 18:04 : update: removing 马旭东 - 我们不可能.MP3
+Mar 14 18:04 : update: removing 庄心妍 - 哎.MP3
+Mar 14 18:04 : update: removing 张卫健 - 你爱我像谁.MP3
+Mar 14 18:04 : update: removing 赵雷 - 成都.MP3
+Mar 14 18:04 : update: removing 汪苏泷 - 唯你懂我心.MP3
+Mar 14 18:04 : update: removing 许亚童 - 慢慢慢慢忘记你.MP3
+Mar 14 18:04 : update: removing 薛之谦 - 方圆几里.MP3
+Mar 14 18:04 : update: removing 薛之谦 - 你还要我怎样.MP3
+Mar 14 18:04 : update: removing 李玖哲 - 围墙.MP3
+Mar 14 18:04 : update: removing 李玖哲 - 想太多.MP3
+Mar 14 18:04 : update: removing Kenny G - Going home.MP3
+Mar 14 18:04 : update: removing 赵薇 - 情深深雨濛濛.MP3
+Mar 14 18:04 : update: removing 简弘亦 - 情歌 (cover梁静茹).MP3
+Mar 14 18:04 : update: removing 方雅贤 - 遇到.MP3
+Mar 14 18:04 : update: removing 朱雅 - 前度.MP3
+Mar 14 18:04 : update: removing 魏新雨 - 恋人心.MP3
+Mar 14 18:04 : update: removing 伍佰 - 突然的自我.MP3
+Mar 14 18:04 : update: removing 四个女生 - 心愿.MP3
+Mar 14 18:04 : update: removing 张玉华 - 原谅.MP3
+Mar 14 18:04 : update: removing 张信哲 刘嘉玲 - 有一点动心.MP3
+Mar 14 18:04 : update: removing 蔡淳佳 - 依恋.MP3
+Mar 14 18:04 : update: removing 安苏羽 - 左肩.MP3
+Mar 14 18:04 : update: removing 山野 - 如果爱能早些说出来.MP3
+Mar 14 18:04 : update: removing 陈粒 - 小半.MP3
+Mar 14 18:04 : update: removing 许亚童 - 想要你知道.MP3
+Mar 14 18:04 : update: removing 张信哲 - 爱就一个字.MP3
+Mar 14 18:04 : update: removing 韦礼安 郭静 - 风景旧曾谙.MP3
+Mar 14 18:04 : update: removing 杜婧荧 王艺翔 - 雪.MP3
+Mar 14 18:04 : update: removing 许茹芸 - 独角戏.MP3
+Mar 14 18:04 : update: removing 刘瑞琦 - 原谅 (Cover 张玉华).MP3
+Mar 14 18:04 : update: removing 胡彦斌 - 为你我受冷风吹.MP3
+Mar 14 18:04 : update: removing 胡彦斌 - 为你我受冷风吹(2).MP3
+Mar 14 18:04 : update: removing 阿杜 - 撕夜.MP3
+Mar 14 18:04 : update: removing 邓福如 - Me & U.MP3
+Mar 14 18:04 : update: removing 男才女貌 - 外滩十八号.MP3
+Mar 14 18:04 : update: removing 杨宗纬 - 一次就好.MP3
+Mar 14 18:04 : update: removing 金志文 - 夏洛特烦恼.MP3
+Mar 14 18:04 : update: removing 上官晓懿 - 伤爱的理由.MP3
+Mar 14 18:04 : update: removing 三亩地 - 城南花已开.MP3
+Mar 14 18:04 : update: removing 范晓萱 - 氧气.MP3
+Mar 14 18:04 : update: removing 尹熙水 - 拥抱的理由.MP3
+Mar 14 18:04 : update: removing 鹏泊 - 啷个哩个啷.MP3
+Mar 14 18:04 : update: removing 陈苑淇 李克勤 - 合久必婚 (合唱).MP3
+Mar 14 18:04 : update: removing RADWIMPS - なんでもないや (movie ver.).MP3
+Mar 14 18:04 : update: removing 胜屿 - 后遗症.MP3
+Mar 14 18:04 : update: removing 任然 - 凉城.MP3
+Mar 14 18:04 : update: removing 周杰伦 - 晴天.MP3
+Mar 14 18:04 : update: removing 曾春年 - 最幸福的人.MP3
+Mar 14 18:04 : update: removing 郑伊健 陈小春 - 热血燃烧.MP3
+Mar 14 18:04 : update: removing 潘玮柏 苏芮 - 我想更懂你.MP3
+Mar 14 18:04 : update: removing 孙子涵 - 回忆那么伤.MP3
+Mar 14 18:04 : update: removing 吉佑社 - 我们已不同.MP3
+Mar 14 18:04 : update: removing Soler - 风的季节.MP3
+Mar 14 18:04 : update: removing 马頔 - 南山南.MP3
+Mar 14 18:04 : update: removing 欧得洋 - 孤单北半球.MP3
+Mar 14 18:04 : update: removing 汪源 刘千楚 徐逸昊 鲁天舒 姜玮珉 胡梦原 张鎏依 梁竞元 游彧涵 金书援 许一璇 张夙西 - 北京东路的日子.MP3
+Mar 14 18:04 : update: removing 王冕 - 勉为其难.MP3
+Mar 14 18:04 : update: removing Mi2 - 勇敢爱.MP3
+Mar 14 18:04 : update: removing 张振宇 - 别说我的眼泪你无所谓.MP3
+Mar 14 18:04 : update: removing 高进 - 别想她.MP3
+Mar 14 18:04 : update: removing 雷诺儿 - 别在我离开之前离开.MP3
+Mar 14 18:04 : update: removing 薛之谦 - 我好像在哪见过你.MP3
+Mar 14 18:04 : update: removing 薛之谦 - 刚刚好.MP3
+Mar 14 18:04 : update: removing 李玉刚 - 刚好遇见你.MP3
+Mar 14 18:04 : update: removing 简弘亦 - 出卖.MP3
+Mar 14 18:04 : update: removing 薛之谦 - 我知道你都知道.MP3
+Mar 14 18:04 : update: removing 凉城 张震岳 - 思念是一种病.MP3
+Mar 14 18:04 : update: removing 草蜢 - 失恋阵线联盟.MP3
+Mar 14 18:04 : update: removing Dj Titon - 死机之歌.MP3
+Mar 14 18:04 : update: removing DJ Maxwell - It's Ok.MP3
+Mar 14 18:04 : update: removing Candy - Bila.MP3
+Mar 14 18:04 : update: removing DJ Daniel Kim - Pop Danthology 2012.MP3
+Mar 14 18:04 : update: removing Defrix - Walking In the Sun (Defrix Remix).MP3
+Mar 14 18:04 : update: removing M80 - Feeling U.MP3
+Mar 14 18:04 : update: removing Snoop Dog Dr. Dre - The Next Episode instrumental.MP3
+Mar 14 18:04 : update: removing 赵乃吉 - 最初的温柔.MP3
+Mar 14 18:04 : update: removing 平野綾 - 冒険でしょでしょ？.mp3
+Mar 14 18:04 : update: removing 欢子 - 心痛2009.MP3
+Mar 14 18:04 : update: removing 光泽 - 空心.MP3
+Mar 14 18:04 : update: removing 吴若希 - 越难越爱.MP3
+Mar 14 18:04 : update: removing 任然 - 你好陌生人.MP3
+Mar 14 18:04 : update: removing 蓝波 - 你到底有没有爱过我.MP3
+Mar 14 18:04 : update: removing 蓝波 - 你到底有没有爱过我(2).MP3
+Mar 14 18:04 : update: removing 新街口组合 - 暗恋过 结局呢.MP3
+Mar 14 18:04 : update: removing 雷智皓 - 山楂树の恋.MP3
+Mar 14 18:04 : update: removing 林俊杰 - 就是我.MP3
+Mar 14 18:04 : update: removing 逃跑计划 - 一万次悲伤.MP3
+Mar 14 18:04 : update: removing 逃跑计划 - 再见,再见.MP3
+Mar 14 18:04 : update: removing 宇桐非 胡雯 - 擦肩而过.MP3
+Mar 14 18:04 : update: removing 张玮伽 - 海浪.MP3
+Mar 14 18:04 : update: removing 弦子 - 舍不得.MP3
+Mar 14 18:04 : update: removing Carpenters - Yesterday Once More.MP3
+Mar 14 18:04 : update: removing 王杰 - 我是真的爱上你.MP3
+Mar 14 18:04 : update: removing 夏天Alex - 不再联系.MP3
+Mar 14 18:04 : update: removing 许慧欣 - 七月七日晴.MP3
+Mar 14 18:04 : update: removing 叶蒨文 - 情人知己.MP3
+Mar 14 18:04 : update: removing 庄心妍 - 一直想着他.MP3
+Mar 14 18:04 : update: removing 夏婉安 - 一个人.MP3
+Mar 14 18:04 : update: removing Tiger JK Jinsil - Reset(2).MP3
+Mar 14 18:04 : update: removing BTS (防弹少年团) - Butterfly.MP3
+Mar 14 18:04 : update: removing BTS (防弹少年团) - I NEED U.MP3
+Mar 14 18:04 : update: removing 玄彬 - 가질 수 없는 너.MP3
+Mar 14 18:04 : update: removing V.A. - 샤랄라 (허밍).MP3
+Mar 14 18:04 : update: removing 李宝蓝 - 처음 그 자리에.MP3
+Mar 14 18:04 : update: removing K.Will - 말해! 뭐해？.MP3
+Mar 14 18:04 : update: removing G-Dragon Lydia Paek - R.O.D..MP3
+Mar 14 18:04 : update: removing 太妍 - 만약에.MP3
+Mar 14 18:04 : update: removing 高耀太 - 순정.MP3
+Mar 14 18:04 : update: removing 咖啡少年 - 장가갈 수 있을까.MP3
+Mar 14 18:04 : update: removing T-ara N4 二段横踢 禹泰云 - 전원일기 (田园日记).MP3
+Mar 14 18:04 : update: removing Hello Venus - 위글위글.MP3
+Mar 14 18:04 : update: removing 李孝利 Teddy - Anyclub.MP3
+Mar 14 18:04 : update: removing MC 梦 Mellow - 죽을 만큼 아파서.MP3
+Mar 14 18:04 : update: removing 成始璄 - 너의 모든 순간.MP3
+Mar 14 18:04 : update: removing 金雅中 - Maria.MP3
+Mar 14 18:04 : update: removing 少女时代-Oh!GG - 쉼표 (Fermata).mp3
+Mar 14 18:04 : update: removing 少女时代-Oh!GG - 몰랐니 (Lil` Touch).mp3
+Mar 14 18:04 : update: removing Mario 朴素彬 송보람 - Never Say Goodbye.MP3
+Mar 14 18:04 : update: removing 孙丹菲 - 눈물이 주르륵.MP3
+Mar 14 18:04 : update: removing Krystal - 울컥.MP3
+Mar 14 18:04 : update: removing Girl's Day - 기대해.MP3
+Mar 14 18:04 : update: removing 泰仁 - 그 남자의 거짓말.MP3
+Mar 14 18:04 : update: removing G-Dragon - 무제(無題) (Untitled, 2014).MP3
+Mar 14 18:04 : update: removing Crush Punch - 잠 못드는 밤.MP3
+Mar 14 18:04 : update: removing Rocoberry - 계절 끝 (잠 못 드는 밤 2).MP3
+Mar 14 18:04 : update: removing 波丹.尤莉娅 - Рiчка.MP3
+Mar 14 18:04 : update: removing 锦零 - 豆花之歌（Cover：Pianoboy高至豪）.MP3
+Mar 14 18:04 : update: removing Ofenbach - You Don't Know Me.MP3
+Mar 14 18:04 : update: removing Baha Men - Who Let The Dogs Out.MP3
+Mar 14 18:04 : update: removing Tiger JK Jinsil - Reset.mp3
+Mar 14 18:04 : update: removing Flo Rida - Whistle.MP3
+Mar 14 18:04 : update: removing iKON - MY TYPE (취향저격).MP3
+Mar 14 18:04 : update: removing 双笙 封茗囧菌 - We Don't Talk Anymore（Cover Charlie Puth&Selena Gomez）.MP3
+Mar 14 18:04 : update: removing Miley Cyrus - We Can't Stop.MP3
+Mar 14 18:04 : update: removing Hillsong Young & Free - Wake.MP3
+Mar 14 18:04 : update: removing Deutschland sucht den Superstar Various Artists - Cry On My Shoulder.MP3
+Mar 14 18:04 : update: removing SS501 - The ONE.MP3
+Mar 14 18:04 : update: removing Joel Hanson - Traveling Light.MP3
+Mar 14 18:04 : update: removing Tragédie - Hey Oh.MP3
+Mar 14 18:04 : update: removing Sam Smith - Too Good At Goodbyes.MP3
+Mar 14 18:04 : update: removing JAEFOREAL - 是个好人.MP3
+Mar 14 18:04 : update: removing 白智英 - 총 맞은 것처럼.MP3
+Mar 14 18:04 : update: removing July - My Soul.MP3
+Mar 14 18:04 : update: removing Britney Spears - Till The World Ends.MP3
+Mar 14 18:04 : update: removing 2PM 尹恩惠 - Tik Tok.MP3
+Mar 14 18:04 : update: removing Earphones - Primetime-sexcrime.MP3
+Mar 14 18:04 : update: removing BIGBANG - LIE.MP3
+Mar 14 18:04 : update: removing Michael Jackson - We Are The World (Demo).MP3
+Mar 14 18:04 : update: removing Michael Jackson - You Are Not Alone.MP3
+Mar 14 18:04 : update: removing Lenka - The Show.MP3
+Mar 14 18:04 : update: removing Fort Minor Styles of Beyond - Remember The Name.MP3
+Mar 14 18:04 : update: removing Dr. Dre Snoop Dogg Kurupt - The Next Episode.MP3
+Mar 14 18:04 : update: removing Vitas - Opera 2.MP3
+Mar 14 18:04 : update: removing Owl City Carly Rae Jepsen - Good Time.MP3
+Mar 14 18:04 : update: removing 50 Cent - Disco Inferno.MP3
+Mar 14 18:04 : update: removing Era - The Mass.MP3
+Mar 14 18:04 : update: removing Hampton the Hampster - The Hampster Dance Song.MP3
+Mar 14 18:04 : update: removing 太阳 - RINGA LINGA.MP3
+Mar 14 18:04 : update: removing BIGBANG 朴春 - WE BELONG TOGETHER.MP3
+Mar 14 18:04 : update: removing BIGBANG - HALLELUJAH.MP3
+Mar 14 18:04 : update: removing 陈奕迅 - 淘汰.MP3
+Mar 14 18:04 : update: removing BIGBANG - Tell Me Goodbye.MP3
+Mar 14 18:04 : update: removing Daz Sampson - Teenage Life.MP3
+Mar 14 18:04 : update: removing 陈慧琳 - 前所未见.MP3
+Mar 14 18:04 : update: removing 陈慧琳 - Love Paradise.MP3
+Mar 14 18:04 : update: removing Fefe Dobson - Stuttering.MP3
+Mar 14 18:04 : update: removing 杨宗纬 - 给未来的自己(Live).MP3
+Mar 14 18:04 : update: removing Wisp X - Stand With Me.MP3
+Mar 14 18:04 : update: removing BLACKPINK - WHISTLE.MP3
+Mar 14 18:04 : update: removing BIGBANG - MONSTER.MP3
+Mar 14 18:04 : update: removing Samantha Jade - Soldier.MP3
+Mar 14 18:04 : update: removing 太阳 - 나만 바라봐.MP3
+Mar 14 18:04 : update: removing Cam Kelley - Sketch Plane.MP3
+Mar 14 18:04 : update: removing 杨千嬅 - 处处吻.MP3
+Mar 14 18:04 : update: removing Sistar - SHAKE IT.MP3
+Mar 14 18:04 : update: removing Fall Out Boy - The Phoenix.MP3
+Mar 14 18:04 : update: removing TAIBIAN - Queen.MP3
+Mar 14 18:04 : update: removing 太阳 - 새벽한시 (1AM).MP3
+Mar 14 18:04 : update: removing 陈奕迅 - 可以了.MP3
+Mar 14 18:04 : update: removing Kelly Clarkson - Catch My Breath.MP3
+Mar 14 18:04 : update: removing Sensitive Bogdan Bondarenko - Remember (Original Mix).MP3
+Mar 14 18:04 : update: removing Fifth Harmony KiD Ink - Worth It.MP3
+Mar 14 18:04 : update: removing Rainbow - Tell Me Tell Me.MP3
+Mar 14 18:04 : update: removing Queen - We Will Rock You.MP3
+Mar 14 18:04 : update: removing Justin Bieber - Love Yourself.MP3
+Mar 14 18:04 : update: removing Joel Adams - Please Don't Go.MP3
+Mar 14 18:04 : update: removing Apink - Mr. Chu.MP3
+Mar 14 18:04 : update: removing Timmy Trumpet Andrew W.K. MAKJ - Party Till We Die (Extended Mix).MP3
+Mar 14 18:04 : update: removing IU G-Dragon - 팔레트.MP3
+Mar 14 18:04 : update: removing Maroon 5 - Lucky Strike.MP3
+Mar 14 18:04 : update: removing Missing You (Feat. 김윤아 of 자우림)   权志龙.mp3
+Mar 14 18:04 : update: removing Blue - U Make Me Wanna.MP3
+Mar 14 18:04 : update: removing Brand X Music - Helmet to Helmet.MP3
+Mar 14 18:04 : update: removing 刘佳 - 一个人走.MP3
+Mar 14 18:04 : update: removing BIGBANG - Heaven -천국-.MP3
+Mar 14 18:04 : update: removing BIGBANG - Haru Haru -하루 하루-.MP3
+Mar 14 18:04 : update: removing 李克勤 陈慧琳 - 爱一个人.MP3
+Mar 14 18:04 : update: removing Charlie Puth Selena Gomez - We Don't Talk Anymore.MP3
+Mar 14 18:04 : update: removing Jus Allah - betrayal.MP3
+Mar 14 18:04 : update: removing OneRepublic - Counting Stars.MP3
+Mar 14 18:04 : update: removing Nana - Lonely.MP3
+Mar 14 18:04 : update: removing YUI - HELP.mp3
+Mar 14 18:04 : update: removing 张悬 - 宝贝 (in a day).MP3
+Mar 14 18:04 : update: removing TheFatRat Laura Brehm - Monody.MP3
+Mar 14 18:04 : update: removing Larry Mullen Jr. - Theme from Mission： Impossible.MP3
+Mar 14 18:04 : update: removing MC 梦 Sweden Laundry - 죽을만큼 아파서 Part.2.MP3
+Mar 14 18:04 : update: removing T-ara - SEXY LOVE.MP3
+Mar 14 18:04 : update: removing Raphaël Beau - Micmacs A La Gare.MP3
+Mar 14 18:04 : update: removing Kate Havnevik - So：Lo.MP3
+Mar 14 18:04 : update: removing Maroon 5 - Maps.MP3
+Mar 14 18:04 : update: removing 孝敏 Loco - Nice Body.MP3
+Mar 14 18:04 : update: removing BIGBANG - LAST DANCE.MP3
+Mar 14 18:04 : update: removing BIGBANG - GIRLFRIEND.MP3
+Mar 14 18:04 : update: removing BIGBANG - FXXK IT(에라 모르겠다).MP3
+Mar 14 18:04 : update: removing DNA.mp3
+Mar 14 18:04 : update: removing Matt B - Color Blind.MP3
+Mar 14 18:04 : update: removing M2M - Pretty Boy.MP3
+Mar 14 18:04 : update: removing Embody Claire Ridgely - Lost & Found.MP3
+Mar 14 18:04 : update: removing Taylor Swift - Look What You Made Me Do.MP3
+Mar 14 18:04 : update: removing 张震岳 - 思念是一种病(Live).MP3
+Mar 14 18:04 : update: removing 动力火车 - 终于明白.MP3
+Mar 14 18:04 : update: removing 阿桑 - 一直很安静.MP3
+Mar 14 18:04 : update: removing 阿桑 - 叶子.MP3
+Mar 14 18:04 : update: removing Honey Cocaine - Gwola.MP3
+Mar 14 18:04 : update: removing Eminem Rihanna - Love The Way You Lie.MP3
+Mar 14 18:04 : update: removing Steven Cooper - Born to Do.MP3
+Mar 14 18:04 : update: removing 徐佳莹 - 身骑白马.MP3
+Mar 14 18:04 : update: removing 徐佳莹 - 失落沙洲.MP3
+Mar 14 18:04 : update: removing Martin Ermen - River Flows In You.MP3
+Mar 14 18:04 : update: removing Remady - L-Holidays (Radio Edit).MP3
+Mar 14 18:04 : update: removing Justin bieber - Yummy  (Official Music Video 202 h_xRFwvXlf4.m4a
+Mar 14 18:04 : update: removing Hélène Rolles - Je m'appelle Hélène.MP3
+Mar 14 18:04 : update: removing Bon Jovi - It's My Life.MP3
+Mar 14 18:04 : update: removing Overground - One For Da Money.MP3
+Mar 14 18:04 : update: removing John The Whistler - Wild Wild Web.MP3
+Mar 14 18:04 : update: removing 丁可 - If.MP3
+Mar 14 18:04 : update: removing Vitas - Звезда.MP3
+Mar 14 18:04 : update: removing Ailee - 보여줄게.MP3
+Mar 14 18:04 : update: removing Craig David - Insomnia.MP3
+Mar 14 18:04 : update: removing 辉星 - Insomnia (불면증).MP3
+Mar 14 18:04 : update: removing Linkin Park - In The End.MP3
+Mar 14 18:04 : update: removing Nightwish - I Want My Tears Back.MP3
+Mar 14 18:04 : update: removing 陈壹千 - IF You & Faded Remix（Cover BIGBANG & Alan Walker）.MP3
+Mar 14 18:04 : update: removing 1983 - 对不起 我爱你.MP3
+Mar 14 18:04 : update: removing Justin Bieber Lil Wayne Chance the Rapper Quavo DJ Khaled - I'm the One.MP3
+Mar 14 18:04 : update: removing Stewart Mac - I Love You.MP3
+Mar 14 18:04 : update: removing 李贞贤 - 아리아리.MP3
+Mar 14 18:04 : update: removing ZAYN Taylor Swift - I Don't Wanna Live Forever (Fifty Shades Darker).MP3
+Mar 14 18:04 : update: removing 911 - I Do.MP3
+Mar 14 18:04 : update: removing Kim Taylor - I Am You.MP3
+Mar 14 18:04 : update: removing Candee! - Ein kleines Lied (Around The World).MP3
+Mar 14 18:04 : update: removing Asher Monroe - Here With You.MP3
+Mar 14 18:04 : update: removing 金志文 - 远走高飞.MP3
+Mar 14 18:04 : update: removing OMFG - Hello.MP3
+Mar 14 18:04 : update: removing Alexander Jean - Whiskey and Morphine.MP3
+Mar 14 18:04 : update: removing Owl City Carly Rae Jepsen - Good Time(2).MP3
+Mar 14 18:04 : update: removing Little Mix Charlie Puth - Oops.MP3
+Mar 14 18:04 : update: removing AGA - Wonderful U (Demo Version).MP3
+Mar 14 18:04 : update: removing 权志龙 - Today.MP3
+Mar 14 18:04 : update: removing 金贤政 - 7년간의 사랑.MP3
+Mar 14 18:04 : update: removing Why - 운명.MP3
+Mar 14 18:04 : update: removing 自由派对 - 拥抱着你的滋味.MP3
+Mar 14 18:04 : update: removing Daniel Powter - Free Loop (Vocal Up Version).MP3
+Mar 14 18:04 : update: removing Timmy Trumpet Savage - Freaks (Radio Edit).MP3
+Mar 14 18:04 : update: removing 范逸臣 - I Believe.MP3
+Mar 14 18:04 : update: removing BIGBANG - Bigbang.MP3
+Mar 14 18:04 : update: removing 4円 - アイロニ.MP3
+Mar 14 18:04 : update: removing A Teens - Floorfiller.MP3
+Mar 14 18:04 : update: removing Ingrid Michaelson - Everybody.MP3
+Mar 14 18:04 : update: removing 李克勤 陈苑淇 - 合久必婚.MP3
+Mar 14 18:04 : update: removing Virtual Riot - Energy Drink.MP3
+Mar 14 18:04 : update: removing Eminem 50 Cent Cashis Lloyd Banks - You Don't Know.MP3
+Mar 14 18:04 : update: removing 薛之谦 - 演员.MP3
+Mar 14 18:04 : update: removing Carly Rae Jepsen - I Really Like You.MP3
+Mar 14 18:04 : update: removing 周传雄 - 花香.MP3
+Mar 14 18:04 : update: removing 周传雄 - 我难过.MP3
+Mar 14 18:04 : update: removing Akon - Right Now (Na Na Na).MP3
+Mar 14 18:04 : update: removing Bruno Mars - Marry You.MP3
+Mar 14 18:04 : update: removing Frankmusik - Wrecking Ball.MP3
+Mar 14 18:04 : update: removing 罗百吉 - Hero Tonight 英雄 Feat Missy Babe.MP3
+Mar 14 18:04 : update: removing Fool's Garden - Lemon Tree.MP3
+Mar 14 18:04 : update: removing 邓福如 - Nothing on you.MP3
+Mar 14 18:04 : update: removing Rich Brian - Dat $tick.MP3
+Mar 14 18:04 : update: removing Darin - Be What You Wanna Be.MP3
+Mar 14 18:04 : update: removing 高耀太 - 불꽃.MP3
+Mar 14 18:04 : update: removing BIGBANG - IF YOU.MP3
+Mar 14 18:04 : update: removing Carly Rae Jepsen - Call Me Maybe.MP3
+Mar 14 18:04 : update: removing G-Dragon 金润雅 - MISSING YOU.MP3
+Mar 14 18:04 : update: removing Jibbs - Chain Hang Low.MP3
+Mar 14 18:04 : update: removing Daniel Powter - Free Loop.MP3
+Mar 14 18:04 : update: removing 陈柏宇 - 你瞒我瞒.MP3
+Mar 14 18:04 : update: removing T-ara - Falling U.MP3
+Mar 14 18:04 : update: removing Taio Cruz - Break Your Heart.MP3
+Mar 14 18:04 : update: removing SpeXial - 心流感.MP3
+Mar 14 18:04 : update: removing 宮崎歩 - brave heart.MP3
+Mar 14 18:04 : update: removing Black Eyed Peas - Boom Boom Pow (Clean).MP3
+Mar 14 18:04 : update: removing Tiësto Sevenn - Boom (Extended Mix).MP3
+Mar 14 18:04 : update: removing Tiësto Sevenn - BOOM.MP3
+Mar 14 18:04 : update: removing 许廷铿 - 面具.MP3
+Mar 14 18:04 : update: removing 许廷铿 - 厌弃.MP3
+Mar 14 18:04 : update: removing CNBLUE - 외톨이야.MP3
+Mar 14 18:04 : update: removing BIGBANG - Stay.MP3
+Mar 14 18:04 : update: removing BIGBANG - Follow Me.MP3
+Mar 14 18:04 : update: removing BIGBANG - Bringing You Love.MP3
+Mar 14 18:04 : update: removing BIGBANG - Baby Baby -Japanese Version-.MP3
+Mar 14 18:04 : update: removing Dreamtale - Intro： The Dawn.MP3
+Mar 14 18:04 : update: removing Groove Coverage - She.MP3
+Mar 14 18:04 : update: removing The Downtown Fiction - I Just Wanna Run.MP3
+Mar 14 18:04 : update: removing Justin Bieber - As Long As You Love Me.MP3
+Mar 14 18:04 : update: removing Kelly Clarkson - Because of You.MP3
+Mar 14 18:04 : update: removing FTISLAND - 미친 듯이 너 하나만.MP3
+Mar 14 18:04 : update: removing Westlife - Beautiful In White (Demo).MP3
+Mar 14 18:04 : update: removing BIGBANG - BEAUTIFUL HANGOVER.MP3
+Mar 14 18:04 : update: removing 레게 강 같은 평화 (RGP) 权正烈 - Beautiful Girl.MP3
+Mar 14 18:04 : update: removing Two Steps From Hell - Victory.MP3
+Mar 14 18:04 : update: removing Ethno Music Project - Childhood Memory.MP3
+Mar 14 18:04 : update: removing Ethno Music Project - The Foggy Dew.MP3
+Mar 14 18:04 : update: removing Backstreet Boys - As Long as You Love Me.MP3
+Mar 14 18:04 : update: removing Any Band - T.P.L (Talk Play Love).MP3
+Mar 14 18:04 : update: removing Anthem Lights - Best of 2012： Payphone Call Me Maybe Wide Awake Starship We Are Young.MP3
+Mar 14 18:04 : update: removing Fall Out Boy - Immortals.MP3
+Mar 14 18:04 : update: removing BIGBANG - 거짓말.MP3
+Mar 14 18:04 : update: removing T-ara - 넘버나인 (No.9).MP3
+Mar 14 18:04 : update: removing AGA - Better Me.MP3
+Mar 14 18:04 : update: removing 金艺林 - All Right.MP3
+Mar 14 18:04 : update: removing Tamas Wells - Valder Fields.MP3
+Mar 14 18:04 : update: removing DJ Okawari - Flower Dance.MP3
+Mar 14 18:04 : update: removing 申升勋 - I Believe (Guitar Ver.).MP3
+Mar 14 18:04 : update: removing 拉面儿 - 【中日双语】幻化成风（Cover：梁静茹 辻亚弥乃）.MP3
+Mar 14 18:04 : update: removing WINNER - 공허해.MP3
+Mar 14 18:04 : update: removing Maroon 5 Christina Aguilera - Moves Like Jagger.MP3
+Mar 14 18:04 : update: removing Sara Nusara Poongprasert - เจอกับตัวเอง...ถึงรู้.MP3
+Mar 14 18:04 : update: removing 林俊杰 金莎 - 被风吹过的夏天.MP3
+Mar 14 18:04 : update: removing Dr. Dre Snoop Dogg Nate Dogg - The Next Episode.MP3
+Mar 14 18:04 : update: removing 大声 - 웃어본다.MP3
+Mar 14 18:04 : update: removing T-ara - Bo Peep Bo Peep.MP3
+Mar 14 18:04 : update: removing BIGBANG - 눈물뿐인 바보.MP3
+Mar 14 18:04 : update: removing ILLIONAIRE RECORDS - 가.MP3
+Mar 14 18:04 : update: removing Sara 刘佳 - 爱很美.MP3
+Mar 14 18:04 : update: removing 刘佳 - 爱的就是你.MP3
+Mar 14 18:04 : update: removing The Script will.i.am - Hall of Fame.MP3
+Mar 14 18:04 : update: removing Bruno Wen-li - Old Memory.mp3
+Mar 14 18:04 : update: removing 腹肌 米白 莓子 奇多利 - 樱花樱花想见你（Cover 高野健一）.MP3
+Mar 14 18:04 : update: removing 陈小春 - 乱世巨星.MP3
+Mar 14 18:04 : update: removing 许巍 - 故乡.MP3
+Mar 14 18:04 : update: removing 江语晨 - 浪漫爱.MP3
+Mar 14 18:04 : update: removing 江语晨 - 最后一页.MP3
+Mar 14 18:04 : update: removing 光良 - 约定.MP3
+Mar 14 18:04 : update: removing 光良 - 烟火.MP3
+Mar 14 18:04 : update: removing 马天宇 - 依然在一起.MP3
+Mar 14 18:04 : update: removing 陈小春 - 友情岁月.MP3
+Mar 14 18:04 : update: removing 钟嘉欣 - 恋爱令人心痛.MP3
+Mar 14 18:04 : update: removing 金钟国 - 한 남자.mp3
+Mar 14 18:04 : update: removing 誓言 - 求佛.MP3
+Mar 14 18:04 : update: removing 蔡妍 - 위험한 연출.MP3
+Mar 14 18:04 : update: removing 萌萌哒天团 - 帝都.MP3
+Mar 14 18:04 : update: removing 绘梨衣 - 最后的旅行——记《龙族》.MP3
+Mar 14 18:04 : update: removing 王菲 - 匆匆那年.MP3
+Mar 14 18:04 : update: removing 王强 - 秋天不回来.MP3
+Mar 14 18:04 : update: removing 玄彬 - 그남자.MP3
+Mar 14 18:04 : update: removing 林峯 - 爱在记忆中找你.MP3
+Mar 14 18:04 : update: removing 李洪基 - 여전히.MP3
+Mar 14 18:04 : update: removing 李敏镐 羽·泉 - 奔跑.MP3
+Mar 14 18:04 : update: removing 李孝利 - 10 MINUTES.MP3
+Mar 14 18:04 : update: removing 本兮 - 有心无意.MP3
+Mar 14 18:04 : update: removing 本兮 - 情花.MP3
+Mar 14 18:04 : update: removing 张翰 - 拾忆.MP3
+Mar 14 18:04 : update: removing 张杰 - 明天过后.mp3
+Mar 14 18:04 : update: removing 宁桓宇 - 爱情往事.MP3
+Mar 14 18:04 : update: removing 姜育恒 - 再回首.MP3
+Mar 14 18:04 : update: removing 太阳 - 눈, 코, 입.MP3
+Mar 14 18:04 : update: removing 周迅 - 飘摇.MP3
+Mar 14 18:04 : update: removing 后弦 - 娃娃脸.MP3
+Mar 14 18:04 : update: removing 华晨宇 - 横冲直撞.MP3
+Mar 14 18:04 : update: removing 꽃 길 FLOWER ROAD   BIGBANG.mp3
+Mar 14 18:04 : update: removing Tank - 三国恋.MP3
+Mar 14 18:31 : player: played "简弘亦 - 开始懂了（Cover：孙燕姿）.MP3"
+Mar 14 18:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 14 19:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 14 19:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 16 09:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 16 10:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 18 10:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 18 22:08 : client: [0] opened from [::1]:46952
+Mar 18 22:08 : client: [0] closed
+Mar 18 22:13 : client: [1] opened from [::1]:47226
+Mar 18 22:13 : client: [1] closed
+Mar 18 23:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 19 10:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 19 19:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 20 09:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 23 13:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 24 10:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 26 21:44 : client: [0] opened from [::1]:37398
+Mar 26 21:44 : client: [0] closed
+Mar 28 15:42 : client: [1] opened from [::1]:53442
+Mar 28 15:42 : client: [1] closed
+Mar 28 16:06 : client: [2] opened from [::1]:37386
+Mar 28 16:06 : client: [2] closed
+Mar 29 22:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 30 09:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted

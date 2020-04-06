@@ -1,0 +1,111 @@
+" Comment the following line if you don't want Vim and NeoVim to share the
+" same plugin download directory.
+let g:spacevim_plug_home = '~/.my_vim/plugged'
+
+" Uncomment the following line to override the leader key. The default value is space key "<\Space>".
+" let g:spacevim_leader = "<\Space>"
+
+" Uncomment the following line to override the local leader key. The default value is comma ','.
+" let g:spacevim_localleader = ','
+
+" Enable the existing layers in space-vim.
+" Refer to https://github.com/liuchengxu/space-vim/blob/master/layers/LAYERS.md for all available layers.
+let g:spacevim_layers = [
+      \ 'better-defaults',
+      \ 'syntax-checking',
+      \ 'c-c++',
+      \ 'git',
+      \ 'fzf',
+      \ 'file-manager',
+      \ 'python',
+      \ 'java',
+      \ 'javascript',
+      \ 'go',
+      \ 'programming',
+      \ 'editing',
+      \ 'formatting',
+      \ 'tmux',
+      \ 'docker',
+      \ 'ctags',
+      \ 'text-align',
+      \ 'better-motion',
+      \ 'lightline'
+      \ ]
+
+" Uncomment the following line if your terminal(-emulator) supports true colors.
+let g:spacevim_enable_true_color = 1
+let g:spacevim_lsp_engine = 'vim_lsp'
+let g:spacevim_enable_clap = 1
+
+" Uncomment the following if you have some nerd font installed.
+let g:spacevim_nerd_fonts = 1
+
+" If you want to have more control over the layer, try using Layer command.
+"kif g:spacevim.gui
+"   Layer 'airline'
+" endif
+
+" Manage your own plugins.
+" Refer to https://github.com/junegunn/vim-plug for more detials.
+function! UserInit()
+
+  " Add your own plugin via Plug command.
+  " Plug 'preservim/nerdtree'
+  Plug 'junegunn/seoul256.vim'
+  Plug 'voldikss/vim-floaterm'
+  " Plug 'ryanoasis/vim-devicons'
+  " Plug 'Yggdroot/LeaderF', {'do': './install.sh'}
+  Plug 'prabirshrestha/async.vim'
+  Plug 'prabirshrestha/vim-lsp'
+  Plug 'mattn/vim-lsp-settings'
+  Plug 'prabirshrestha/asyncomplete.vim'
+  Plug 'prabirshrestha/asyncomplete-lsp.vim'
+  Plug 'morhetz/gruvbox'
+  " Plug 'roman/golden-ratio'
+  Plug 'camspiers/animate.vim'
+  Plug 'camspiers/lens.vim'
+  " Plug 'pechorin/any-jump.nvim'
+
+  " Plug 'dylanaraps/fff.vim'
+  " Plug 'francoiscabrol/ranger.vim'
+  " Plug 'voldikss/vim-floaterm'
+  " Plug 'neoclide/coc.nvim', {'branch': 'release'}
+endfunction
+
+" Override the default settings from space-vim as well as adding extras
+function! UserConfig()
+
+  " Override the default settings.
+  " Uncomment the following line to disable relative number.
+  " set norelativenumber
+
+  " Adding extras.
+  " Uncomment the following line If you have installed the powerline fonts.
+  " It is good for airline layer.
+  " let g:airline_powerline_fonts = 1
+  let g:Lf_PreviewInPopup = 1
+  let g:Lf_tagsAutoGenerate = 1
+  let g:lightline = {
+      \ 'colorscheme': 'one',
+      \}
+
+  let g:clap_theme = 'material_design_dark'
+
+  nnoremap <leader>bb  :Clap buffers<CR>
+  nnoremap <leader>fl :Clap blines<CR>
+  nnoremap <leader>ss  :Clap grep<CR>
+  nnoremap <leader>lc  :Clap command<CR>
+  nnoremap <leader>ff  :Clap files<CR>
+  nnoremap <leader>fj  :Clap filer<CR>
+  nnoremap <leader>fr  :Clap history<CR>
+  nnoremap <silent><leader>ft  :NERDTreeToggle<CR>
+  nnoremap gd  :LspDefinition<CR>
+ 
+  inoremap fd <ESC>
+  colorscheme gruvbox
+  set clipboard+=unnamedplus
+  let g:lsp_diagnostics_enabled = 0
+  let g:lens#disabled_filetypes = ['nerdtree', 'fzf']
+
+  
+endfunction
